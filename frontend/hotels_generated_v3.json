@@ -1,0 +1,506 @@
+[
+  {
+    "id": "visakhapatnam-grand-hotel",
+    "name": "Visakhapatnam Grand Hotel",
+    "state": "Andhra Pradesh",
+    "location": "Andhra Pradesh",
+    "rating": "4.5",
+    "stars": 5,
+    "price": 4149,
+    "images": [
+      "./images/hotels/visakhapatnam-grand-hotel/1.jpg",
+      "./images/hotels/visakhapatnam-grand-hotel/2.jpg",
+      "./images/hotels/visakhapatnam-grand-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "tawang-mountain-lodge",
+    "name": "Tawang Mountain Lodge",
+    "state": "Arunachal Pradesh",
+    "location": "Arunachal Pradesh",
+    "rating": "4.2",
+    "stars": 5,
+    "price": 2986,
+    "images": [
+      "./images/hotels/tawang-mountain-lodge/1.jpg",
+      "./images/hotels/tawang-mountain-lodge/2.jpg",
+      "./images/hotels/tawang-mountain-lodge/3.jpg"
+    ]
+  },
+  {
+    "id": "kaziranga-wildlife-resort",
+    "name": "Kaziranga Wildlife Resort",
+    "state": "Assam",
+    "location": "Assam",
+    "rating": "4.9",
+    "stars": 4,
+    "price": 5922,
+    "images": [
+      "./images/hotels/kaziranga-wildlife-resort/1.jpg",
+      "./images/hotels/kaziranga-wildlife-resort/2.jpg",
+      "./images/hotels/kaziranga-wildlife-resort/3.jpg"
+    ]
+  },
+  {
+    "id": "bodh-gaya-heritage-inn",
+    "name": "Bodh Gaya Heritage Inn",
+    "state": "Bihar",
+    "location": "Bihar",
+    "rating": "4.1",
+    "stars": 4,
+    "price": 3489,
+    "images": [
+      "./images/hotels/bodh-gaya-heritage-inn/1.jpg",
+      "./images/hotels/bodh-gaya-heritage-inn/2.jpg",
+      "./images/hotels/bodh-gaya-heritage-inn/3.jpg"
+    ]
+  },
+  {
+    "id": "raipur-city-hotel",
+    "name": "Raipur City Hotel",
+    "state": "Chhattisgarh",
+    "location": "Chhattisgarh",
+    "rating": "4.9",
+    "stars": 5,
+    "price": 5339,
+    "images": [
+      "./images/hotels/raipur-city-hotel/1.jpg",
+      "./images/hotels/raipur-city-hotel/2.jpg",
+      "./images/hotels/raipur-city-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "coastal-luxury-stay",
+    "name": "Coastal Luxury Stay",
+    "state": "Goa",
+    "location": "Goa",
+    "rating": "4.5",
+    "stars": 5,
+    "price": 1968,
+    "images": [
+      "./images/hotels/coastal-luxury-stay/1.jpg",
+      "./images/hotels/coastal-luxury-stay/2.jpg",
+      "./images/hotels/coastal-luxury-stay/3.jpg"
+    ]
+  },
+  {
+    "id": "ahmedabad-luxury-stay",
+    "name": "Ahmedabad Luxury Stay",
+    "state": "Gujarat",
+    "location": "Gujarat",
+    "rating": "4.9",
+    "stars": 5,
+    "price": 5949,
+    "images": [
+      "./images/hotels/ahmedabad-luxury-stay/1.jpg",
+      "./images/hotels/ahmedabad-luxury-stay/2.jpg",
+      "./images/hotels/ahmedabad-luxury-stay/3.jpg"
+    ]
+  },
+  {
+    "id": "gurugram-business-hotel",
+    "name": "Gurugram Business Hotel",
+    "state": "Haryana",
+    "location": "Haryana",
+    "rating": "4.9",
+    "stars": 5,
+    "price": 2524,
+    "images": [
+      "./images/hotels/gurugram-business-hotel/1.jpg",
+      "./images/hotels/gurugram-business-hotel/2.jpg",
+      "./images/hotels/gurugram-business-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "manali-mountain-resort",
+    "name": "Manali Mountain Resort",
+    "state": "Himachal Pradesh",
+    "location": "Himachal Pradesh",
+    "rating": "4.0",
+    "stars": 4,
+    "price": 4798,
+    "images": [
+      "./images/hotels/manali-mountain-resort/1.jpg",
+      "./images/hotels/manali-mountain-resort/2.jpg",
+      "./images/hotels/manali-mountain-resort/3.jpg"
+    ]
+  },
+  {
+    "id": "ranchi-nature-resort",
+    "name": "Ranchi Nature Resort",
+    "state": "Jharkhand",
+    "location": "Jharkhand",
+    "rating": "4.4",
+    "stars": 5,
+    "price": 3790,
+    "images": [
+      "./images/hotels/ranchi-nature-resort/1.jpg",
+      "./images/hotels/ranchi-nature-resort/2.jpg",
+      "./images/hotels/ranchi-nature-resort/3.jpg"
+    ]
+  },
+  {
+    "id": "mysore-palace-hotel",
+    "name": "Mysore Palace Hotel",
+    "state": "Karnataka",
+    "location": "Karnataka",
+    "rating": "4.9",
+    "stars": 4,
+    "price": 1702,
+    "images": [
+      "./images/hotels/mysore-palace-hotel/1.jpg",
+      "./images/hotels/mysore-palace-hotel/2.jpg",
+      "./images/hotels/mysore-palace-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "backwater-resort",
+    "name": "Backwater Resort",
+    "state": "Kerala",
+    "location": "Kerala",
+    "rating": "4.1",
+    "stars": 5,
+    "price": 5607,
+    "images": [
+      "./images/hotels/backwater-resort/1.jpg",
+      "./images/hotels/backwater-resort/2.jpg",
+      "./images/hotels/backwater-resort/3.jpg"
+    ]
+  },
+  {
+    "id": "bhopal-lake-view-hotel",
+    "name": "Bhopal Lake View Hotel",
+    "state": "Madhya Pradesh",
+    "location": "Madhya Pradesh",
+    "rating": "4.2",
+    "stars": 4,
+    "price": 6021,
+    "images": [
+      "./images/hotels/bhopal-lake-view-hotel/1.jpg",
+      "./images/hotels/bhopal-lake-view-hotel/2.jpg",
+      "./images/hotels/bhopal-lake-view-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "mumbai-luxury-hotel",
+    "name": "Mumbai Luxury Hotel",
+    "state": "Maharashtra",
+    "location": "Maharashtra",
+    "rating": "4.5",
+    "stars": 5,
+    "price": 2162,
+    "images": [
+      "./images/hotels/mumbai-luxury-hotel/1.jpg",
+      "./images/hotels/mumbai-luxury-hotel/2.jpg",
+      "./images/hotels/mumbai-luxury-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "imphal-valley-stay",
+    "name": "Imphal Valley Stay",
+    "state": "Manipur",
+    "location": "Manipur",
+    "rating": "5.0",
+    "stars": 4,
+    "price": 2076,
+    "images": [
+      "./images/hotels/imphal-valley-stay/1.jpg",
+      "./images/hotels/imphal-valley-stay/2.jpg",
+      "./images/hotels/imphal-valley-stay/3.jpg"
+    ]
+  },
+  {
+    "id": "nature-valley-stay",
+    "name": "Nature Valley Stay",
+    "state": "Meghalaya",
+    "location": "Meghalaya",
+    "rating": "4.4",
+    "stars": 5,
+    "price": 6488,
+    "images": [
+      "./images/hotels/nature-valley-stay/1.jpg",
+      "./images/hotels/nature-valley-stay/2.jpg",
+      "./images/hotels/nature-valley-stay/3.jpg"
+    ]
+  },
+  {
+    "id": "aizawl-hill-view",
+    "name": "Aizawl Hill View",
+    "state": "Mizoram",
+    "location": "Mizoram",
+    "rating": "4.8",
+    "stars": 4,
+    "price": 1565,
+    "images": [
+      "./images/hotels/aizawl-hill-view/1.jpg",
+      "./images/hotels/aizawl-hill-view/2.jpg",
+      "./images/hotels/aizawl-hill-view/3.jpg"
+    ]
+  },
+  {
+    "id": "kohima-heritage-hotel",
+    "name": "Kohima Heritage Hotel",
+    "state": "Nagaland",
+    "location": "Nagaland",
+    "rating": "4.4",
+    "stars": 4,
+    "price": 1511,
+    "images": [
+      "./images/hotels/kohima-heritage-hotel/1.jpg",
+      "./images/hotels/kohima-heritage-hotel/2.jpg",
+      "./images/hotels/kohima-heritage-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "coastal-resort",
+    "name": "Coastal Resort",
+    "state": "Odisha",
+    "location": "Odisha",
+    "rating": "4.8",
+    "stars": 4,
+    "price": 4036,
+    "images": [
+      "./images/hotels/coastal-resort/1.jpg",
+      "./images/hotels/coastal-resort/2.jpg",
+      "./images/hotels/coastal-resort/3.jpg"
+    ]
+  },
+  {
+    "id": "amritsar-heritage-hotel",
+    "name": "Amritsar Heritage Hotel",
+    "state": "Punjab",
+    "location": "Punjab",
+    "rating": "4.3",
+    "stars": 4,
+    "price": 6316,
+    "images": [
+      "./images/hotels/amritsar-heritage-hotel/1.jpg",
+      "./images/hotels/amritsar-heritage-hotel/2.jpg",
+      "./images/hotels/amritsar-heritage-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "jaipur-heritage-palace-hotel",
+    "name": "Jaipur Heritage Palace Hotel",
+    "state": "Rajasthan",
+    "location": "Rajasthan",
+    "rating": "4.1",
+    "stars": 5,
+    "price": 3558,
+    "images": [
+      "./images/hotels/jaipur-heritage-palace-hotel/1.jpg",
+      "./images/hotels/jaipur-heritage-palace-hotel/2.jpg",
+      "./images/hotels/jaipur-heritage-palace-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "mountain-view-resort",
+    "name": "Mountain View Resort",
+    "state": "Sikkim",
+    "location": "Sikkim",
+    "rating": "4.4",
+    "stars": 5,
+    "price": 5426,
+    "images": [
+      "./images/hotels/mountain-view-resort/1.jpg",
+      "./images/hotels/mountain-view-resort/2.jpg",
+      "./images/hotels/mountain-view-resort/3.jpg"
+    ]
+  },
+  {
+    "id": "chennai-heritage-hotel",
+    "name": "Chennai Heritage Hotel",
+    "state": "Tamil Nadu",
+    "location": "Tamil Nadu",
+    "rating": "4.7",
+    "stars": 5,
+    "price": 1677,
+    "images": [
+      "./images/hotels/chennai-heritage-hotel/1.jpg",
+      "./images/hotels/chennai-heritage-hotel/2.jpg",
+      "./images/hotels/chennai-heritage-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "hyderabad-royal-suites",
+    "name": "Hyderabad Royal Suites",
+    "state": "Telangana",
+    "location": "Telangana",
+    "rating": "4.5",
+    "stars": 5,
+    "price": 5500,
+    "images": [
+      "./images/hotels/hyderabad-royal-suites/1.jpg",
+      "./images/hotels/hyderabad-royal-suites/2.jpg",
+      "./images/hotels/hyderabad-royal-suites/3.jpg"
+    ]
+  },
+  {
+    "id": "agartala-palace-stay",
+    "name": "Agartala Palace Stay",
+    "state": "Tripura",
+    "location": "Tripura",
+    "rating": "4.9",
+    "stars": 4,
+    "price": 5436,
+    "images": [
+      "./images/hotels/agartala-palace-stay/1.jpg",
+      "./images/hotels/agartala-palace-stay/2.jpg",
+      "./images/hotels/agartala-palace-stay/3.jpg"
+    ]
+  },
+  {
+    "id": "agra-view-hotel",
+    "name": "Agra View Hotel",
+    "state": "Uttar Pradesh",
+    "location": "Uttar Pradesh",
+    "rating": "4.4",
+    "stars": 5,
+    "price": 1694,
+    "images": [
+      "./images/hotels/agra-view-hotel/1.jpg",
+      "./images/hotels/agra-view-hotel/2.jpg",
+      "./images/hotels/agra-view-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "himalayan-retreat",
+    "name": "Himalayan Retreat",
+    "state": "Uttarakhand",
+    "location": "Uttarakhand",
+    "rating": "4.5",
+    "stars": 4,
+    "price": 5079,
+    "images": [
+      "./images/hotels/himalayan-retreat/1.jpg",
+      "./images/hotels/himalayan-retreat/2.jpg",
+      "./images/hotels/himalayan-retreat/3.jpg"
+    ]
+  },
+  {
+    "id": "darjeeling-tea-resort",
+    "name": "Darjeeling Tea Resort",
+    "state": "West Bengal",
+    "location": "West Bengal",
+    "rating": "4.1",
+    "stars": 4,
+    "price": 2476,
+    "images": [
+      "./images/hotels/darjeeling-tea-resort/1.jpg",
+      "./images/hotels/darjeeling-tea-resort/2.jpg",
+      "./images/hotels/darjeeling-tea-resort/3.jpg"
+    ]
+  },
+  {
+    "id": "havelock-island-resort",
+    "name": "Havelock Island Resort",
+    "state": "Andaman & Nicobar",
+    "location": "Andaman & Nicobar",
+    "rating": "4.7",
+    "stars": 5,
+    "price": 2599,
+    "images": [
+      "./images/hotels/havelock-island-resort/1.jpg",
+      "./images/hotels/havelock-island-resort/2.jpg",
+      "./images/hotels/havelock-island-resort/3.jpg"
+    ]
+  },
+  {
+    "id": "chandigarh-plaza-hotel",
+    "name": "Chandigarh Plaza Hotel",
+    "state": "Chandigarh",
+    "location": "Chandigarh",
+    "rating": "4.2",
+    "stars": 4,
+    "price": 5408,
+    "images": [
+      "./images/hotels/chandigarh-plaza-hotel/1.jpg",
+      "./images/hotels/chandigarh-plaza-hotel/2.jpg",
+      "./images/hotels/chandigarh-plaza-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "diu-sea-view-hotel",
+    "name": "Diu Sea View Hotel",
+    "state": "Daman & Diu",
+    "location": "Daman & Diu",
+    "rating": "4.5",
+    "stars": 4,
+    "price": 6345,
+    "images": [
+      "./images/hotels/diu-sea-view-hotel/1.jpg",
+      "./images/hotels/diu-sea-view-hotel/2.jpg",
+      "./images/hotels/diu-sea-view-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "new-delhi-capital-hotel",
+    "name": "New Delhi Capital Hotel",
+    "state": "Delhi",
+    "location": "Delhi",
+    "rating": "4.8",
+    "stars": 4,
+    "price": 4767,
+    "images": [
+      "./images/hotels/new-delhi-capital-hotel/1.jpg",
+      "./images/hotels/new-delhi-capital-hotel/2.jpg",
+      "./images/hotels/new-delhi-capital-hotel/3.jpg"
+    ]
+  },
+  {
+    "id": "srinagar-houseboat-stay",
+    "name": "Srinagar Houseboat Stay",
+    "state": "Jammu & Kashmir",
+    "location": "Jammu & Kashmir",
+    "rating": "4.6",
+    "stars": 4,
+    "price": 2380,
+    "images": [
+      "./images/hotels/srinagar-houseboat-stay/1.jpg",
+      "./images/hotels/srinagar-houseboat-stay/2.jpg",
+      "./images/hotels/srinagar-houseboat-stay/3.jpg"
+    ]
+  },
+  {
+    "id": "leh-valley-resort",
+    "name": "Leh Valley Resort",
+    "state": "Ladakh",
+    "location": "Ladakh",
+    "rating": "4.3",
+    "stars": 4,
+    "price": 5380,
+    "images": [
+      "./images/hotels/leh-valley-resort/1.jpg",
+      "./images/hotels/leh-valley-resort/2.jpg",
+      "./images/hotels/leh-valley-resort/3.jpg"
+    ]
+  },
+  {
+    "id": "agatti-coral-resort",
+    "name": "Agatti Coral Resort",
+    "state": "Lakshadweep",
+    "location": "Lakshadweep",
+    "rating": "4.6",
+    "stars": 5,
+    "price": 2624,
+    "images": [
+      "./images/hotels/agatti-coral-resort/1.jpg",
+      "./images/hotels/agatti-coral-resort/2.jpg",
+      "./images/hotels/agatti-coral-resort/3.jpg"
+    ]
+  },
+  {
+    "id": "pondicherry-french-villa",
+    "name": "Pondicherry French Villa",
+    "state": "Puducherry",
+    "location": "Puducherry",
+    "rating": "4.0",
+    "stars": 5,
+    "price": 2609,
+    "images": [
+      "./images/hotels/pondicherry-french-villa/1.jpg",
+      "./images/hotels/pondicherry-french-villa/2.jpg",
+      "./images/hotels/pondicherry-french-villa/3.jpg"
+    ]
+  }
+]

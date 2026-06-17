@@ -1,0 +1,1455 @@
+[
+  {
+    "id": "andhra-meals",
+    "name": "Andhra Meals",
+    "state": "Andhra Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.7",
+    "price": 278,
+    "images": [
+      "/frontend/images/foods/andhra-pradesh/andhra-meals/1.jpg",
+      "/frontend/images/foods/andhra-pradesh/andhra-meals/2.jpg",
+      "/frontend/images/foods/andhra-pradesh/andhra-meals/3.jpg"
+    ]
+  },
+  {
+    "id": "gongura-rice",
+    "name": "Gongura Rice",
+    "state": "Andhra Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.7",
+    "price": 228,
+    "images": [
+      "/frontend/images/foods/andhra-pradesh/gongura-rice/1.jpg",
+      "/frontend/images/foods/andhra-pradesh/gongura-rice/2.jpg",
+      "/frontend/images/foods/andhra-pradesh/gongura-rice/3.jpg"
+    ]
+  },
+  {
+    "id": "pulihora",
+    "name": "Pulihora",
+    "state": "Andhra Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.8",
+    "price": 431,
+    "images": [
+      "/frontend/images/foods/andhra-pradesh/pulihora/1.jpg",
+      "/frontend/images/foods/andhra-pradesh/pulihora/2.jpg",
+      "/frontend/images/foods/andhra-pradesh/pulihora/3.jpg"
+    ]
+  },
+  {
+    "id": "pesarattu",
+    "name": "Pesarattu",
+    "state": "Andhra Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.5",
+    "price": 398,
+    "images": [
+      "/frontend/images/foods/andhra-pradesh/pesarattu/1.jpg",
+      "/frontend/images/foods/andhra-pradesh/pesarattu/2.jpg",
+      "/frontend/images/foods/andhra-pradesh/pesarattu/3.jpg"
+    ]
+  },
+  {
+    "id": "bobbatlu",
+    "name": "Bobbatlu",
+    "state": "Andhra Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 338,
+    "images": [
+      "/frontend/images/foods/andhra-pradesh/bobbatlu/1.jpg",
+      "/frontend/images/foods/andhra-pradesh/bobbatlu/2.jpg",
+      "/frontend/images/foods/andhra-pradesh/bobbatlu/3.jpg"
+    ]
+  },
+  {
+    "id": "thukpa",
+    "name": "Thukpa",
+    "state": "Arunachal Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.5",
+    "price": 151,
+    "images": [
+      "/frontend/images/foods/arunachal-pradesh/thukpa/1.jpg",
+      "/frontend/images/foods/arunachal-pradesh/thukpa/2.jpg",
+      "/frontend/images/foods/arunachal-pradesh/thukpa/3.jpg"
+    ]
+  },
+  {
+    "id": "momos",
+    "name": "Momos",
+    "state": "Arunachal Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "5.0",
+    "price": 116,
+    "images": [
+      "/frontend/images/foods/arunachal-pradesh/momos/1.jpg",
+      "/frontend/images/foods/arunachal-pradesh/momos/2.jpg",
+      "/frontend/images/foods/arunachal-pradesh/momos/3.jpg"
+    ]
+  },
+  {
+    "id": "zan",
+    "name": "Zan",
+    "state": "Arunachal Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.2",
+    "price": 480,
+    "images": [
+      "/frontend/images/foods/arunachal-pradesh/zan/1.jpg",
+      "/frontend/images/foods/arunachal-pradesh/zan/2.jpg",
+      "/frontend/images/foods/arunachal-pradesh/zan/3.jpg"
+    ]
+  },
+  {
+    "id": "bamboo-shoot-curry",
+    "name": "Bamboo Shoot Curry",
+    "state": "Arunachal Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.7",
+    "price": 312,
+    "images": [
+      "/frontend/images/foods/arunachal-pradesh/bamboo-shoot-curry/1.jpg",
+      "/frontend/images/foods/arunachal-pradesh/bamboo-shoot-curry/2.jpg",
+      "/frontend/images/foods/arunachal-pradesh/bamboo-shoot-curry/3.jpg"
+    ]
+  },
+  {
+    "id": "assam-thali",
+    "name": "Assam Thali",
+    "state": "Assam",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.3",
+    "price": 321,
+    "images": [
+      "/frontend/images/foods/assam/assam-thali/1.jpg",
+      "/frontend/images/foods/assam/assam-thali/2.jpg",
+      "/frontend/images/foods/assam/assam-thali/3.jpg"
+    ]
+  },
+  {
+    "id": "masor-tenga",
+    "name": "Masor Tenga",
+    "state": "Assam",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.5",
+    "price": 211,
+    "images": [
+      "/frontend/images/foods/assam/masor-tenga/1.jpg",
+      "/frontend/images/foods/assam/masor-tenga/2.jpg",
+      "/frontend/images/foods/assam/masor-tenga/3.jpg"
+    ]
+  },
+  {
+    "id": "pitha",
+    "name": "Pitha",
+    "state": "Assam",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.4",
+    "price": 430,
+    "images": [
+      "/frontend/images/foods/assam/pitha/2.jpg",
+      "/frontend/images/foods/assam/pitha/3.jpg"
+    ]
+  },
+  {
+    "id": "khar",
+    "name": "Khar",
+    "state": "Assam",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 307,
+    "images": [
+      "/frontend/images/foods/assam/khar/1.jpg",
+      "/frontend/images/foods/assam/khar/2.jpg",
+      "/frontend/images/foods/assam/khar/3.jpg"
+    ]
+  },
+  {
+    "id": "litti-chokha",
+    "name": "Litti Chokha",
+    "state": "Bihar",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.2",
+    "price": 395,
+    "images": [
+      "/frontend/images/foods/bihar/litti-chokha/1.jpg",
+      "/frontend/images/foods/bihar/litti-chokha/2.jpg",
+      "/frontend/images/foods/bihar/litti-chokha/3.jpg"
+    ]
+  },
+  {
+    "id": "sattu-paratha",
+    "name": "Sattu Paratha",
+    "state": "Bihar",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.3",
+    "price": 326,
+    "images": [
+      "/frontend/images/foods/bihar/sattu-paratha/1.jpg",
+      "/frontend/images/foods/bihar/sattu-paratha/2.jpg",
+      "/frontend/images/foods/bihar/sattu-paratha/3.jpg"
+    ]
+  },
+  {
+    "id": "thekua",
+    "name": "Thekua",
+    "state": "Bihar",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.4",
+    "price": 100,
+    "images": [
+      "/frontend/images/foods/bihar/thekua/1.jpg",
+      "/frontend/images/foods/bihar/thekua/2.jpg",
+      "/frontend/images/foods/bihar/thekua/3.jpg"
+    ]
+  },
+  {
+    "id": "chila",
+    "name": "Chila",
+    "state": "Chhattisgarh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.5",
+    "price": 212,
+    "images": [
+      "/frontend/images/foods/chhattisgarh/chila/1.jpg",
+      "/frontend/images/foods/chhattisgarh/chila/2.jpg",
+      "/frontend/images/foods/chhattisgarh/chila/3.jpg"
+    ]
+  },
+  {
+    "id": "faraa",
+    "name": "Faraa",
+    "state": "Chhattisgarh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.2",
+    "price": 397,
+    "images": [
+      "/frontend/images/foods/chhattisgarh/faraa/1.jpg",
+      "/frontend/images/foods/chhattisgarh/faraa/2.jpg",
+      "/frontend/images/foods/chhattisgarh/faraa/3.jpg"
+    ]
+  },
+  {
+    "id": "bafauri",
+    "name": "Bafauri",
+    "state": "Chhattisgarh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.7",
+    "price": 198,
+    "images": [
+      "/frontend/images/foods/chhattisgarh/bafauri/1.jpg",
+      "/frontend/images/foods/chhattisgarh/bafauri/2.jpg",
+      "/frontend/images/foods/chhattisgarh/bafauri/3.jpg"
+    ]
+  },
+  {
+    "id": "fish-curry-rice",
+    "name": "Fish Curry Rice",
+    "state": "Goa",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.2",
+    "price": 315,
+    "images": [
+      "/frontend/images/foods/goa/fish-curry-rice/1.jpg",
+      "/frontend/images/foods/goa/fish-curry-rice/2.jpg",
+      "/frontend/images/foods/goa/fish-curry-rice/3.jpg"
+    ]
+  },
+  {
+    "id": "bebinca",
+    "name": "Bebinca",
+    "state": "Goa",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.5",
+    "price": 223,
+    "images": [
+      "/frontend/images/foods/goa/bebinca/1.jpg",
+      "/frontend/images/foods/goa/bebinca/2.jpg",
+      "/frontend/images/foods/goa/bebinca/3.jpg"
+    ]
+  },
+  {
+    "id": "prawn-curry",
+    "name": "Prawn Curry",
+    "state": "Goa",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.9",
+    "price": 123,
+    "images": [
+      "/frontend/images/foods/goa/prawn-curry/1.jpg",
+      "/frontend/images/foods/goa/prawn-curry/2.jpg",
+      "/frontend/images/foods/goa/prawn-curry/3.jpg"
+    ]
+  },
+  {
+    "id": "vindaloo",
+    "name": "Vindaloo",
+    "state": "Goa",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.8",
+    "price": 100,
+    "images": [
+      "/frontend/images/foods/goa/vindaloo/1.jpg",
+      "/frontend/images/foods/goa/vindaloo/2.jpg",
+      "/frontend/images/foods/goa/vindaloo/3.jpg"
+    ]
+  },
+  {
+    "id": "dhokla",
+    "name": "Dhokla",
+    "state": "Gujarat",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 173,
+    "images": [
+      "/frontend/images/foods/gujarat/dhokla/1.jpg",
+      "/frontend/images/foods/gujarat/dhokla/2.jpg",
+      "/frontend/images/foods/gujarat/dhokla/3.jpg"
+    ]
+  },
+  {
+    "id": "fafda",
+    "name": "Fafda",
+    "state": "Gujarat",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.5",
+    "price": 343,
+    "images": [
+      "/frontend/images/foods/gujarat/fafda/1.jpg",
+      "/frontend/images/foods/gujarat/fafda/2.jpg",
+      "/frontend/images/foods/gujarat/fafda/3.jpg"
+    ]
+  },
+  {
+    "id": "khandvi",
+    "name": "Khandvi",
+    "state": "Gujarat",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.8",
+    "price": 340,
+    "images": [
+      "/frontend/images/foods/gujarat/khandvi/1.jpg",
+      "/frontend/images/foods/gujarat/khandvi/2.jpg",
+      "/frontend/images/foods/gujarat/khandvi/3.jpg"
+    ]
+  },
+  {
+    "id": "undhiyu",
+    "name": "Undhiyu",
+    "state": "Gujarat",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.3",
+    "price": 196,
+    "images": [
+      "/frontend/images/foods/gujarat/undhiyu/1.jpg",
+      "/frontend/images/foods/gujarat/undhiyu/2.jpg",
+      "/frontend/images/foods/gujarat/undhiyu/3.jpg"
+    ]
+  },
+  {
+    "id": "bajra-roti",
+    "name": "Bajra Roti",
+    "state": "Haryana",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.7",
+    "price": 178,
+    "images": [
+      "/frontend/images/foods/haryana/bajra-roti/1.jpg",
+      "/frontend/images/foods/haryana/bajra-roti/2.jpg",
+      "/frontend/images/foods/haryana/bajra-roti/3.jpg"
+    ]
+  },
+  {
+    "id": "kadhi",
+    "name": "Kadhi",
+    "state": "Haryana",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.1",
+    "price": 483,
+    "images": [
+      "/frontend/images/foods/haryana/kadhi/1.jpg",
+      "/frontend/images/foods/haryana/kadhi/2.jpg",
+      "/frontend/images/foods/haryana/kadhi/3.jpg"
+    ]
+  },
+  {
+    "id": "lassi",
+    "name": "Lassi",
+    "state": "Haryana",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 240,
+    "images": [
+      "/frontend/images/foods/haryana/lassi/1.jpg",
+      "/frontend/images/foods/haryana/lassi/2.jpg",
+      "/frontend/images/foods/haryana/lassi/3.jpg"
+    ]
+  },
+  {
+    "id": "dham",
+    "name": "Dham",
+    "state": "Himachal Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.5",
+    "price": 290,
+    "images": [
+      "/frontend/images/foods/himachal-pradesh/dham/1.jpg",
+      "/frontend/images/foods/himachal-pradesh/dham/2.jpg",
+      "/frontend/images/foods/himachal-pradesh/dham/3.jpg"
+    ]
+  },
+  {
+    "id": "siddu",
+    "name": "Siddu",
+    "state": "Himachal Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.1",
+    "price": 256,
+    "images": [
+      "/frontend/images/foods/himachal-pradesh/siddu/1.jpg",
+      "/frontend/images/foods/himachal-pradesh/siddu/2.jpg",
+      "/frontend/images/foods/himachal-pradesh/siddu/3.jpg"
+    ]
+  },
+  {
+    "id": "momos",
+    "name": "Momos",
+    "state": "Himachal Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.0",
+    "price": 367,
+    "images": [
+      "/frontend/images/foods/himachal-pradesh/momos/2.jpg",
+      "/frontend/images/foods/himachal-pradesh/momos/3.jpg"
+    ]
+  },
+  {
+    "id": "dhuska",
+    "name": "Dhuska",
+    "state": "Jharkhand",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 456,
+    "images": [
+      "/frontend/images/foods/jharkhand/dhuska/1.jpg",
+      "/frontend/images/foods/jharkhand/dhuska/2.jpg",
+      "/frontend/images/foods/jharkhand/dhuska/3.jpg"
+    ]
+  },
+  {
+    "id": "rugra",
+    "name": "Rugra",
+    "state": "Jharkhand",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.5",
+    "price": 136,
+    "images": [
+      "/frontend/images/foods/jharkhand/rugra/1.jpg",
+      "/frontend/images/foods/jharkhand/rugra/2.jpg",
+      "/frontend/images/foods/jharkhand/rugra/3.jpg"
+    ]
+  },
+  {
+    "id": "thekua",
+    "name": "Thekua",
+    "state": "Jharkhand",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.1",
+    "price": 468,
+    "images": [
+      "/frontend/images/foods/jharkhand/thekua/1.jpg",
+      "/frontend/images/foods/jharkhand/thekua/2.jpg",
+      "/frontend/images/foods/jharkhand/thekua/3.jpg"
+    ]
+  },
+  {
+    "id": "mysore-masala-dosa",
+    "name": "Mysore Masala Dosa",
+    "state": "Karnataka",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.1",
+    "price": 379,
+    "images": [
+      "/frontend/images/foods/karnataka/mysore-masala-dosa/1.jpg",
+      "/frontend/images/foods/karnataka/mysore-masala-dosa/2.jpg",
+      "/frontend/images/foods/karnataka/mysore-masala-dosa/3.jpg"
+    ]
+  },
+  {
+    "id": "bisi-bele-bath",
+    "name": "Bisi Bele Bath",
+    "state": "Karnataka",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.8",
+    "price": 195,
+    "images": [
+      "/frontend/images/foods/karnataka/bisi-bele-bath/1.jpg",
+      "/frontend/images/foods/karnataka/bisi-bele-bath/2.jpg",
+      "/frontend/images/foods/karnataka/bisi-bele-bath/3.jpg"
+    ]
+  },
+  {
+    "id": "ragi-mudde",
+    "name": "Ragi Mudde",
+    "state": "Karnataka",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.3",
+    "price": 282,
+    "images": [
+      "/frontend/images/foods/karnataka/ragi-mudde/1.jpg",
+      "/frontend/images/foods/karnataka/ragi-mudde/2.jpg",
+      "/frontend/images/foods/karnataka/ragi-mudde/3.jpg"
+    ]
+  },
+  {
+    "id": "neer-dosa",
+    "name": "Neer Dosa",
+    "state": "Karnataka",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.2",
+    "price": 238,
+    "images": [
+      "/frontend/images/foods/karnataka/neer-dosa/1.jpg",
+      "/frontend/images/foods/karnataka/neer-dosa/2.jpg",
+      "/frontend/images/foods/karnataka/neer-dosa/3.jpg"
+    ]
+  },
+  {
+    "id": "kerala-sadya",
+    "name": "Kerala Sadya",
+    "state": "Kerala",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 275,
+    "images": [
+      "/frontend/images/foods/kerala/kerala-sadya/1.jpg",
+      "/frontend/images/foods/kerala/kerala-sadya/2.jpg",
+      "/frontend/images/foods/kerala/kerala-sadya/3.jpg"
+    ]
+  },
+  {
+    "id": "appam",
+    "name": "Appam",
+    "state": "Kerala",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.2",
+    "price": 300,
+    "images": [
+      "/frontend/images/foods/kerala/appam/1.jpg",
+      "/frontend/images/foods/kerala/appam/2.jpg",
+      "/frontend/images/foods/kerala/appam/3.jpg"
+    ]
+  },
+  {
+    "id": "puttu",
+    "name": "Puttu",
+    "state": "Kerala",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.0",
+    "price": 342,
+    "images": [
+      "/frontend/images/foods/kerala/puttu/1.jpg",
+      "/frontend/images/foods/kerala/puttu/2.jpg",
+      "/frontend/images/foods/kerala/puttu/3.jpg"
+    ]
+  },
+  {
+    "id": "fish-curry",
+    "name": "Fish Curry",
+    "state": "Kerala",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.7",
+    "price": 168,
+    "images": [
+      "/frontend/images/foods/kerala/fish-curry/1.jpg",
+      "/frontend/images/foods/kerala/fish-curry/2.jpg",
+      "/frontend/images/foods/kerala/fish-curry/3.jpg"
+    ]
+  },
+  {
+    "id": "beef-roast",
+    "name": "Beef Roast",
+    "state": "Kerala",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.7",
+    "price": 301,
+    "images": [
+      "/frontend/images/foods/kerala/beef-roast/1.jpg",
+      "/frontend/images/foods/kerala/beef-roast/2.jpg",
+      "/frontend/images/foods/kerala/beef-roast/3.jpg"
+    ]
+  },
+  {
+    "id": "poha",
+    "name": "Poha",
+    "state": "Madhya Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 257,
+    "images": [
+      "/frontend/images/foods/madhya-pradesh/poha/1.jpg",
+      "/frontend/images/foods/madhya-pradesh/poha/2.jpg",
+      "/frontend/images/foods/madhya-pradesh/poha/3.jpg"
+    ]
+  },
+  {
+    "id": "bhutte-ka-kees",
+    "name": "Bhutte Ka Kees",
+    "state": "Madhya Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.1",
+    "price": 338,
+    "images": [
+      "/frontend/images/foods/madhya-pradesh/bhutte-ka-kees/1.jpg",
+      "/frontend/images/foods/madhya-pradesh/bhutte-ka-kees/2.jpg",
+      "/frontend/images/foods/madhya-pradesh/bhutte-ka-kees/3.jpg"
+    ]
+  },
+  {
+    "id": "dal-bafla",
+    "name": "Dal Bafla",
+    "state": "Madhya Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.3",
+    "price": 177,
+    "images": [
+      "/frontend/images/foods/madhya-pradesh/dal-bafla/1.jpg",
+      "/frontend/images/foods/madhya-pradesh/dal-bafla/2.jpg",
+      "/frontend/images/foods/madhya-pradesh/dal-bafla/3.jpg"
+    ]
+  },
+  {
+    "id": "vada-pav",
+    "name": "Vada Pav",
+    "state": "Maharashtra",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.8",
+    "price": 114,
+    "images": [
+      "/frontend/images/foods/maharashtra/vada-pav/1.jpg",
+      "/frontend/images/foods/maharashtra/vada-pav/2.jpg",
+      "/frontend/images/foods/maharashtra/vada-pav/3.jpg"
+    ]
+  },
+  {
+    "id": "misal-pav",
+    "name": "Misal Pav",
+    "state": "Maharashtra",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "5.0",
+    "price": 320,
+    "images": [
+      "/frontend/images/foods/maharashtra/misal-pav/1.jpg",
+      "/frontend/images/foods/maharashtra/misal-pav/2.jpg",
+      "/frontend/images/foods/maharashtra/misal-pav/3.jpg"
+    ]
+  },
+  {
+    "id": "pav-bhaji",
+    "name": "Pav Bhaji",
+    "state": "Maharashtra",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.7",
+    "price": 126,
+    "images": [
+      "/frontend/images/foods/maharashtra/pav-bhaji/1.jpg",
+      "/frontend/images/foods/maharashtra/pav-bhaji/2.jpg",
+      "/frontend/images/foods/maharashtra/pav-bhaji/3.jpg"
+    ]
+  },
+  {
+    "id": "puran-poli",
+    "name": "Puran Poli",
+    "state": "Maharashtra",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.4",
+    "price": 380,
+    "images": [
+      "/frontend/images/foods/maharashtra/puran-poli/1.jpg",
+      "/frontend/images/foods/maharashtra/puran-poli/2.jpg",
+      "/frontend/images/foods/maharashtra/puran-poli/3.jpg"
+    ]
+  },
+  {
+    "id": "bhel-puri",
+    "name": "Bhel Puri",
+    "state": "Maharashtra",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 286,
+    "images": [
+      "/frontend/images/foods/maharashtra/bhel-puri/1.jpg",
+      "/frontend/images/foods/maharashtra/bhel-puri/2.jpg",
+      "/frontend/images/foods/maharashtra/bhel-puri/3.jpg"
+    ]
+  },
+  {
+    "id": "panipuri",
+    "name": "Panipuri",
+    "state": "Maharashtra",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.4",
+    "price": 224,
+    "images": [
+      "/frontend/images/foods/maharashtra/panipuri/1.jpg",
+      "/frontend/images/foods/maharashtra/panipuri/2.jpg",
+      "/frontend/images/foods/maharashtra/panipuri/3.jpg"
+    ]
+  },
+  {
+    "id": "eromba",
+    "name": "Eromba",
+    "state": "Manipur",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.1",
+    "price": 382,
+    "images": [
+      "/frontend/images/foods/manipur/eromba/1.jpg",
+      "/frontend/images/foods/manipur/eromba/2.jpg",
+      "/frontend/images/foods/manipur/eromba/3.jpg"
+    ]
+  },
+  {
+    "id": "singju",
+    "name": "Singju",
+    "state": "Manipur",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.8",
+    "price": 255,
+    "images": [
+      "/frontend/images/foods/manipur/singju/1.jpg",
+      "/frontend/images/foods/manipur/singju/2.jpg",
+      "/frontend/images/foods/manipur/singju/3.jpg"
+    ]
+  },
+  {
+    "id": "jadoh",
+    "name": "Jadoh",
+    "state": "Meghalaya",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.4",
+    "price": 282,
+    "images": [
+      "/frontend/images/foods/meghalaya/jadoh/1.jpg",
+      "/frontend/images/foods/meghalaya/jadoh/2.jpg",
+      "/frontend/images/foods/meghalaya/jadoh/3.jpg"
+    ]
+  },
+  {
+    "id": "dohneiihong",
+    "name": "Dohneiihong",
+    "state": "Meghalaya",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.2",
+    "price": 243,
+    "images": [
+      "/frontend/images/foods/meghalaya/dohneiihong/1.jpg",
+      "/frontend/images/foods/meghalaya/dohneiihong/2.jpg",
+      "/frontend/images/foods/meghalaya/dohneiihong/3.jpg"
+    ]
+  },
+  {
+    "id": "bai",
+    "name": "Bai",
+    "state": "Mizoram",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.9",
+    "price": 280,
+    "images": [
+      "/frontend/images/foods/mizoram/bai/1.jpg",
+      "/frontend/images/foods/mizoram/bai/2.jpg",
+      "/frontend/images/foods/mizoram/bai/3.jpg"
+    ]
+  },
+  {
+    "id": "vawksa-rep",
+    "name": "Vawksa Rep",
+    "state": "Mizoram",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.2",
+    "price": 187,
+    "images": [
+      "/frontend/images/foods/mizoram/vawksa-rep/1.jpg",
+      "/frontend/images/foods/mizoram/vawksa-rep/2.jpg",
+      "/frontend/images/foods/mizoram/vawksa-rep/3.jpg"
+    ]
+  },
+  {
+    "id": "smoked-pork",
+    "name": "Smoked Pork",
+    "state": "Nagaland",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.0",
+    "price": 218,
+    "images": [
+      "/frontend/images/foods/nagaland/smoked-pork/1.jpg",
+      "/frontend/images/foods/nagaland/smoked-pork/2.jpg",
+      "/frontend/images/foods/nagaland/smoked-pork/3.jpg"
+    ]
+  },
+  {
+    "id": "axone-curry",
+    "name": "Axone Curry",
+    "state": "Nagaland",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.9",
+    "price": 220,
+    "images": [
+      "/frontend/images/foods/nagaland/axone-curry/1.jpg",
+      "/frontend/images/foods/nagaland/axone-curry/2.jpg",
+      "/frontend/images/foods/nagaland/axone-curry/3.jpg"
+    ]
+  },
+  {
+    "id": "dalma",
+    "name": "Dalma",
+    "state": "Odisha",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.2",
+    "price": 443,
+    "images": [
+      "/frontend/images/foods/odisha/dalma/1.jpg",
+      "/frontend/images/foods/odisha/dalma/2.jpg",
+      "/frontend/images/foods/odisha/dalma/3.jpg"
+    ]
+  },
+  {
+    "id": "pakhala-bhata",
+    "name": "Pakhala Bhata",
+    "state": "Odisha",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.4",
+    "price": 300,
+    "images": [
+      "/frontend/images/foods/odisha/pakhala-bhata/1.jpg",
+      "/frontend/images/foods/odisha/pakhala-bhata/2.jpg",
+      "/frontend/images/foods/odisha/pakhala-bhata/3.jpg"
+    ]
+  },
+  {
+    "id": "chhena-poda",
+    "name": "Chhena Poda",
+    "state": "Odisha",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.0",
+    "price": 153,
+    "images": [
+      "/frontend/images/foods/odisha/chhena-poda/1.jpg",
+      "/frontend/images/foods/odisha/chhena-poda/2.jpg",
+      "/frontend/images/foods/odisha/chhena-poda/3.jpg"
+    ]
+  },
+  {
+    "id": "butter-chicken",
+    "name": "Butter Chicken",
+    "state": "Punjab",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "5.0",
+    "price": 122,
+    "images": [
+      "/frontend/images/foods/punjab/butter-chicken/1.jpg",
+      "/frontend/images/foods/punjab/butter-chicken/2.jpg",
+      "/frontend/images/foods/punjab/butter-chicken/3.jpg"
+    ]
+  },
+  {
+    "id": "amritsari-kulcha",
+    "name": "Amritsari Kulcha",
+    "state": "Punjab",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.4",
+    "price": 115,
+    "images": [
+      "/frontend/images/foods/punjab/amritsari-kulcha/1.jpg",
+      "/frontend/images/foods/punjab/amritsari-kulcha/2.jpg",
+      "/frontend/images/foods/punjab/amritsari-kulcha/3.jpg"
+    ]
+  },
+  {
+    "id": "sarson-saag",
+    "name": "Sarson Saag",
+    "state": "Punjab",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.3",
+    "price": 444,
+    "images": [
+      "/frontend/images/foods/punjab/sarson-saag/1.jpg",
+      "/frontend/images/foods/punjab/sarson-saag/2.jpg",
+      "/frontend/images/foods/punjab/sarson-saag/3.jpg"
+    ]
+  },
+  {
+    "id": "dal-baati-churma",
+    "name": "Dal Baati Churma",
+    "state": "Rajasthan",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.2",
+    "price": 133,
+    "images": [
+      "/frontend/images/foods/rajasthan/dal-baati-churma/1.jpg",
+      "/frontend/images/foods/rajasthan/dal-baati-churma/2.jpg",
+      "/frontend/images/foods/rajasthan/dal-baati-churma/3.jpg"
+    ]
+  },
+  {
+    "id": "ghewar",
+    "name": "Ghewar",
+    "state": "Rajasthan",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 340,
+    "images": [
+      "/frontend/images/foods/rajasthan/ghewar/1.jpg",
+      "/frontend/images/foods/rajasthan/ghewar/2.jpg",
+      "/frontend/images/foods/rajasthan/ghewar/3.jpg"
+    ]
+  },
+  {
+    "id": "laal-maas",
+    "name": "Laal Maas",
+    "state": "Rajasthan",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.5",
+    "price": 251,
+    "images": [
+      "/frontend/images/foods/rajasthan/laal-maas/1.jpg",
+      "/frontend/images/foods/rajasthan/laal-maas/2.jpg",
+      "/frontend/images/foods/rajasthan/laal-maas/3.jpg"
+    ]
+  },
+  {
+    "id": "momos",
+    "name": "Momos",
+    "state": "Sikkim",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "5.0",
+    "price": 353,
+    "images": [
+      "/frontend/images/foods/sikkim/momos/2.jpg",
+      "/frontend/images/foods/sikkim/momos/3.jpg"
+    ]
+  },
+  {
+    "id": "thukpa",
+    "name": "Thukpa",
+    "state": "Sikkim",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.3",
+    "price": 319,
+    "images": [
+      "/frontend/images/foods/sikkim/thukpa/1.jpg",
+      "/frontend/images/foods/sikkim/thukpa/2.jpg",
+      "/frontend/images/foods/sikkim/thukpa/3.jpg"
+    ]
+  },
+  {
+    "id": "dosa",
+    "name": "Dosa",
+    "state": "Tamil Nadu",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.4",
+    "price": 257,
+    "images": [
+      "/frontend/images/foods/tamil-nadu/dosa/1.jpg",
+      "/frontend/images/foods/tamil-nadu/dosa/2.jpg",
+      "/frontend/images/foods/tamil-nadu/dosa/3.jpg"
+    ]
+  },
+  {
+    "id": "idli",
+    "name": "Idli",
+    "state": "Tamil Nadu",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.7",
+    "price": 175,
+    "images": [
+      "/frontend/images/foods/tamil-nadu/idli/1.jpg",
+      "/frontend/images/foods/tamil-nadu/idli/2.jpg",
+      "/frontend/images/foods/tamil-nadu/idli/3.jpg"
+    ]
+  },
+  {
+    "id": "pongal",
+    "name": "Pongal",
+    "state": "Tamil Nadu",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.9",
+    "price": 274,
+    "images": [
+      "/frontend/images/foods/tamil-nadu/pongal/1.jpg",
+      "/frontend/images/foods/tamil-nadu/pongal/2.jpg",
+      "/frontend/images/foods/tamil-nadu/pongal/3.jpg"
+    ]
+  },
+  {
+    "id": "chettinad-chicken",
+    "name": "Chettinad Chicken",
+    "state": "Tamil Nadu",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.5",
+    "price": 398,
+    "images": [
+      "/frontend/images/foods/tamil-nadu/chettinad-chicken/1.jpg",
+      "/frontend/images/foods/tamil-nadu/chettinad-chicken/2.jpg",
+      "/frontend/images/foods/tamil-nadu/chettinad-chicken/3.jpg"
+    ]
+  },
+  {
+    "id": "filter-coffee",
+    "name": "Filter Coffee",
+    "state": "Tamil Nadu",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.9",
+    "price": 171,
+    "images": [
+      "/frontend/images/foods/tamil-nadu/filter-coffee/1.jpg",
+      "/frontend/images/foods/tamil-nadu/filter-coffee/2.jpg",
+      "/frontend/images/foods/tamil-nadu/filter-coffee/3.jpg"
+    ]
+  },
+  {
+    "id": "hyderabadi-biryani",
+    "name": "Hyderabadi Biryani",
+    "state": "Telangana",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.1",
+    "price": 326,
+    "images": [
+      "/frontend/images/foods/telangana/hyderabadi-biryani/1.jpg",
+      "/frontend/images/foods/telangana/hyderabadi-biryani/2.jpg",
+      "/frontend/images/foods/telangana/hyderabadi-biryani/3.jpg"
+    ]
+  },
+  {
+    "id": "haleem",
+    "name": "Haleem",
+    "state": "Telangana",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.8",
+    "price": 452,
+    "images": [
+      "/frontend/images/foods/telangana/haleem/1.jpg",
+      "/frontend/images/foods/telangana/haleem/2.jpg",
+      "/frontend/images/foods/telangana/haleem/3.jpg"
+    ]
+  },
+  {
+    "id": "mui-borok",
+    "name": "Mui Borok",
+    "state": "Tripura",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.4",
+    "price": 359,
+    "images": [
+      "/frontend/images/foods/tripura/mui-borok/1.jpg",
+      "/frontend/images/foods/tripura/mui-borok/2.jpg",
+      "/frontend/images/foods/tripura/mui-borok/3.jpg"
+    ]
+  },
+  {
+    "id": "bamboo-shoot-curry",
+    "name": "Bamboo Shoot Curry",
+    "state": "Tripura",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 120,
+    "images": [
+      "/frontend/images/foods/tripura/bamboo-shoot-curry/1.jpg",
+      "/frontend/images/foods/tripura/bamboo-shoot-curry/2.jpg",
+      "/frontend/images/foods/tripura/bamboo-shoot-curry/3.jpg"
+    ]
+  },
+  {
+    "id": "awadhi-biryani",
+    "name": "Awadhi Biryani",
+    "state": "Uttar Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.7",
+    "price": 386,
+    "images": [
+      "/frontend/images/foods/uttar-pradesh/awadhi-biryani/1.jpg",
+      "/frontend/images/foods/uttar-pradesh/awadhi-biryani/2.jpg",
+      "/frontend/images/foods/uttar-pradesh/awadhi-biryani/3.jpg"
+    ]
+  },
+  {
+    "id": "tunday-kabab",
+    "name": "Tunday Kabab",
+    "state": "Uttar Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.5",
+    "price": 320,
+    "images": [
+      "/frontend/images/foods/uttar-pradesh/tunday-kabab/1.jpg",
+      "/frontend/images/foods/uttar-pradesh/tunday-kabab/2.jpg",
+      "/frontend/images/foods/uttar-pradesh/tunday-kabab/3.jpg"
+    ]
+  },
+  {
+    "id": "petha",
+    "name": "Petha",
+    "state": "Uttar Pradesh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 473,
+    "images": [
+      "/frontend/images/foods/uttar-pradesh/petha/1.jpg",
+      "/frontend/images/foods/uttar-pradesh/petha/2.jpg",
+      "/frontend/images/foods/uttar-pradesh/petha/3.jpg"
+    ]
+  },
+  {
+    "id": "kafuli",
+    "name": "Kafuli",
+    "state": "Uttarakhand",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.2",
+    "price": 232,
+    "images": [
+      "/frontend/images/foods/uttarakhand/kafuli/1.jpg",
+      "/frontend/images/foods/uttarakhand/kafuli/2.jpg",
+      "/frontend/images/foods/uttarakhand/kafuli/3.jpg"
+    ]
+  },
+  {
+    "id": "aloo-ke-gutke",
+    "name": "Aloo Ke Gutke",
+    "state": "Uttarakhand",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.8",
+    "price": 313,
+    "images": [
+      "/frontend/images/foods/uttarakhand/aloo-ke-gutke/1.jpg",
+      "/frontend/images/foods/uttarakhand/aloo-ke-gutke/2.jpg",
+      "/frontend/images/foods/uttarakhand/aloo-ke-gutke/3.jpg"
+    ]
+  },
+  {
+    "id": "rasgulla",
+    "name": "Rasgulla",
+    "state": "West Bengal",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 328,
+    "images": [
+      "/frontend/images/foods/west-bengal/rasgulla/1.jpg",
+      "/frontend/images/foods/west-bengal/rasgulla/2.jpg",
+      "/frontend/images/foods/west-bengal/rasgulla/3.jpg"
+    ]
+  },
+  {
+    "id": "fish-curry",
+    "name": "Fish Curry",
+    "state": "West Bengal",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 277,
+    "images": [
+      "/frontend/images/foods/west-bengal/fish-curry/1.jpg",
+      "/frontend/images/foods/west-bengal/fish-curry/2.jpg",
+      "/frontend/images/foods/west-bengal/fish-curry/3.jpg"
+    ]
+  },
+  {
+    "id": "mishti-doi",
+    "name": "Mishti Doi",
+    "state": "West Bengal",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.1",
+    "price": 257,
+    "images": [
+      "/frontend/images/foods/west-bengal/mishti-doi/1.jpg",
+      "/frontend/images/foods/west-bengal/mishti-doi/2.jpg",
+      "/frontend/images/foods/west-bengal/mishti-doi/3.jpg"
+    ]
+  },
+  {
+    "id": "sandesh",
+    "name": "Sandesh",
+    "state": "West Bengal",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.9",
+    "price": 455,
+    "images": [
+      "/frontend/images/foods/west-bengal/sandesh/1.jpg",
+      "/frontend/images/foods/west-bengal/sandesh/2.jpg",
+      "/frontend/images/foods/west-bengal/sandesh/3.jpg"
+    ]
+  },
+  {
+    "id": "chole-bhature",
+    "name": "Chole Bhature",
+    "state": "Delhi",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.3",
+    "price": 244,
+    "images": [
+      "/frontend/images/foods/delhi/chole-bhature/1.jpg",
+      "/frontend/images/foods/delhi/chole-bhature/2.jpg",
+      "/frontend/images/foods/delhi/chole-bhature/3.jpg"
+    ]
+  },
+  {
+    "id": "paratha",
+    "name": "Paratha",
+    "state": "Delhi",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 443,
+    "images": [
+      "/frontend/images/foods/delhi/paratha/1.jpg",
+      "/frontend/images/foods/delhi/paratha/2.jpg",
+      "/frontend/images/foods/delhi/paratha/3.jpg"
+    ]
+  },
+  {
+    "id": "kebabs",
+    "name": "Kebabs",
+    "state": "Delhi",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.0",
+    "price": 363,
+    "images": [
+      "/frontend/images/foods/delhi/kebabs/1.jpg",
+      "/frontend/images/foods/delhi/kebabs/2.jpg",
+      "/frontend/images/foods/delhi/kebabs/3.jpg"
+    ]
+  },
+  {
+    "id": "butter-chicken",
+    "name": "Butter Chicken",
+    "state": "Delhi",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.1",
+    "price": 403,
+    "images": [
+      "/frontend/images/foods/delhi/butter-chicken/1.jpg",
+      "/frontend/images/foods/delhi/butter-chicken/2.jpg",
+      "/frontend/images/foods/delhi/butter-chicken/3.jpg"
+    ]
+  },
+  {
+    "id": "dal-makhani",
+    "name": "Dal Makhani",
+    "state": "Delhi",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "5.0",
+    "price": 326,
+    "images": [
+      "/frontend/images/foods/delhi/dal-makhani/1.jpg",
+      "/frontend/images/foods/delhi/dal-makhani/2.jpg",
+      "/frontend/images/foods/delhi/dal-makhani/3.jpg"
+    ]
+  },
+  {
+    "id": "rogan-josh",
+    "name": "Rogan Josh",
+    "state": "Jammu Kashmir",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.6",
+    "price": 312,
+    "images": [
+      "/frontend/images/foods/jammu-kashmir/rogan-josh/1.jpg",
+      "/frontend/images/foods/jammu-kashmir/rogan-josh/2.jpg",
+      "/frontend/images/foods/jammu-kashmir/rogan-josh/3.jpg"
+    ]
+  },
+  {
+    "id": "kahwa",
+    "name": "Kahwa",
+    "state": "Jammu Kashmir",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.1",
+    "price": 152,
+    "images": [
+      "/frontend/images/foods/jammu-kashmir/kahwa/1.jpg",
+      "/frontend/images/foods/jammu-kashmir/kahwa/2.jpg",
+      "/frontend/images/foods/jammu-kashmir/kahwa/3.jpg"
+    ]
+  },
+  {
+    "id": "skyu",
+    "name": "Skyu",
+    "state": "Ladakh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.2",
+    "price": 102,
+    "images": [
+      "/frontend/images/foods/ladakh/skyu/1.jpg",
+      "/frontend/images/foods/ladakh/skyu/2.jpg",
+      "/frontend/images/foods/ladakh/skyu/3.jpg"
+    ]
+  },
+  {
+    "id": "thukpa",
+    "name": "Thukpa",
+    "state": "Ladakh",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.7",
+    "price": 452,
+    "images": [
+      "/frontend/images/foods/ladakh/thukpa/1.jpg",
+      "/frontend/images/foods/ladakh/thukpa/2.jpg",
+      "/frontend/images/foods/ladakh/thukpa/3.jpg"
+    ]
+  },
+  {
+    "id": "french-indian-cuisine",
+    "name": "French Indian Cuisine",
+    "state": "Puducherry",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.3",
+    "price": 218,
+    "images": [
+      "/frontend/images/foods/puducherry/french-indian-cuisine/1.jpg",
+      "/frontend/images/foods/puducherry/french-indian-cuisine/2.jpg",
+      "/frontend/images/foods/puducherry/french-indian-cuisine/3.jpg"
+    ]
+  },
+  {
+    "id": "seafood",
+    "name": "Seafood",
+    "state": "Puducherry",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.7",
+    "price": 268,
+    "images": [
+      "/frontend/images/foods/puducherry/seafood/1.jpg",
+      "/frontend/images/foods/puducherry/seafood/2.jpg",
+      "/frontend/images/foods/puducherry/seafood/3.jpg"
+    ]
+  },
+  {
+    "id": "seafood-platter",
+    "name": "Seafood Platter",
+    "state": "Andaman",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.5",
+    "price": 466,
+    "images": [
+      "/frontend/images/foods/andaman/seafood-platter/1.jpg",
+      "/frontend/images/foods/andaman/seafood-platter/2.jpg",
+      "/frontend/images/foods/andaman/seafood-platter/3.jpg"
+    ]
+  },
+  {
+    "id": "tuna-curry",
+    "name": "Tuna Curry",
+    "state": "Lakshadweep",
+    "restaurant": "Local Restaurant",
+    "category": "Regional Cuisine",
+    "rating": "4.7",
+    "price": 173,
+    "images": [
+      "/frontend/images/foods/lakshadweep/tuna-curry/1.jpg",
+      "/frontend/images/foods/lakshadweep/tuna-curry/2.jpg",
+      "/frontend/images/foods/lakshadweep/tuna-curry/3.jpg"
+    ]
+  }
+]

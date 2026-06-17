@@ -1,0 +1,614 @@
+[
+  {
+    "id": 1,
+    "slugId": "andhra-pradesh-tirumala-venkateswara-temple",
+    "name": "Tirumala Venkateswara Temple",
+    "state": "Andhra Pradesh",
+    "location": "Tirupati, Andhra Pradesh",
+    "category": "Spiritual",
+    "rating": "4.4",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/andhra-pradesh-tirumala-venkateswara-temple/1.jpg",
+      "./images/destinations/andhra-pradesh-tirumala-venkateswara-temple/2.jpg",
+      "./images/destinations/andhra-pradesh-tirumala-venkateswara-temple/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 2,
+    "slugId": "arunachal-pradesh-tawang-monastery",
+    "name": "Tawang Monastery",
+    "state": "Arunachal Pradesh",
+    "location": "Tawang, Arunachal Pradesh",
+    "category": "Heritage",
+    "rating": "4.8",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/arunachal-pradesh-tawang-monastery/1.jpg",
+      "./images/destinations/arunachal-pradesh-tawang-monastery/2.jpg",
+      "./images/destinations/arunachal-pradesh-tawang-monastery/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 3,
+    "slugId": "assam-kaziranga-national-park",
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "location": "Golaghat, Assam",
+    "category": "Wildlife",
+    "rating": "4.4",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/assam-kaziranga-national-park/1.jpg",
+      "./images/destinations/assam-kaziranga-national-park/2.jpg",
+      "./images/destinations/assam-kaziranga-national-park/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 4,
+    "slugId": "bihar-mahabodhi-temple",
+    "name": "Mahabodhi Temple",
+    "state": "Bihar",
+    "location": "Bodh Gaya, Bihar",
+    "category": "Spiritual",
+    "rating": "4.6",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/bihar-mahabodhi-temple/1.jpg",
+      "./images/destinations/bihar-mahabodhi-temple/2.jpg",
+      "./images/destinations/bihar-mahabodhi-temple/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 5,
+    "slugId": "chhattisgarh-chitrakoot-falls",
+    "name": "Chitrakoot Falls",
+    "state": "Chhattisgarh",
+    "location": "Bastar, Chhattisgarh",
+    "category": "Nature",
+    "rating": "4.8",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/chhattisgarh-chitrakoot-falls/1.jpg",
+      "./images/destinations/chhattisgarh-chitrakoot-falls/2.jpg",
+      "./images/destinations/chhattisgarh-chitrakoot-falls/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 6,
+    "slugId": "goa-goa-beaches",
+    "name": "Goa Beaches",
+    "state": "Goa",
+    "location": "Panaji, Goa",
+    "category": "Beach",
+    "rating": "4.6",
+    "price": "₹50",
+    "featured": true,
+    "images": [
+      "./images/destinations/goa-goa-beaches/1.jpg",
+      "./images/destinations/goa-goa-beaches/2.jpg",
+      "./images/destinations/goa-goa-beaches/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 7,
+    "slugId": "gujarat-statue-of-unity",
+    "name": "Statue of Unity",
+    "state": "Gujarat",
+    "location": "Kevadia, Gujarat",
+    "category": "Heritage",
+    "rating": "4.7",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/gujarat-statue-of-unity/1.jpg",
+      "./images/destinations/gujarat-statue-of-unity/2.jpg",
+      "./images/destinations/gujarat-statue-of-unity/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 8,
+    "slugId": "haryana-brahma-sarovar",
+    "name": "Brahma Sarovar",
+    "state": "Haryana",
+    "location": "Kurukshetra, Haryana",
+    "category": "Spiritual",
+    "rating": "4.6",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/haryana-brahma-sarovar/1.jpg",
+      "./images/destinations/haryana-brahma-sarovar/2.jpg",
+      "./images/destinations/haryana-brahma-sarovar/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 9,
+    "slugId": "himachal-pradesh-manali",
+    "name": "Manali",
+    "state": "Himachal Pradesh",
+    "location": "Kullu, Himachal Pradesh",
+    "category": "Adventure",
+    "rating": "4.7",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/himachal-pradesh-manali/1.jpg",
+      "./images/destinations/himachal-pradesh-manali/2.jpg",
+      "./images/destinations/himachal-pradesh-manali/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 10,
+    "slugId": "jharkhand-netarhat",
+    "name": "Netarhat",
+    "state": "Jharkhand",
+    "location": "Latehar, Jharkhand",
+    "category": "Nature",
+    "rating": "4.4",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/jharkhand-netarhat/1.jpg",
+      "./images/destinations/jharkhand-netarhat/2.jpg",
+      "./images/destinations/jharkhand-netarhat/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 11,
+    "slugId": "karnataka-hampi",
+    "name": "Hampi",
+    "state": "Karnataka",
+    "location": "Vijayanagara, Karnataka",
+    "category": "Heritage",
+    "rating": "4.8",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/karnataka-hampi/1.jpg",
+      "./images/destinations/karnataka-hampi/2.jpg",
+      "./images/destinations/karnataka-hampi/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 12,
+    "slugId": "kerala-alleppey-backwaters",
+    "name": "Alleppey Backwaters",
+    "state": "Kerala",
+    "location": "Alappuzha, Kerala",
+    "category": "Nature",
+    "rating": "4.8",
+    "price": "₹50",
+    "featured": true,
+    "images": [
+      "./images/destinations/kerala-alleppey-backwaters/1.jpg",
+      "./images/destinations/kerala-alleppey-backwaters/2.jpg",
+      "./images/destinations/kerala-alleppey-backwaters/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 13,
+    "slugId": "madhya-pradesh-khajuraho-temples",
+    "name": "Khajuraho Temples",
+    "state": "Madhya Pradesh",
+    "location": "Khajuraho, Madhya Pradesh",
+    "category": "Heritage",
+    "rating": "4.9",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/madhya-pradesh-khajuraho-temples/1.jpg",
+      "./images/destinations/madhya-pradesh-khajuraho-temples/2.jpg",
+      "./images/destinations/madhya-pradesh-khajuraho-temples/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 14,
+    "slugId": "maharashtra-ajanta-ellora-caves",
+    "name": "Ajanta-Ellora Caves",
+    "state": "Maharashtra",
+    "location": "Aurangabad, Maharashtra",
+    "category": "Heritage",
+    "rating": "4.8",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/maharashtra-ajanta-ellora-caves/1.jpg",
+      "./images/destinations/maharashtra-ajanta-ellora-caves/2.jpg",
+      "./images/destinations/maharashtra-ajanta-ellora-caves/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 15,
+    "slugId": "manipur-loktak-lake",
+    "name": "Loktak Lake",
+    "state": "Manipur",
+    "location": "Moirang, Manipur",
+    "category": "Nature",
+    "rating": "4.7",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/manipur-loktak-lake/1.jpg",
+      "./images/destinations/manipur-loktak-lake/2.jpg",
+      "./images/destinations/manipur-loktak-lake/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 16,
+    "slugId": "meghalaya-living-root-bridges",
+    "name": "Living Root Bridges",
+    "state": "Meghalaya",
+    "location": "Cherrapunji, Meghalaya",
+    "category": "Nature",
+    "rating": "4.6",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/meghalaya-living-root-bridges/1.jpg",
+      "./images/destinations/meghalaya-living-root-bridges/2.jpg",
+      "./images/destinations/meghalaya-living-root-bridges/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 17,
+    "slugId": "mizoram-reiek-tlang",
+    "name": "Reiek Tlang",
+    "state": "Mizoram",
+    "location": "Reiek, Mizoram",
+    "category": "Adventure",
+    "rating": "4.5",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/mizoram-reiek-tlang/1.jpg",
+      "./images/destinations/mizoram-reiek-tlang/2.jpg",
+      "./images/destinations/mizoram-reiek-tlang/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 18,
+    "slugId": "nagaland-dz-kou-valley",
+    "name": "Dzükou Valley",
+    "state": "Nagaland",
+    "location": "Kohima, Nagaland",
+    "category": "Nature",
+    "rating": "4.5",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/nagaland-dz-kou-valley/1.jpg",
+      "./images/destinations/nagaland-dz-kou-valley/2.jpg",
+      "./images/destinations/nagaland-dz-kou-valley/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 19,
+    "slugId": "odisha-konark-sun-temple",
+    "name": "Konark Sun Temple",
+    "state": "Odisha",
+    "location": "Konark, Odisha",
+    "category": "Heritage",
+    "rating": "4.6",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/odisha-konark-sun-temple/1.jpg",
+      "./images/destinations/odisha-konark-sun-temple/2.jpg",
+      "./images/destinations/odisha-konark-sun-temple/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 20,
+    "slugId": "punjab-golden-temple",
+    "name": "Golden Temple",
+    "state": "Punjab",
+    "location": "Amritsar, Punjab",
+    "category": "Spiritual",
+    "rating": "4.8",
+    "price": "₹50",
+    "featured": true,
+    "images": [
+      "./images/destinations/punjab-golden-temple/1.jpg",
+      "./images/destinations/punjab-golden-temple/2.jpg",
+      "./images/destinations/punjab-golden-temple/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 21,
+    "slugId": "rajasthan-hawa-mahal-amber-fort",
+    "name": "Hawa Mahal & Amber Fort",
+    "state": "Rajasthan",
+    "location": "Jaipur, Rajasthan",
+    "category": "Heritage",
+    "rating": "4.8",
+    "price": "₹50",
+    "featured": true,
+    "images": [
+      "./images/destinations/rajasthan-hawa-mahal-amber-fort/1.jpg",
+      "./images/destinations/rajasthan-hawa-mahal-amber-fort/2.jpg",
+      "./images/destinations/rajasthan-hawa-mahal-amber-fort/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 22,
+    "slugId": "sikkim-tsomgo-lake",
+    "name": "Tsomgo Lake",
+    "state": "Sikkim",
+    "location": "Gangtok, Sikkim",
+    "category": "Nature",
+    "rating": "4.8",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/sikkim-tsomgo-lake/1.jpg",
+      "./images/destinations/sikkim-tsomgo-lake/2.jpg",
+      "./images/destinations/sikkim-tsomgo-lake/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 23,
+    "slugId": "tamil-nadu-meenakshi-amman-temple",
+    "name": "Meenakshi Amman Temple",
+    "state": "Tamil Nadu",
+    "location": "Madurai, Tamil Nadu",
+    "category": "Heritage",
+    "rating": "4.4",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/tamil-nadu-meenakshi-amman-temple/1.jpg",
+      "./images/destinations/tamil-nadu-meenakshi-amman-temple/2.jpg",
+      "./images/destinations/tamil-nadu-meenakshi-amman-temple/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 24,
+    "slugId": "telangana-charminar",
+    "name": "Charminar",
+    "state": "Telangana",
+    "location": "Hyderabad, Telangana",
+    "category": "Heritage",
+    "rating": "4.5",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/telangana-charminar/1.jpg",
+      "./images/destinations/telangana-charminar/2.jpg",
+      "./images/destinations/telangana-charminar/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 25,
+    "slugId": "tripura-ujjayanta-palace",
+    "name": "Ujjayanta Palace",
+    "state": "Tripura",
+    "location": "Agartala, Tripura",
+    "category": "Heritage",
+    "rating": "4.9",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/tripura-ujjayanta-palace/1.jpg",
+      "./images/destinations/tripura-ujjayanta-palace/2.jpg",
+      "./images/destinations/tripura-ujjayanta-palace/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 26,
+    "slugId": "uttar-pradesh-taj-mahal",
+    "name": "Taj Mahal",
+    "state": "Uttar Pradesh",
+    "location": "Agra, Uttar Pradesh",
+    "category": "Heritage",
+    "rating": "4.7",
+    "price": "₹50",
+    "featured": true,
+    "images": [
+      "./images/destinations/uttar-pradesh-taj-mahal/1.jpg",
+      "./images/destinations/uttar-pradesh-taj-mahal/2.jpg",
+      "./images/destinations/uttar-pradesh-taj-mahal/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 27,
+    "slugId": "uttarakhand-rishikesh",
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "location": "Rishikesh, Uttarakhand",
+    "category": "Adventure",
+    "rating": "4.5",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/uttarakhand-rishikesh/1.jpg",
+      "./images/destinations/uttarakhand-rishikesh/2.jpg",
+      "./images/destinations/uttarakhand-rishikesh/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 28,
+    "slugId": "west-bengal-darjeeling-tea-gardens",
+    "name": "Darjeeling Tea Gardens",
+    "state": "West Bengal",
+    "location": "Darjeeling, West Bengal",
+    "category": "Nature",
+    "rating": "4.9",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/west-bengal-darjeeling-tea-gardens/1.jpg",
+      "./images/destinations/west-bengal-darjeeling-tea-gardens/2.jpg",
+      "./images/destinations/west-bengal-darjeeling-tea-gardens/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 29,
+    "slugId": "andaman-nicobar-radhanagar-beach",
+    "name": "Radhanagar Beach",
+    "state": "Andaman & Nicobar",
+    "location": "Havelock Island, Andaman & Nicobar",
+    "category": "Beach",
+    "rating": "4.8",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/andaman-nicobar-radhanagar-beach/1.jpg",
+      "./images/destinations/andaman-nicobar-radhanagar-beach/2.jpg",
+      "./images/destinations/andaman-nicobar-radhanagar-beach/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 30,
+    "slugId": "chandigarh-rock-garden",
+    "name": "Rock Garden",
+    "state": "Chandigarh",
+    "location": "Chandigarh, Chandigarh",
+    "category": "Heritage",
+    "rating": "4.5",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/chandigarh-rock-garden/1.jpg",
+      "./images/destinations/chandigarh-rock-garden/2.jpg",
+      "./images/destinations/chandigarh-rock-garden/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 31,
+    "slugId": "daman-diu-diu-fort",
+    "name": "Diu Fort",
+    "state": "Daman & Diu",
+    "location": "Diu, Daman & Diu",
+    "category": "Heritage",
+    "rating": "4.4",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/daman-diu-diu-fort/1.jpg",
+      "./images/destinations/daman-diu-diu-fort/2.jpg",
+      "./images/destinations/daman-diu-diu-fort/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 32,
+    "slugId": "delhi-red-fort",
+    "name": "Red Fort",
+    "state": "Delhi",
+    "location": "New Delhi, Delhi",
+    "category": "Heritage",
+    "rating": "4.6",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/delhi-red-fort/1.jpg",
+      "./images/destinations/delhi-red-fort/2.jpg",
+      "./images/destinations/delhi-red-fort/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 33,
+    "slugId": "jammu-kashmir-dal-lake",
+    "name": "Dal Lake",
+    "state": "Jammu & Kashmir",
+    "location": "Srinagar, Jammu & Kashmir",
+    "category": "Nature",
+    "rating": "4.4",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/jammu-kashmir-dal-lake/1.jpg",
+      "./images/destinations/jammu-kashmir-dal-lake/2.jpg",
+      "./images/destinations/jammu-kashmir-dal-lake/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 34,
+    "slugId": "ladakh-pangong-lake",
+    "name": "Pangong Lake",
+    "state": "Ladakh",
+    "location": "Leh, Ladakh",
+    "category": "Adventure",
+    "rating": "4.4",
+    "price": "₹50",
+    "featured": true,
+    "images": [
+      "./images/destinations/ladakh-pangong-lake/1.jpg",
+      "./images/destinations/ladakh-pangong-lake/2.jpg",
+      "./images/destinations/ladakh-pangong-lake/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 35,
+    "slugId": "lakshadweep-agatti-island",
+    "name": "Agatti Island",
+    "state": "Lakshadweep",
+    "location": "Agatti, Lakshadweep",
+    "category": "Beach",
+    "rating": "4.4",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/lakshadweep-agatti-island/1.jpg",
+      "./images/destinations/lakshadweep-agatti-island/2.jpg",
+      "./images/destinations/lakshadweep-agatti-island/3.jpg"
+    ],
+    "emoji": "🌍"
+  },
+  {
+    "id": 36,
+    "slugId": "puducherry-white-town",
+    "name": "White Town",
+    "state": "Puducherry",
+    "location": "Puducherry, Puducherry",
+    "category": "Heritage",
+    "rating": "4.4",
+    "price": "Free",
+    "featured": false,
+    "images": [
+      "./images/destinations/puducherry-white-town/1.jpg",
+      "./images/destinations/puducherry-white-town/2.jpg",
+      "./images/destinations/puducherry-white-town/3.jpg"
+    ],
+    "emoji": "🌍"
+  }
+]
