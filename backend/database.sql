@@ -55,6 +55,22 @@ CREATE TABLE IF NOT EXISTS Bookings (
     item_id INT,
     booking_date DATE,
     status ENUM('pending', 'confirmed', 'cancelled') DEFAULT 'pending',
+    
+    -- Hotel booking extra details
+    hotel_name VARCHAR(255),
+    hotel_image TEXT,
+    price DECIMAL(10,2),
+    check_in DATE,
+    check_out DATE,
+    guests INT,
+    place_name VARCHAR(255),
+    
+    -- Food order extra details
+    quantity INT,
+    total_price DECIMAL(10,2),
+    food_image TEXT,
+    restaurant VARCHAR(255),
+    
     FOREIGN KEY (user_id) REFERENCES Users(user_id)
 );
 

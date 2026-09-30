@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderly — Page Not Found</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --sand: #F7F3EE;
+            --ink: #1A1612;
+            --terracotta: #C4623A;
+            --gold: #D4A84B;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--sand);
+            color: var(--ink);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            text-align: center;
+        }
+        .card {
+            background: #ffffff;
+            border: 1px solid #E0D9D0;
+            border-radius: 12px;
+            padding: 3rem 2rem;
+            max-width: 480px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 0.75rem;
+        }
+        h1 span { color: var(--gold); }
+        p {
+            color: #7A7065;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--terracotta);
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            padding: 0.85rem 1.75rem;
+            border-radius: 6px;
+            transition: opacity 0.2s;
+        }
+        .btn:hover { opacity: 0.9; }
+    </style>
+    <script>
+        // Intelligent SPA routing fallback for GitHub Pages
+        const pathname = window.location.pathname;
+        const repoName = "Tourist-Management-System";
+        let target = "";
+        
+        if (pathname.includes(repoName)) {
+            target = "/" + repoName + "/frontend/" + window.location.search + window.location.hash;
+        } else {
+            target = "/frontend/" + window.location.search + window.location.hash;
+        }
+        window.location.replace(target);
+    </script>
+</head>
+<body>
+    <div class="card">
+        <h1>Wander<span>ly</span></h1>
+        <p>Redirecting you back to Wanderly Tourist Management System...</p>
+        <a href="frontend/" class="btn">Return to Home &rarr;</a>
+    </div>
+</body>
+</html>

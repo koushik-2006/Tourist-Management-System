@@ -79,13 +79,56 @@ router.get('/transport', async (req, res) => {
 
 // --- Booking APIs ---
 router.post('/booking', async (req, res) => {
-    const { user_id, hotel_id, transport_id, booking_date } = req.body;
+    const { 
+        user_id, item_type, item_id, booking_date, 
+        hotel_name, hotel_image, price, check_in, check_out, guests, place_name 
+    } = req.body;
+    
     try {
-        const [result] = await db.query(
-            'INSERT INTO Bookings (user_id, hotel_id, transport_id, booking_date) VALUES (?, ?, ?, ?)',
-            [user_id, hotel_id, transport_id, booking_date]
-        );
+        let query = '';
+        let params = [];
+
+        if (item_type === 'hotel') {
+            // New hotel booking flow
+            query = `INSERT INTO Bookings (user_id, item_type, item_id, booking_date, hotel_name, hotel_image, price, check_in, check_out, guests, place_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`;
+            params = [user_id, 'hotel', item_id || null, booking_date, hotel_name, hotel_image, price, check_in, check_out, guests, place_name];
+        } else {
+            // Fallback for older booking calls if they still exist
+            const { hotel_id, transport_id } = req.body;
+            query = `INSERT INTO Bookings (user_id, item_type, item_id, booking_date) VALUES (?, ?, ?, ?)`;
+            params = [user_id, hotel_id ? 'hotel' : (transport_id ? 'transport' : 'place'), hotel_id || transport_id || item_id, booking_date];
+        }
+
+        const [result] = await db.query(query, params);
         res.status(201).json({ message: 'Booking successful', bookingId: result.insertId });
+    } catch (err) {
+        // Simple fallback if columns aren't there yet
+        if (err.code === 'ER_BAD_FIELD_ERROR') {
+             try {
+                const [result] = await db.query('INSERT INTO Bookings (user_id, item_type, item_id, booking_date) VALUES (?, ?, ?, ?)', [user_id, 'hotel', null, booking_date]);
+                res.status(201).json({ message: 'Booking successful (fallback)', bookingId: result.insertId });
+             } catch (fallbackErr) {
+                res.status(500).json({ error: 'Database error', details: fallbackErr.message });
+             }
+        } else {
+             res.status(500).json({ error: 'Database error', details: err.message });
+        }
+    }
+});
+
+// --- Food Order APIs ---
+router.post('/food-order', async (req, res) => {
+    const { user_id, booking_date, items, total_price } = req.body;
+    try {
+        // Items is an array of cart items. We can insert them as separate bookings or just pick the first for simple mapping
+        for (const item of items) {
+            await db.query(
+                `INSERT INTO Bookings (user_id, item_type, booking_date, food_image, restaurant, quantity, total_price, status, hotel_name) 
+                 VALUES (?, 'food', ?, ?, ?, ?, ?, 'confirmed', ?)`,
+                [user_id, booking_date, item.image, item.restaurant || 'Wanderly Foods', item.quantity, item.price * item.quantity, item.name]
+            );
+        }
+        res.status(201).json({ message: 'Food order placed successfully' });
     } catch (err) {
         res.status(500).json({ error: 'Database error', details: err.message });
     }
@@ -93,13 +136,8 @@ router.post('/booking', async (req, res) => {
 
 router.get('/bookings/:userId', async (req, res) => {
     try {
-        const [bookings] = await db.query(`
-            SELECT b.booking_id, b.booking_date, h.hotel_name, t.type as transport_type, t.source, t.destination 
-            FROM Bookings b
-            LEFT JOIN Hotels h ON b.hotel_id = h.hotel_id
-            LEFT JOIN Transport t ON b.transport_id = t.transport_id
-            WHERE b.user_id = ?
-        `, [req.params.userId]);
+        // We will just fetch everything from Bookings table
+        const [bookings] = await db.query(`SELECT * FROM Bookings WHERE user_id = ? ORDER BY booking_date DESC`, [req.params.userId]);
         res.json(bookings);
     } catch (err) {
         res.status(500).json({ error: 'Database error', details: err.message });

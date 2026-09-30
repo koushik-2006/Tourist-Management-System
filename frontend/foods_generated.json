@@ -8,9 +8,9 @@
     "rating": "4.7",
     "price": 278,
     "images": [
-      "/frontend/images/foods/andhra-pradesh/andhra-meals/1.jpg",
-      "/frontend/images/foods/andhra-pradesh/andhra-meals/2.jpg",
-      "/frontend/images/foods/andhra-pradesh/andhra-meals/3.jpg"
+      "./images/foods/andhra-pradesh/andhra-meals/1.jpg",
+      "./images/foods/andhra-pradesh/andhra-meals/2.jpg",
+      "./images/foods/andhra-pradesh/andhra-meals/3.jpg"
     ]
   },
   {
@@ -22,9 +22,9 @@
     "rating": "4.7",
     "price": 228,
     "images": [
-      "/frontend/images/foods/andhra-pradesh/gongura-rice/1.jpg",
-      "/frontend/images/foods/andhra-pradesh/gongura-rice/2.jpg",
-      "/frontend/images/foods/andhra-pradesh/gongura-rice/3.jpg"
+      "./images/foods/andhra-pradesh/gongura-rice/1.jpg",
+      "./images/foods/andhra-pradesh/gongura-rice/2.jpg",
+      "./images/foods/andhra-pradesh/gongura-rice/3.jpg"
     ]
   },
   {
@@ -36,9 +36,9 @@
     "rating": "4.8",
     "price": 431,
     "images": [
-      "/frontend/images/foods/andhra-pradesh/pulihora/1.jpg",
-      "/frontend/images/foods/andhra-pradesh/pulihora/2.jpg",
-      "/frontend/images/foods/andhra-pradesh/pulihora/3.jpg"
+      "./images/foods/andhra-pradesh/pulihora/1.jpg",
+      "./images/foods/andhra-pradesh/pulihora/2.jpg",
+      "./images/foods/andhra-pradesh/pulihora/3.jpg"
     ]
   },
   {
@@ -50,9 +50,9 @@
     "rating": "4.5",
     "price": 398,
     "images": [
-      "/frontend/images/foods/andhra-pradesh/pesarattu/1.jpg",
-      "/frontend/images/foods/andhra-pradesh/pesarattu/2.jpg",
-      "/frontend/images/foods/andhra-pradesh/pesarattu/3.jpg"
+      "./images/foods/andhra-pradesh/pesarattu/1.jpg",
+      "./images/foods/andhra-pradesh/pesarattu/2.jpg",
+      "./images/foods/andhra-pradesh/pesarattu/3.jpg"
     ]
   },
   {
@@ -64,9 +64,9 @@
     "rating": "4.6",
     "price": 338,
     "images": [
-      "/frontend/images/foods/andhra-pradesh/bobbatlu/1.jpg",
-      "/frontend/images/foods/andhra-pradesh/bobbatlu/2.jpg",
-      "/frontend/images/foods/andhra-pradesh/bobbatlu/3.jpg"
+      "./images/foods/andhra-pradesh/bobbatlu/1.jpg",
+      "./images/foods/andhra-pradesh/bobbatlu/2.jpg",
+      "./images/foods/andhra-pradesh/bobbatlu/3.jpg"
     ]
   },
   {
@@ -78,9 +78,9 @@
     "rating": "4.5",
     "price": 151,
     "images": [
-      "/frontend/images/foods/arunachal-pradesh/thukpa/1.jpg",
-      "/frontend/images/foods/arunachal-pradesh/thukpa/2.jpg",
-      "/frontend/images/foods/arunachal-pradesh/thukpa/3.jpg"
+      "./images/foods/arunachal-pradesh/thukpa/1.jpg",
+      "./images/foods/arunachal-pradesh/thukpa/2.jpg",
+      "./images/foods/arunachal-pradesh/thukpa/3.jpg"
     ]
   },
   {
@@ -92,9 +92,9 @@
     "rating": "5.0",
     "price": 116,
     "images": [
-      "/frontend/images/foods/arunachal-pradesh/momos/1.jpg",
-      "/frontend/images/foods/arunachal-pradesh/momos/2.jpg",
-      "/frontend/images/foods/arunachal-pradesh/momos/3.jpg"
+      "./images/foods/arunachal-pradesh/momos/1.jpg",
+      "./images/foods/arunachal-pradesh/momos/2.jpg",
+      "./images/foods/arunachal-pradesh/momos/3.jpg"
     ]
   },
   {
@@ -106,9 +106,9 @@
     "rating": "4.2",
     "price": 480,
     "images": [
-      "/frontend/images/foods/arunachal-pradesh/zan/1.jpg",
-      "/frontend/images/foods/arunachal-pradesh/zan/2.jpg",
-      "/frontend/images/foods/arunachal-pradesh/zan/3.jpg"
+      "./images/foods/arunachal-pradesh/zan/1.jpg",
+      "./images/foods/arunachal-pradesh/zan/2.jpg",
+      "./images/foods/arunachal-pradesh/zan/3.jpg"
     ]
   },
   {
@@ -120,9 +120,9 @@
     "rating": "4.7",
     "price": 312,
     "images": [
-      "/frontend/images/foods/arunachal-pradesh/bamboo-shoot-curry/1.jpg",
-      "/frontend/images/foods/arunachal-pradesh/bamboo-shoot-curry/2.jpg",
-      "/frontend/images/foods/arunachal-pradesh/bamboo-shoot-curry/3.jpg"
+      "./images/foods/arunachal-pradesh/bamboo-shoot-curry/1.jpg",
+      "./images/foods/arunachal-pradesh/bamboo-shoot-curry/2.jpg",
+      "./images/foods/arunachal-pradesh/bamboo-shoot-curry/3.jpg"
     ]
   },
   {
@@ -134,9 +134,9 @@
     "rating": "4.3",
     "price": 321,
     "images": [
-      "/frontend/images/foods/assam/assam-thali/1.jpg",
-      "/frontend/images/foods/assam/assam-thali/2.jpg",
-      "/frontend/images/foods/assam/assam-thali/3.jpg"
+      "./images/foods/assam/assam-thali/1.jpg",
+      "./images/foods/assam/assam-thali/2.jpg",
+      "./images/foods/assam/assam-thali/3.jpg"
     ]
   },
   {
@@ -148,9 +148,9 @@
     "rating": "4.5",
     "price": 211,
     "images": [
-      "/frontend/images/foods/assam/masor-tenga/1.jpg",
-      "/frontend/images/foods/assam/masor-tenga/2.jpg",
-      "/frontend/images/foods/assam/masor-tenga/3.jpg"
+      "./images/foods/assam/masor-tenga/1.jpg",
+      "./images/foods/assam/masor-tenga/2.jpg",
+      "./images/foods/assam/masor-tenga/3.jpg"
     ]
   },
   {
@@ -162,8 +162,8 @@
     "rating": "4.4",
     "price": 430,
     "images": [
-      "/frontend/images/foods/assam/pitha/2.jpg",
-      "/frontend/images/foods/assam/pitha/3.jpg"
+      "./images/foods/assam/pitha/2.jpg",
+      "./images/foods/assam/pitha/3.jpg"
     ]
   },
   {
@@ -175,9 +175,9 @@
     "rating": "4.6",
     "price": 307,
     "images": [
-      "/frontend/images/foods/assam/khar/1.jpg",
-      "/frontend/images/foods/assam/khar/2.jpg",
-      "/frontend/images/foods/assam/khar/3.jpg"
+      "./images/foods/assam/khar/1.jpg",
+      "./images/foods/assam/khar/2.jpg",
+      "./images/foods/assam/khar/3.jpg"
     ]
   },
   {
@@ -189,9 +189,9 @@
     "rating": "4.2",
     "price": 395,
     "images": [
-      "/frontend/images/foods/bihar/litti-chokha/1.jpg",
-      "/frontend/images/foods/bihar/litti-chokha/2.jpg",
-      "/frontend/images/foods/bihar/litti-chokha/3.jpg"
+      "./images/foods/bihar/litti-chokha/1.jpg",
+      "./images/foods/bihar/litti-chokha/2.jpg",
+      "./images/foods/bihar/litti-chokha/3.jpg"
     ]
   },
   {
@@ -203,9 +203,9 @@
     "rating": "4.3",
     "price": 326,
     "images": [
-      "/frontend/images/foods/bihar/sattu-paratha/1.jpg",
-      "/frontend/images/foods/bihar/sattu-paratha/2.jpg",
-      "/frontend/images/foods/bihar/sattu-paratha/3.jpg"
+      "./images/foods/bihar/sattu-paratha/1.jpg",
+      "./images/foods/bihar/sattu-paratha/2.jpg",
+      "./images/foods/bihar/sattu-paratha/3.jpg"
     ]
   },
   {
@@ -217,9 +217,9 @@
     "rating": "4.4",
     "price": 100,
     "images": [
-      "/frontend/images/foods/bihar/thekua/1.jpg",
-      "/frontend/images/foods/bihar/thekua/2.jpg",
-      "/frontend/images/foods/bihar/thekua/3.jpg"
+      "./images/foods/bihar/thekua/1.jpg",
+      "./images/foods/bihar/thekua/2.jpg",
+      "./images/foods/bihar/thekua/3.jpg"
     ]
   },
   {
@@ -231,9 +231,9 @@
     "rating": "4.5",
     "price": 212,
     "images": [
-      "/frontend/images/foods/chhattisgarh/chila/1.jpg",
-      "/frontend/images/foods/chhattisgarh/chila/2.jpg",
-      "/frontend/images/foods/chhattisgarh/chila/3.jpg"
+      "./images/foods/chhattisgarh/chila/1.jpg",
+      "./images/foods/chhattisgarh/chila/2.jpg",
+      "./images/foods/chhattisgarh/chila/3.jpg"
     ]
   },
   {
@@ -245,9 +245,9 @@
     "rating": "4.2",
     "price": 397,
     "images": [
-      "/frontend/images/foods/chhattisgarh/faraa/1.jpg",
-      "/frontend/images/foods/chhattisgarh/faraa/2.jpg",
-      "/frontend/images/foods/chhattisgarh/faraa/3.jpg"
+      "./images/foods/chhattisgarh/faraa/1.jpg",
+      "./images/foods/chhattisgarh/faraa/2.jpg",
+      "./images/foods/chhattisgarh/faraa/3.jpg"
     ]
   },
   {
@@ -259,9 +259,9 @@
     "rating": "4.7",
     "price": 198,
     "images": [
-      "/frontend/images/foods/chhattisgarh/bafauri/1.jpg",
-      "/frontend/images/foods/chhattisgarh/bafauri/2.jpg",
-      "/frontend/images/foods/chhattisgarh/bafauri/3.jpg"
+      "./images/foods/chhattisgarh/bafauri/1.jpg",
+      "./images/foods/chhattisgarh/bafauri/2.jpg",
+      "./images/foods/chhattisgarh/bafauri/3.jpg"
     ]
   },
   {
@@ -273,9 +273,9 @@
     "rating": "4.2",
     "price": 315,
     "images": [
-      "/frontend/images/foods/goa/fish-curry-rice/1.jpg",
-      "/frontend/images/foods/goa/fish-curry-rice/2.jpg",
-      "/frontend/images/foods/goa/fish-curry-rice/3.jpg"
+      "./images/foods/goa/fish-curry-rice/1.jpg",
+      "./images/foods/goa/fish-curry-rice/2.jpg",
+      "./images/foods/goa/fish-curry-rice/3.jpg"
     ]
   },
   {
@@ -287,9 +287,9 @@
     "rating": "4.5",
     "price": 223,
     "images": [
-      "/frontend/images/foods/goa/bebinca/1.jpg",
-      "/frontend/images/foods/goa/bebinca/2.jpg",
-      "/frontend/images/foods/goa/bebinca/3.jpg"
+      "./images/foods/goa/bebinca/1.jpg",
+      "./images/foods/goa/bebinca/2.jpg",
+      "./images/foods/goa/bebinca/3.jpg"
     ]
   },
   {
@@ -301,9 +301,9 @@
     "rating": "4.9",
     "price": 123,
     "images": [
-      "/frontend/images/foods/goa/prawn-curry/1.jpg",
-      "/frontend/images/foods/goa/prawn-curry/2.jpg",
-      "/frontend/images/foods/goa/prawn-curry/3.jpg"
+      "./images/foods/goa/prawn-curry/1.jpg",
+      "./images/foods/goa/prawn-curry/2.jpg",
+      "./images/foods/goa/prawn-curry/3.jpg"
     ]
   },
   {
@@ -315,9 +315,9 @@
     "rating": "4.8",
     "price": 100,
     "images": [
-      "/frontend/images/foods/goa/vindaloo/1.jpg",
-      "/frontend/images/foods/goa/vindaloo/2.jpg",
-      "/frontend/images/foods/goa/vindaloo/3.jpg"
+      "./images/foods/goa/vindaloo/1.jpg",
+      "./images/foods/goa/vindaloo/2.jpg",
+      "./images/foods/goa/vindaloo/3.jpg"
     ]
   },
   {
@@ -329,9 +329,9 @@
     "rating": "4.6",
     "price": 173,
     "images": [
-      "/frontend/images/foods/gujarat/dhokla/1.jpg",
-      "/frontend/images/foods/gujarat/dhokla/2.jpg",
-      "/frontend/images/foods/gujarat/dhokla/3.jpg"
+      "./images/foods/gujarat/dhokla/1.jpg",
+      "./images/foods/gujarat/dhokla/2.jpg",
+      "./images/foods/gujarat/dhokla/3.jpg"
     ]
   },
   {
@@ -343,9 +343,9 @@
     "rating": "4.5",
     "price": 343,
     "images": [
-      "/frontend/images/foods/gujarat/fafda/1.jpg",
-      "/frontend/images/foods/gujarat/fafda/2.jpg",
-      "/frontend/images/foods/gujarat/fafda/3.jpg"
+      "./images/foods/gujarat/fafda/1.jpg",
+      "./images/foods/gujarat/fafda/2.jpg",
+      "./images/foods/gujarat/fafda/3.jpg"
     ]
   },
   {
@@ -357,9 +357,9 @@
     "rating": "4.8",
     "price": 340,
     "images": [
-      "/frontend/images/foods/gujarat/khandvi/1.jpg",
-      "/frontend/images/foods/gujarat/khandvi/2.jpg",
-      "/frontend/images/foods/gujarat/khandvi/3.jpg"
+      "./images/foods/gujarat/khandvi/1.jpg",
+      "./images/foods/gujarat/khandvi/2.jpg",
+      "./images/foods/gujarat/khandvi/3.jpg"
     ]
   },
   {
@@ -371,9 +371,9 @@
     "rating": "4.3",
     "price": 196,
     "images": [
-      "/frontend/images/foods/gujarat/undhiyu/1.jpg",
-      "/frontend/images/foods/gujarat/undhiyu/2.jpg",
-      "/frontend/images/foods/gujarat/undhiyu/3.jpg"
+      "./images/foods/gujarat/undhiyu/1.jpg",
+      "./images/foods/gujarat/undhiyu/2.jpg",
+      "./images/foods/gujarat/undhiyu/3.jpg"
     ]
   },
   {
@@ -385,9 +385,9 @@
     "rating": "4.7",
     "price": 178,
     "images": [
-      "/frontend/images/foods/haryana/bajra-roti/1.jpg",
-      "/frontend/images/foods/haryana/bajra-roti/2.jpg",
-      "/frontend/images/foods/haryana/bajra-roti/3.jpg"
+      "./images/foods/haryana/bajra-roti/1.jpg",
+      "./images/foods/haryana/bajra-roti/2.jpg",
+      "./images/foods/haryana/bajra-roti/3.jpg"
     ]
   },
   {
@@ -399,9 +399,9 @@
     "rating": "4.1",
     "price": 483,
     "images": [
-      "/frontend/images/foods/haryana/kadhi/1.jpg",
-      "/frontend/images/foods/haryana/kadhi/2.jpg",
-      "/frontend/images/foods/haryana/kadhi/3.jpg"
+      "./images/foods/haryana/kadhi/1.jpg",
+      "./images/foods/haryana/kadhi/2.jpg",
+      "./images/foods/haryana/kadhi/3.jpg"
     ]
   },
   {
@@ -413,9 +413,9 @@
     "rating": "4.6",
     "price": 240,
     "images": [
-      "/frontend/images/foods/haryana/lassi/1.jpg",
-      "/frontend/images/foods/haryana/lassi/2.jpg",
-      "/frontend/images/foods/haryana/lassi/3.jpg"
+      "./images/foods/haryana/lassi/1.jpg",
+      "./images/foods/haryana/lassi/2.jpg",
+      "./images/foods/haryana/lassi/3.jpg"
     ]
   },
   {
@@ -427,9 +427,9 @@
     "rating": "4.5",
     "price": 290,
     "images": [
-      "/frontend/images/foods/himachal-pradesh/dham/1.jpg",
-      "/frontend/images/foods/himachal-pradesh/dham/2.jpg",
-      "/frontend/images/foods/himachal-pradesh/dham/3.jpg"
+      "./images/foods/himachal-pradesh/dham/1.jpg",
+      "./images/foods/himachal-pradesh/dham/2.jpg",
+      "./images/foods/himachal-pradesh/dham/3.jpg"
     ]
   },
   {
@@ -441,9 +441,9 @@
     "rating": "4.1",
     "price": 256,
     "images": [
-      "/frontend/images/foods/himachal-pradesh/siddu/1.jpg",
-      "/frontend/images/foods/himachal-pradesh/siddu/2.jpg",
-      "/frontend/images/foods/himachal-pradesh/siddu/3.jpg"
+      "./images/foods/himachal-pradesh/siddu/1.jpg",
+      "./images/foods/himachal-pradesh/siddu/2.jpg",
+      "./images/foods/himachal-pradesh/siddu/3.jpg"
     ]
   },
   {
@@ -455,8 +455,8 @@
     "rating": "4.0",
     "price": 367,
     "images": [
-      "/frontend/images/foods/himachal-pradesh/momos/2.jpg",
-      "/frontend/images/foods/himachal-pradesh/momos/3.jpg"
+      "./images/foods/himachal-pradesh/momos/2.jpg",
+      "./images/foods/himachal-pradesh/momos/3.jpg"
     ]
   },
   {
@@ -468,9 +468,9 @@
     "rating": "4.6",
     "price": 456,
     "images": [
-      "/frontend/images/foods/jharkhand/dhuska/1.jpg",
-      "/frontend/images/foods/jharkhand/dhuska/2.jpg",
-      "/frontend/images/foods/jharkhand/dhuska/3.jpg"
+      "./images/foods/jharkhand/dhuska/1.jpg",
+      "./images/foods/jharkhand/dhuska/2.jpg",
+      "./images/foods/jharkhand/dhuska/3.jpg"
     ]
   },
   {
@@ -482,9 +482,9 @@
     "rating": "4.5",
     "price": 136,
     "images": [
-      "/frontend/images/foods/jharkhand/rugra/1.jpg",
-      "/frontend/images/foods/jharkhand/rugra/2.jpg",
-      "/frontend/images/foods/jharkhand/rugra/3.jpg"
+      "./images/foods/jharkhand/rugra/1.jpg",
+      "./images/foods/jharkhand/rugra/2.jpg",
+      "./images/foods/jharkhand/rugra/3.jpg"
     ]
   },
   {
@@ -496,9 +496,9 @@
     "rating": "4.1",
     "price": 468,
     "images": [
-      "/frontend/images/foods/jharkhand/thekua/1.jpg",
-      "/frontend/images/foods/jharkhand/thekua/2.jpg",
-      "/frontend/images/foods/jharkhand/thekua/3.jpg"
+      "./images/foods/jharkhand/thekua/1.jpg",
+      "./images/foods/jharkhand/thekua/2.jpg",
+      "./images/foods/jharkhand/thekua/3.jpg"
     ]
   },
   {
@@ -510,9 +510,9 @@
     "rating": "4.1",
     "price": 379,
     "images": [
-      "/frontend/images/foods/karnataka/mysore-masala-dosa/1.jpg",
-      "/frontend/images/foods/karnataka/mysore-masala-dosa/2.jpg",
-      "/frontend/images/foods/karnataka/mysore-masala-dosa/3.jpg"
+      "./images/foods/karnataka/mysore-masala-dosa/1.jpg",
+      "./images/foods/karnataka/mysore-masala-dosa/2.jpg",
+      "./images/foods/karnataka/mysore-masala-dosa/3.jpg"
     ]
   },
   {
@@ -524,9 +524,9 @@
     "rating": "4.8",
     "price": 195,
     "images": [
-      "/frontend/images/foods/karnataka/bisi-bele-bath/1.jpg",
-      "/frontend/images/foods/karnataka/bisi-bele-bath/2.jpg",
-      "/frontend/images/foods/karnataka/bisi-bele-bath/3.jpg"
+      "./images/foods/karnataka/bisi-bele-bath/1.jpg",
+      "./images/foods/karnataka/bisi-bele-bath/2.jpg",
+      "./images/foods/karnataka/bisi-bele-bath/3.jpg"
     ]
   },
   {
@@ -538,9 +538,9 @@
     "rating": "4.3",
     "price": 282,
     "images": [
-      "/frontend/images/foods/karnataka/ragi-mudde/1.jpg",
-      "/frontend/images/foods/karnataka/ragi-mudde/2.jpg",
-      "/frontend/images/foods/karnataka/ragi-mudde/3.jpg"
+      "./images/foods/karnataka/ragi-mudde/1.jpg",
+      "./images/foods/karnataka/ragi-mudde/2.jpg",
+      "./images/foods/karnataka/ragi-mudde/3.jpg"
     ]
   },
   {
@@ -552,9 +552,9 @@
     "rating": "4.2",
     "price": 238,
     "images": [
-      "/frontend/images/foods/karnataka/neer-dosa/1.jpg",
-      "/frontend/images/foods/karnataka/neer-dosa/2.jpg",
-      "/frontend/images/foods/karnataka/neer-dosa/3.jpg"
+      "./images/foods/karnataka/neer-dosa/1.jpg",
+      "./images/foods/karnataka/neer-dosa/2.jpg",
+      "./images/foods/karnataka/neer-dosa/3.jpg"
     ]
   },
   {
@@ -566,9 +566,9 @@
     "rating": "4.6",
     "price": 275,
     "images": [
-      "/frontend/images/foods/kerala/kerala-sadya/1.jpg",
-      "/frontend/images/foods/kerala/kerala-sadya/2.jpg",
-      "/frontend/images/foods/kerala/kerala-sadya/3.jpg"
+      "./images/foods/kerala/kerala-sadya/1.jpg",
+      "./images/foods/kerala/kerala-sadya/2.jpg",
+      "./images/foods/kerala/kerala-sadya/3.jpg"
     ]
   },
   {
@@ -580,9 +580,9 @@
     "rating": "4.2",
     "price": 300,
     "images": [
-      "/frontend/images/foods/kerala/appam/1.jpg",
-      "/frontend/images/foods/kerala/appam/2.jpg",
-      "/frontend/images/foods/kerala/appam/3.jpg"
+      "./images/foods/kerala/appam/1.jpg",
+      "./images/foods/kerala/appam/2.jpg",
+      "./images/foods/kerala/appam/3.jpg"
     ]
   },
   {
@@ -594,9 +594,9 @@
     "rating": "4.0",
     "price": 342,
     "images": [
-      "/frontend/images/foods/kerala/puttu/1.jpg",
-      "/frontend/images/foods/kerala/puttu/2.jpg",
-      "/frontend/images/foods/kerala/puttu/3.jpg"
+      "./images/foods/kerala/puttu/1.jpg",
+      "./images/foods/kerala/puttu/2.jpg",
+      "./images/foods/kerala/puttu/3.jpg"
     ]
   },
   {
@@ -608,9 +608,9 @@
     "rating": "4.7",
     "price": 168,
     "images": [
-      "/frontend/images/foods/kerala/fish-curry/1.jpg",
-      "/frontend/images/foods/kerala/fish-curry/2.jpg",
-      "/frontend/images/foods/kerala/fish-curry/3.jpg"
+      "./images/foods/kerala/fish-curry/1.jpg",
+      "./images/foods/kerala/fish-curry/2.jpg",
+      "./images/foods/kerala/fish-curry/3.jpg"
     ]
   },
   {
@@ -622,9 +622,9 @@
     "rating": "4.7",
     "price": 301,
     "images": [
-      "/frontend/images/foods/kerala/beef-roast/1.jpg",
-      "/frontend/images/foods/kerala/beef-roast/2.jpg",
-      "/frontend/images/foods/kerala/beef-roast/3.jpg"
+      "./images/foods/kerala/beef-roast/1.jpg",
+      "./images/foods/kerala/beef-roast/2.jpg",
+      "./images/foods/kerala/beef-roast/3.jpg"
     ]
   },
   {
@@ -636,9 +636,9 @@
     "rating": "4.6",
     "price": 257,
     "images": [
-      "/frontend/images/foods/madhya-pradesh/poha/1.jpg",
-      "/frontend/images/foods/madhya-pradesh/poha/2.jpg",
-      "/frontend/images/foods/madhya-pradesh/poha/3.jpg"
+      "./images/foods/madhya-pradesh/poha/1.jpg",
+      "./images/foods/madhya-pradesh/poha/2.jpg",
+      "./images/foods/madhya-pradesh/poha/3.jpg"
     ]
   },
   {
@@ -650,9 +650,9 @@
     "rating": "4.1",
     "price": 338,
     "images": [
-      "/frontend/images/foods/madhya-pradesh/bhutte-ka-kees/1.jpg",
-      "/frontend/images/foods/madhya-pradesh/bhutte-ka-kees/2.jpg",
-      "/frontend/images/foods/madhya-pradesh/bhutte-ka-kees/3.jpg"
+      "./images/foods/madhya-pradesh/bhutte-ka-kees/1.jpg",
+      "./images/foods/madhya-pradesh/bhutte-ka-kees/2.jpg",
+      "./images/foods/madhya-pradesh/bhutte-ka-kees/3.jpg"
     ]
   },
   {
@@ -664,9 +664,9 @@
     "rating": "4.3",
     "price": 177,
     "images": [
-      "/frontend/images/foods/madhya-pradesh/dal-bafla/1.jpg",
-      "/frontend/images/foods/madhya-pradesh/dal-bafla/2.jpg",
-      "/frontend/images/foods/madhya-pradesh/dal-bafla/3.jpg"
+      "./images/foods/madhya-pradesh/dal-bafla/1.jpg",
+      "./images/foods/madhya-pradesh/dal-bafla/2.jpg",
+      "./images/foods/madhya-pradesh/dal-bafla/3.jpg"
     ]
   },
   {
@@ -678,9 +678,9 @@
     "rating": "4.8",
     "price": 114,
     "images": [
-      "/frontend/images/foods/maharashtra/vada-pav/1.jpg",
-      "/frontend/images/foods/maharashtra/vada-pav/2.jpg",
-      "/frontend/images/foods/maharashtra/vada-pav/3.jpg"
+      "./images/foods/maharashtra/vada-pav/1.jpg",
+      "./images/foods/maharashtra/vada-pav/2.jpg",
+      "./images/foods/maharashtra/vada-pav/3.jpg"
     ]
   },
   {
@@ -692,9 +692,9 @@
     "rating": "5.0",
     "price": 320,
     "images": [
-      "/frontend/images/foods/maharashtra/misal-pav/1.jpg",
-      "/frontend/images/foods/maharashtra/misal-pav/2.jpg",
-      "/frontend/images/foods/maharashtra/misal-pav/3.jpg"
+      "./images/foods/maharashtra/misal-pav/1.jpg",
+      "./images/foods/maharashtra/misal-pav/2.jpg",
+      "./images/foods/maharashtra/misal-pav/3.jpg"
     ]
   },
   {
@@ -706,9 +706,9 @@
     "rating": "4.7",
     "price": 126,
     "images": [
-      "/frontend/images/foods/maharashtra/pav-bhaji/1.jpg",
-      "/frontend/images/foods/maharashtra/pav-bhaji/2.jpg",
-      "/frontend/images/foods/maharashtra/pav-bhaji/3.jpg"
+      "./images/foods/maharashtra/pav-bhaji/1.jpg",
+      "./images/foods/maharashtra/pav-bhaji/2.jpg",
+      "./images/foods/maharashtra/pav-bhaji/3.jpg"
     ]
   },
   {
@@ -720,9 +720,9 @@
     "rating": "4.4",
     "price": 380,
     "images": [
-      "/frontend/images/foods/maharashtra/puran-poli/1.jpg",
-      "/frontend/images/foods/maharashtra/puran-poli/2.jpg",
-      "/frontend/images/foods/maharashtra/puran-poli/3.jpg"
+      "./images/foods/maharashtra/puran-poli/1.jpg",
+      "./images/foods/maharashtra/puran-poli/2.jpg",
+      "./images/foods/maharashtra/puran-poli/3.jpg"
     ]
   },
   {
@@ -734,9 +734,9 @@
     "rating": "4.6",
     "price": 286,
     "images": [
-      "/frontend/images/foods/maharashtra/bhel-puri/1.jpg",
-      "/frontend/images/foods/maharashtra/bhel-puri/2.jpg",
-      "/frontend/images/foods/maharashtra/bhel-puri/3.jpg"
+      "./images/foods/maharashtra/bhel-puri/1.jpg",
+      "./images/foods/maharashtra/bhel-puri/2.jpg",
+      "./images/foods/maharashtra/bhel-puri/3.jpg"
     ]
   },
   {
@@ -748,9 +748,9 @@
     "rating": "4.4",
     "price": 224,
     "images": [
-      "/frontend/images/foods/maharashtra/panipuri/1.jpg",
-      "/frontend/images/foods/maharashtra/panipuri/2.jpg",
-      "/frontend/images/foods/maharashtra/panipuri/3.jpg"
+      "./images/foods/maharashtra/panipuri/1.jpg",
+      "./images/foods/maharashtra/panipuri/2.jpg",
+      "./images/foods/maharashtra/panipuri/3.jpg"
     ]
   },
   {
@@ -762,9 +762,9 @@
     "rating": "4.1",
     "price": 382,
     "images": [
-      "/frontend/images/foods/manipur/eromba/1.jpg",
-      "/frontend/images/foods/manipur/eromba/2.jpg",
-      "/frontend/images/foods/manipur/eromba/3.jpg"
+      "./images/foods/manipur/eromba/1.jpg",
+      "./images/foods/manipur/eromba/2.jpg",
+      "./images/foods/manipur/eromba/3.jpg"
     ]
   },
   {
@@ -776,9 +776,9 @@
     "rating": "4.8",
     "price": 255,
     "images": [
-      "/frontend/images/foods/manipur/singju/1.jpg",
-      "/frontend/images/foods/manipur/singju/2.jpg",
-      "/frontend/images/foods/manipur/singju/3.jpg"
+      "./images/foods/manipur/singju/1.jpg",
+      "./images/foods/manipur/singju/2.jpg",
+      "./images/foods/manipur/singju/3.jpg"
     ]
   },
   {
@@ -790,9 +790,9 @@
     "rating": "4.4",
     "price": 282,
     "images": [
-      "/frontend/images/foods/meghalaya/jadoh/1.jpg",
-      "/frontend/images/foods/meghalaya/jadoh/2.jpg",
-      "/frontend/images/foods/meghalaya/jadoh/3.jpg"
+      "./images/foods/meghalaya/jadoh/1.jpg",
+      "./images/foods/meghalaya/jadoh/2.jpg",
+      "./images/foods/meghalaya/jadoh/3.jpg"
     ]
   },
   {
@@ -804,9 +804,9 @@
     "rating": "4.2",
     "price": 243,
     "images": [
-      "/frontend/images/foods/meghalaya/dohneiihong/1.jpg",
-      "/frontend/images/foods/meghalaya/dohneiihong/2.jpg",
-      "/frontend/images/foods/meghalaya/dohneiihong/3.jpg"
+      "./images/foods/meghalaya/dohneiihong/1.jpg",
+      "./images/foods/meghalaya/dohneiihong/2.jpg",
+      "./images/foods/meghalaya/dohneiihong/3.jpg"
     ]
   },
   {
@@ -818,9 +818,9 @@
     "rating": "4.9",
     "price": 280,
     "images": [
-      "/frontend/images/foods/mizoram/bai/1.jpg",
-      "/frontend/images/foods/mizoram/bai/2.jpg",
-      "/frontend/images/foods/mizoram/bai/3.jpg"
+      "./images/foods/mizoram/bai/1.jpg",
+      "./images/foods/mizoram/bai/2.jpg",
+      "./images/foods/mizoram/bai/3.jpg"
     ]
   },
   {
@@ -832,9 +832,9 @@
     "rating": "4.2",
     "price": 187,
     "images": [
-      "/frontend/images/foods/mizoram/vawksa-rep/1.jpg",
-      "/frontend/images/foods/mizoram/vawksa-rep/2.jpg",
-      "/frontend/images/foods/mizoram/vawksa-rep/3.jpg"
+      "./images/foods/mizoram/vawksa-rep/1.jpg",
+      "./images/foods/mizoram/vawksa-rep/2.jpg",
+      "./images/foods/mizoram/vawksa-rep/3.jpg"
     ]
   },
   {
@@ -846,9 +846,9 @@
     "rating": "4.0",
     "price": 218,
     "images": [
-      "/frontend/images/foods/nagaland/smoked-pork/1.jpg",
-      "/frontend/images/foods/nagaland/smoked-pork/2.jpg",
-      "/frontend/images/foods/nagaland/smoked-pork/3.jpg"
+      "./images/foods/nagaland/smoked-pork/1.jpg",
+      "./images/foods/nagaland/smoked-pork/2.jpg",
+      "./images/foods/nagaland/smoked-pork/3.jpg"
     ]
   },
   {
@@ -860,9 +860,9 @@
     "rating": "4.9",
     "price": 220,
     "images": [
-      "/frontend/images/foods/nagaland/axone-curry/1.jpg",
-      "/frontend/images/foods/nagaland/axone-curry/2.jpg",
-      "/frontend/images/foods/nagaland/axone-curry/3.jpg"
+      "./images/foods/nagaland/axone-curry/1.jpg",
+      "./images/foods/nagaland/axone-curry/2.jpg",
+      "./images/foods/nagaland/axone-curry/3.jpg"
     ]
   },
   {
@@ -874,9 +874,9 @@
     "rating": "4.2",
     "price": 443,
     "images": [
-      "/frontend/images/foods/odisha/dalma/1.jpg",
-      "/frontend/images/foods/odisha/dalma/2.jpg",
-      "/frontend/images/foods/odisha/dalma/3.jpg"
+      "./images/foods/odisha/dalma/1.jpg",
+      "./images/foods/odisha/dalma/2.jpg",
+      "./images/foods/odisha/dalma/3.jpg"
     ]
   },
   {
@@ -888,9 +888,9 @@
     "rating": "4.4",
     "price": 300,
     "images": [
-      "/frontend/images/foods/odisha/pakhala-bhata/1.jpg",
-      "/frontend/images/foods/odisha/pakhala-bhata/2.jpg",
-      "/frontend/images/foods/odisha/pakhala-bhata/3.jpg"
+      "./images/foods/odisha/pakhala-bhata/1.jpg",
+      "./images/foods/odisha/pakhala-bhata/2.jpg",
+      "./images/foods/odisha/pakhala-bhata/3.jpg"
     ]
   },
   {
@@ -902,9 +902,9 @@
     "rating": "4.0",
     "price": 153,
     "images": [
-      "/frontend/images/foods/odisha/chhena-poda/1.jpg",
-      "/frontend/images/foods/odisha/chhena-poda/2.jpg",
-      "/frontend/images/foods/odisha/chhena-poda/3.jpg"
+      "./images/foods/odisha/chhena-poda/1.jpg",
+      "./images/foods/odisha/chhena-poda/2.jpg",
+      "./images/foods/odisha/chhena-poda/3.jpg"
     ]
   },
   {
@@ -916,9 +916,9 @@
     "rating": "5.0",
     "price": 122,
     "images": [
-      "/frontend/images/foods/punjab/butter-chicken/1.jpg",
-      "/frontend/images/foods/punjab/butter-chicken/2.jpg",
-      "/frontend/images/foods/punjab/butter-chicken/3.jpg"
+      "./images/foods/punjab/butter-chicken/1.jpg",
+      "./images/foods/punjab/butter-chicken/2.jpg",
+      "./images/foods/punjab/butter-chicken/3.jpg"
     ]
   },
   {
@@ -930,9 +930,9 @@
     "rating": "4.4",
     "price": 115,
     "images": [
-      "/frontend/images/foods/punjab/amritsari-kulcha/1.jpg",
-      "/frontend/images/foods/punjab/amritsari-kulcha/2.jpg",
-      "/frontend/images/foods/punjab/amritsari-kulcha/3.jpg"
+      "./images/foods/punjab/amritsari-kulcha/1.jpg",
+      "./images/foods/punjab/amritsari-kulcha/2.jpg",
+      "./images/foods/punjab/amritsari-kulcha/3.jpg"
     ]
   },
   {
@@ -944,9 +944,9 @@
     "rating": "4.3",
     "price": 444,
     "images": [
-      "/frontend/images/foods/punjab/sarson-saag/1.jpg",
-      "/frontend/images/foods/punjab/sarson-saag/2.jpg",
-      "/frontend/images/foods/punjab/sarson-saag/3.jpg"
+      "./images/foods/punjab/sarson-saag/1.jpg",
+      "./images/foods/punjab/sarson-saag/2.jpg",
+      "./images/foods/punjab/sarson-saag/3.jpg"
     ]
   },
   {
@@ -958,9 +958,9 @@
     "rating": "4.2",
     "price": 133,
     "images": [
-      "/frontend/images/foods/rajasthan/dal-baati-churma/1.jpg",
-      "/frontend/images/foods/rajasthan/dal-baati-churma/2.jpg",
-      "/frontend/images/foods/rajasthan/dal-baati-churma/3.jpg"
+      "./images/foods/rajasthan/dal-baati-churma/1.jpg",
+      "./images/foods/rajasthan/dal-baati-churma/2.jpg",
+      "./images/foods/rajasthan/dal-baati-churma/3.jpg"
     ]
   },
   {
@@ -972,9 +972,9 @@
     "rating": "4.6",
     "price": 340,
     "images": [
-      "/frontend/images/foods/rajasthan/ghewar/1.jpg",
-      "/frontend/images/foods/rajasthan/ghewar/2.jpg",
-      "/frontend/images/foods/rajasthan/ghewar/3.jpg"
+      "./images/foods/rajasthan/ghewar/1.jpg",
+      "./images/foods/rajasthan/ghewar/2.jpg",
+      "./images/foods/rajasthan/ghewar/3.jpg"
     ]
   },
   {
@@ -986,9 +986,9 @@
     "rating": "4.5",
     "price": 251,
     "images": [
-      "/frontend/images/foods/rajasthan/laal-maas/1.jpg",
-      "/frontend/images/foods/rajasthan/laal-maas/2.jpg",
-      "/frontend/images/foods/rajasthan/laal-maas/3.jpg"
+      "./images/foods/rajasthan/laal-maas/1.jpg",
+      "./images/foods/rajasthan/laal-maas/2.jpg",
+      "./images/foods/rajasthan/laal-maas/3.jpg"
     ]
   },
   {
@@ -1000,8 +1000,8 @@
     "rating": "5.0",
     "price": 353,
     "images": [
-      "/frontend/images/foods/sikkim/momos/2.jpg",
-      "/frontend/images/foods/sikkim/momos/3.jpg"
+      "./images/foods/sikkim/momos/2.jpg",
+      "./images/foods/sikkim/momos/3.jpg"
     ]
   },
   {
@@ -1013,9 +1013,9 @@
     "rating": "4.3",
     "price": 319,
     "images": [
-      "/frontend/images/foods/sikkim/thukpa/1.jpg",
-      "/frontend/images/foods/sikkim/thukpa/2.jpg",
-      "/frontend/images/foods/sikkim/thukpa/3.jpg"
+      "./images/foods/sikkim/thukpa/1.jpg",
+      "./images/foods/sikkim/thukpa/2.jpg",
+      "./images/foods/sikkim/thukpa/3.jpg"
     ]
   },
   {
@@ -1027,9 +1027,9 @@
     "rating": "4.4",
     "price": 257,
     "images": [
-      "/frontend/images/foods/tamil-nadu/dosa/1.jpg",
-      "/frontend/images/foods/tamil-nadu/dosa/2.jpg",
-      "/frontend/images/foods/tamil-nadu/dosa/3.jpg"
+      "./images/foods/tamil-nadu/dosa/1.jpg",
+      "./images/foods/tamil-nadu/dosa/2.jpg",
+      "./images/foods/tamil-nadu/dosa/3.jpg"
     ]
   },
   {
@@ -1041,9 +1041,9 @@
     "rating": "4.7",
     "price": 175,
     "images": [
-      "/frontend/images/foods/tamil-nadu/idli/1.jpg",
-      "/frontend/images/foods/tamil-nadu/idli/2.jpg",
-      "/frontend/images/foods/tamil-nadu/idli/3.jpg"
+      "./images/foods/tamil-nadu/idli/1.jpg",
+      "./images/foods/tamil-nadu/idli/2.jpg",
+      "./images/foods/tamil-nadu/idli/3.jpg"
     ]
   },
   {
@@ -1055,9 +1055,9 @@
     "rating": "4.9",
     "price": 274,
     "images": [
-      "/frontend/images/foods/tamil-nadu/pongal/1.jpg",
-      "/frontend/images/foods/tamil-nadu/pongal/2.jpg",
-      "/frontend/images/foods/tamil-nadu/pongal/3.jpg"
+      "./images/foods/tamil-nadu/pongal/1.jpg",
+      "./images/foods/tamil-nadu/pongal/2.jpg",
+      "./images/foods/tamil-nadu/pongal/3.jpg"
     ]
   },
   {
@@ -1069,9 +1069,9 @@
     "rating": "4.5",
     "price": 398,
     "images": [
-      "/frontend/images/foods/tamil-nadu/chettinad-chicken/1.jpg",
-      "/frontend/images/foods/tamil-nadu/chettinad-chicken/2.jpg",
-      "/frontend/images/foods/tamil-nadu/chettinad-chicken/3.jpg"
+      "./images/foods/tamil-nadu/chettinad-chicken/1.jpg",
+      "./images/foods/tamil-nadu/chettinad-chicken/2.jpg",
+      "./images/foods/tamil-nadu/chettinad-chicken/3.jpg"
     ]
   },
   {
@@ -1083,9 +1083,9 @@
     "rating": "4.9",
     "price": 171,
     "images": [
-      "/frontend/images/foods/tamil-nadu/filter-coffee/1.jpg",
-      "/frontend/images/foods/tamil-nadu/filter-coffee/2.jpg",
-      "/frontend/images/foods/tamil-nadu/filter-coffee/3.jpg"
+      "./images/foods/tamil-nadu/filter-coffee/1.jpg",
+      "./images/foods/tamil-nadu/filter-coffee/2.jpg",
+      "./images/foods/tamil-nadu/filter-coffee/3.jpg"
     ]
   },
   {
@@ -1097,9 +1097,9 @@
     "rating": "4.1",
     "price": 326,
     "images": [
-      "/frontend/images/foods/telangana/hyderabadi-biryani/1.jpg",
-      "/frontend/images/foods/telangana/hyderabadi-biryani/2.jpg",
-      "/frontend/images/foods/telangana/hyderabadi-biryani/3.jpg"
+      "./images/foods/telangana/hyderabadi-biryani/1.jpg",
+      "./images/foods/telangana/hyderabadi-biryani/2.jpg",
+      "./images/foods/telangana/hyderabadi-biryani/3.jpg"
     ]
   },
   {
@@ -1111,9 +1111,9 @@
     "rating": "4.8",
     "price": 452,
     "images": [
-      "/frontend/images/foods/telangana/haleem/1.jpg",
-      "/frontend/images/foods/telangana/haleem/2.jpg",
-      "/frontend/images/foods/telangana/haleem/3.jpg"
+      "./images/foods/telangana/haleem/1.jpg",
+      "./images/foods/telangana/haleem/2.jpg",
+      "./images/foods/telangana/haleem/3.jpg"
     ]
   },
   {
@@ -1125,9 +1125,9 @@
     "rating": "4.4",
     "price": 359,
     "images": [
-      "/frontend/images/foods/tripura/mui-borok/1.jpg",
-      "/frontend/images/foods/tripura/mui-borok/2.jpg",
-      "/frontend/images/foods/tripura/mui-borok/3.jpg"
+      "./images/foods/tripura/mui-borok/1.jpg",
+      "./images/foods/tripura/mui-borok/2.jpg",
+      "./images/foods/tripura/mui-borok/3.jpg"
     ]
   },
   {
@@ -1139,9 +1139,9 @@
     "rating": "4.6",
     "price": 120,
     "images": [
-      "/frontend/images/foods/tripura/bamboo-shoot-curry/1.jpg",
-      "/frontend/images/foods/tripura/bamboo-shoot-curry/2.jpg",
-      "/frontend/images/foods/tripura/bamboo-shoot-curry/3.jpg"
+      "./images/foods/tripura/bamboo-shoot-curry/1.jpg",
+      "./images/foods/tripura/bamboo-shoot-curry/2.jpg",
+      "./images/foods/tripura/bamboo-shoot-curry/3.jpg"
     ]
   },
   {
@@ -1153,9 +1153,9 @@
     "rating": "4.7",
     "price": 386,
     "images": [
-      "/frontend/images/foods/uttar-pradesh/awadhi-biryani/1.jpg",
-      "/frontend/images/foods/uttar-pradesh/awadhi-biryani/2.jpg",
-      "/frontend/images/foods/uttar-pradesh/awadhi-biryani/3.jpg"
+      "./images/foods/uttar-pradesh/awadhi-biryani/1.jpg",
+      "./images/foods/uttar-pradesh/awadhi-biryani/2.jpg",
+      "./images/foods/uttar-pradesh/awadhi-biryani/3.jpg"
     ]
   },
   {
@@ -1167,9 +1167,9 @@
     "rating": "4.5",
     "price": 320,
     "images": [
-      "/frontend/images/foods/uttar-pradesh/tunday-kabab/1.jpg",
-      "/frontend/images/foods/uttar-pradesh/tunday-kabab/2.jpg",
-      "/frontend/images/foods/uttar-pradesh/tunday-kabab/3.jpg"
+      "./images/foods/uttar-pradesh/tunday-kabab/1.jpg",
+      "./images/foods/uttar-pradesh/tunday-kabab/2.jpg",
+      "./images/foods/uttar-pradesh/tunday-kabab/3.jpg"
     ]
   },
   {
@@ -1181,9 +1181,9 @@
     "rating": "4.6",
     "price": 473,
     "images": [
-      "/frontend/images/foods/uttar-pradesh/petha/1.jpg",
-      "/frontend/images/foods/uttar-pradesh/petha/2.jpg",
-      "/frontend/images/foods/uttar-pradesh/petha/3.jpg"
+      "./images/foods/uttar-pradesh/petha/1.jpg",
+      "./images/foods/uttar-pradesh/petha/2.jpg",
+      "./images/foods/uttar-pradesh/petha/3.jpg"
     ]
   },
   {
@@ -1195,9 +1195,9 @@
     "rating": "4.2",
     "price": 232,
     "images": [
-      "/frontend/images/foods/uttarakhand/kafuli/1.jpg",
-      "/frontend/images/foods/uttarakhand/kafuli/2.jpg",
-      "/frontend/images/foods/uttarakhand/kafuli/3.jpg"
+      "./images/foods/uttarakhand/kafuli/1.jpg",
+      "./images/foods/uttarakhand/kafuli/2.jpg",
+      "./images/foods/uttarakhand/kafuli/3.jpg"
     ]
   },
   {
@@ -1209,9 +1209,9 @@
     "rating": "4.8",
     "price": 313,
     "images": [
-      "/frontend/images/foods/uttarakhand/aloo-ke-gutke/1.jpg",
-      "/frontend/images/foods/uttarakhand/aloo-ke-gutke/2.jpg",
-      "/frontend/images/foods/uttarakhand/aloo-ke-gutke/3.jpg"
+      "./images/foods/uttarakhand/aloo-ke-gutke/1.jpg",
+      "./images/foods/uttarakhand/aloo-ke-gutke/2.jpg",
+      "./images/foods/uttarakhand/aloo-ke-gutke/3.jpg"
     ]
   },
   {
@@ -1223,9 +1223,9 @@
     "rating": "4.6",
     "price": 328,
     "images": [
-      "/frontend/images/foods/west-bengal/rasgulla/1.jpg",
-      "/frontend/images/foods/west-bengal/rasgulla/2.jpg",
-      "/frontend/images/foods/west-bengal/rasgulla/3.jpg"
+      "./images/foods/west-bengal/rasgulla/1.jpg",
+      "./images/foods/west-bengal/rasgulla/2.jpg",
+      "./images/foods/west-bengal/rasgulla/3.jpg"
     ]
   },
   {
@@ -1237,9 +1237,9 @@
     "rating": "4.6",
     "price": 277,
     "images": [
-      "/frontend/images/foods/west-bengal/fish-curry/1.jpg",
-      "/frontend/images/foods/west-bengal/fish-curry/2.jpg",
-      "/frontend/images/foods/west-bengal/fish-curry/3.jpg"
+      "./images/foods/west-bengal/fish-curry/1.jpg",
+      "./images/foods/west-bengal/fish-curry/2.jpg",
+      "./images/foods/west-bengal/fish-curry/3.jpg"
     ]
   },
   {
@@ -1251,9 +1251,9 @@
     "rating": "4.1",
     "price": 257,
     "images": [
-      "/frontend/images/foods/west-bengal/mishti-doi/1.jpg",
-      "/frontend/images/foods/west-bengal/mishti-doi/2.jpg",
-      "/frontend/images/foods/west-bengal/mishti-doi/3.jpg"
+      "./images/foods/west-bengal/mishti-doi/1.jpg",
+      "./images/foods/west-bengal/mishti-doi/2.jpg",
+      "./images/foods/west-bengal/mishti-doi/3.jpg"
     ]
   },
   {
@@ -1265,9 +1265,9 @@
     "rating": "4.9",
     "price": 455,
     "images": [
-      "/frontend/images/foods/west-bengal/sandesh/1.jpg",
-      "/frontend/images/foods/west-bengal/sandesh/2.jpg",
-      "/frontend/images/foods/west-bengal/sandesh/3.jpg"
+      "./images/foods/west-bengal/sandesh/1.jpg",
+      "./images/foods/west-bengal/sandesh/2.jpg",
+      "./images/foods/west-bengal/sandesh/3.jpg"
     ]
   },
   {
@@ -1279,9 +1279,9 @@
     "rating": "4.3",
     "price": 244,
     "images": [
-      "/frontend/images/foods/delhi/chole-bhature/1.jpg",
-      "/frontend/images/foods/delhi/chole-bhature/2.jpg",
-      "/frontend/images/foods/delhi/chole-bhature/3.jpg"
+      "./images/foods/delhi/chole-bhature/1.jpg",
+      "./images/foods/delhi/chole-bhature/2.jpg",
+      "./images/foods/delhi/chole-bhature/3.jpg"
     ]
   },
   {
@@ -1293,9 +1293,9 @@
     "rating": "4.6",
     "price": 443,
     "images": [
-      "/frontend/images/foods/delhi/paratha/1.jpg",
-      "/frontend/images/foods/delhi/paratha/2.jpg",
-      "/frontend/images/foods/delhi/paratha/3.jpg"
+      "./images/foods/delhi/paratha/1.jpg",
+      "./images/foods/delhi/paratha/2.jpg",
+      "./images/foods/delhi/paratha/3.jpg"
     ]
   },
   {
@@ -1307,9 +1307,9 @@
     "rating": "4.0",
     "price": 363,
     "images": [
-      "/frontend/images/foods/delhi/kebabs/1.jpg",
-      "/frontend/images/foods/delhi/kebabs/2.jpg",
-      "/frontend/images/foods/delhi/kebabs/3.jpg"
+      "./images/foods/delhi/kebabs/1.jpg",
+      "./images/foods/delhi/kebabs/2.jpg",
+      "./images/foods/delhi/kebabs/3.jpg"
     ]
   },
   {
@@ -1321,9 +1321,9 @@
     "rating": "4.1",
     "price": 403,
     "images": [
-      "/frontend/images/foods/delhi/butter-chicken/1.jpg",
-      "/frontend/images/foods/delhi/butter-chicken/2.jpg",
-      "/frontend/images/foods/delhi/butter-chicken/3.jpg"
+      "./images/foods/delhi/butter-chicken/1.jpg",
+      "./images/foods/delhi/butter-chicken/2.jpg",
+      "./images/foods/delhi/butter-chicken/3.jpg"
     ]
   },
   {
@@ -1335,9 +1335,9 @@
     "rating": "5.0",
     "price": 326,
     "images": [
-      "/frontend/images/foods/delhi/dal-makhani/1.jpg",
-      "/frontend/images/foods/delhi/dal-makhani/2.jpg",
-      "/frontend/images/foods/delhi/dal-makhani/3.jpg"
+      "./images/foods/delhi/dal-makhani/1.jpg",
+      "./images/foods/delhi/dal-makhani/2.jpg",
+      "./images/foods/delhi/dal-makhani/3.jpg"
     ]
   },
   {
@@ -1349,9 +1349,9 @@
     "rating": "4.6",
     "price": 312,
     "images": [
-      "/frontend/images/foods/jammu-kashmir/rogan-josh/1.jpg",
-      "/frontend/images/foods/jammu-kashmir/rogan-josh/2.jpg",
-      "/frontend/images/foods/jammu-kashmir/rogan-josh/3.jpg"
+      "./images/foods/jammu-kashmir/rogan-josh/1.jpg",
+      "./images/foods/jammu-kashmir/rogan-josh/2.jpg",
+      "./images/foods/jammu-kashmir/rogan-josh/3.jpg"
     ]
   },
   {
@@ -1363,9 +1363,9 @@
     "rating": "4.1",
     "price": 152,
     "images": [
-      "/frontend/images/foods/jammu-kashmir/kahwa/1.jpg",
-      "/frontend/images/foods/jammu-kashmir/kahwa/2.jpg",
-      "/frontend/images/foods/jammu-kashmir/kahwa/3.jpg"
+      "./images/foods/jammu-kashmir/kahwa/1.jpg",
+      "./images/foods/jammu-kashmir/kahwa/2.jpg",
+      "./images/foods/jammu-kashmir/kahwa/3.jpg"
     ]
   },
   {
@@ -1377,9 +1377,9 @@
     "rating": "4.2",
     "price": 102,
     "images": [
-      "/frontend/images/foods/ladakh/skyu/1.jpg",
-      "/frontend/images/foods/ladakh/skyu/2.jpg",
-      "/frontend/images/foods/ladakh/skyu/3.jpg"
+      "./images/foods/ladakh/skyu/1.jpg",
+      "./images/foods/ladakh/skyu/2.jpg",
+      "./images/foods/ladakh/skyu/3.jpg"
     ]
   },
   {
@@ -1391,9 +1391,9 @@
     "rating": "4.7",
     "price": 452,
     "images": [
-      "/frontend/images/foods/ladakh/thukpa/1.jpg",
-      "/frontend/images/foods/ladakh/thukpa/2.jpg",
-      "/frontend/images/foods/ladakh/thukpa/3.jpg"
+      "./images/foods/ladakh/thukpa/1.jpg",
+      "./images/foods/ladakh/thukpa/2.jpg",
+      "./images/foods/ladakh/thukpa/3.jpg"
     ]
   },
   {
@@ -1405,9 +1405,9 @@
     "rating": "4.3",
     "price": 218,
     "images": [
-      "/frontend/images/foods/puducherry/french-indian-cuisine/1.jpg",
-      "/frontend/images/foods/puducherry/french-indian-cuisine/2.jpg",
-      "/frontend/images/foods/puducherry/french-indian-cuisine/3.jpg"
+      "./images/foods/puducherry/french-indian-cuisine/1.jpg",
+      "./images/foods/puducherry/french-indian-cuisine/2.jpg",
+      "./images/foods/puducherry/french-indian-cuisine/3.jpg"
     ]
   },
   {
@@ -1419,9 +1419,9 @@
     "rating": "4.7",
     "price": 268,
     "images": [
-      "/frontend/images/foods/puducherry/seafood/1.jpg",
-      "/frontend/images/foods/puducherry/seafood/2.jpg",
-      "/frontend/images/foods/puducherry/seafood/3.jpg"
+      "./images/foods/puducherry/seafood/1.jpg",
+      "./images/foods/puducherry/seafood/2.jpg",
+      "./images/foods/puducherry/seafood/3.jpg"
     ]
   },
   {
@@ -1433,9 +1433,9 @@
     "rating": "4.5",
     "price": 466,
     "images": [
-      "/frontend/images/foods/andaman/seafood-platter/1.jpg",
-      "/frontend/images/foods/andaman/seafood-platter/2.jpg",
-      "/frontend/images/foods/andaman/seafood-platter/3.jpg"
+      "./images/foods/andaman/seafood-platter/1.jpg",
+      "./images/foods/andaman/seafood-platter/2.jpg",
+      "./images/foods/andaman/seafood-platter/3.jpg"
     ]
   },
   {
@@ -1447,9 +1447,9 @@
     "rating": "4.7",
     "price": 173,
     "images": [
-      "/frontend/images/foods/lakshadweep/tuna-curry/1.jpg",
-      "/frontend/images/foods/lakshadweep/tuna-curry/2.jpg",
-      "/frontend/images/foods/lakshadweep/tuna-curry/3.jpg"
+      "./images/foods/lakshadweep/tuna-curry/1.jpg",
+      "./images/foods/lakshadweep/tuna-curry/2.jpg",
+      "./images/foods/lakshadweep/tuna-curry/3.jpg"
     ]
   }
 ]
