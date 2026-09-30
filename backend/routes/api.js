@@ -92,6 +92,10 @@ router.post('/booking', async (req, res) => {
             // New hotel booking flow
             query = `INSERT INTO Bookings (user_id, item_type, item_id, booking_date, hotel_name, hotel_image, price, check_in, check_out, guests, place_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`;
             params = [user_id, 'hotel', item_id || null, booking_date, hotel_name, hotel_image, price, check_in, check_out, guests, place_name];
+        } else if (item_type === 'tour') {
+            const { tour_tier, tour_pax, special_requests, booking_ref } = req.body;
+            query = `INSERT INTO Bookings (user_id, item_type, item_id, booking_date, place_name, price, tour_tier, tour_pax, special_requests, booking_ref, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'confirmed')`;
+            params = [user_id, 'tour', item_id || null, booking_date, place_name, price, tour_tier, tour_pax, special_requests, booking_ref];
         } else {
             // Fallback for older booking calls if they still exist
             const { hotel_id, transport_id } = req.body;

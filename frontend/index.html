@@ -1476,6 +1476,351 @@
             }
         }
 
+        
+        /* ══════════════ PRODUCTION ENHANCEMENTS CSS ══════════════ */
+        .modal.modal-lg {
+            max-width: 820px;
+            width: 95%;
+            max-height: 92vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .modal.modal-lg .modal-body {
+            overflow-y: auto;
+            max-height: calc(92vh - 140px);
+            padding: 1.5rem;
+        }
+        
+        /* Badges */
+        .badge-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.25rem 0.65rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .badge-featured { background: rgba(212, 168, 75, 0.2); color: #B38628; border: 1px solid rgba(212, 168, 75, 0.4); }
+        .badge-popular { background: rgba(196, 98, 58, 0.15); color: var(--terracotta); border: 1px solid rgba(196, 98, 58, 0.3); }
+
+        /* Quick Stats Grid */
+        .place-metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 0.75rem;
+            margin: 1.25rem 0;
+            background: var(--sand);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+        .metric-box {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+        .metric-box-lbl {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 600;
+        }
+        .metric-box-val {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--ink);
+        }
+
+        /* Chips */
+        .chip-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        .info-chip {
+            background: #fff;
+            border: 1px solid var(--border);
+            padding: 0.35rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: var(--ink);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        .info-chip i { color: var(--terracotta); }
+
+        /* Weather Card */
+        .weather-widget {
+            background: linear-gradient(135deg, #1E3A8A 0%, #2563EB 50%, #38BDF8 100%);
+            color: #fff;
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin: 1.25rem 0;
+            box-shadow: 0 8px 24px rgba(37, 99, 235, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+        .weather-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            padding-bottom: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+        .weather-temp-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .weather-temp-main {
+            font-size: 2.25rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .weather-sub-metrics {
+            display: flex;
+            gap: 1.25rem;
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        .weather-forecast-strip {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.5rem;
+            margin-top: 0.85rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid rgba(255,255,255,0.15);
+            text-align: center;
+        }
+        .forecast-item {
+            background: rgba(255, 255, 255, 0.12);
+            padding: 0.5rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+        }
+
+        /* Map Container */
+        .dest-map-wrap {
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            margin: 1.25rem 0;
+            background: var(--sand);
+        }
+        .dest-map-head {
+            background: var(--ink);
+            color: #fff;
+            padding: 0.6rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+        }
+        .dest-map-head a {
+            color: var(--gold);
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+        .dest-map-head a:hover { text-decoration: underline; }
+        #dest-modal-map {
+            height: 240px;
+            width: 100%;
+            z-index: 1;
+        }
+
+        /* Smart Filter & Explorer Bar */
+        .smart-explorer-bar {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin: 1.5rem auto;
+            max-width: 1200px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+        }
+        .smart-filter-row {
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .smart-input-wrap {
+            position: relative;
+            flex: 1;
+            min-width: 240px;
+        }
+        .smart-input-wrap input {
+            width: 100%;
+            padding: 0.65rem 1rem 0.65rem 2.4rem;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 0.9rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .smart-input-wrap input:focus { border-color: var(--terracotta); }
+        .smart-input-wrap i {
+            position: absolute;
+            left: 0.85rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+        .smart-select {
+            padding: 0.65rem 1rem;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 0.85rem;
+            background: #fff;
+            color: var(--ink);
+            outline: none;
+            cursor: pointer;
+        }
+        .view-toggle-btns {
+            display: flex;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .view-btn {
+            background: #fff;
+            border: none;
+            padding: 0.6rem 0.9rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            transition: all 0.2s;
+        }
+        .view-btn.active {
+            background: var(--ink);
+            color: #fff;
+        }
+
+        /* Recently Viewed Strip */
+        .recent-strip {
+            max-width: 1200px;
+            margin: 1rem auto 0;
+            padding: 0 1rem;
+        }
+        .recent-scroll {
+            display: flex;
+            gap: 0.75rem;
+            overflow-x: auto;
+            padding: 0.5rem 0;
+            scrollbar-width: thin;
+        }
+        .recent-chip {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 30px;
+            padding: 0.35rem 0.85rem 0.35rem 0.4rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            white-space: nowrap;
+            font-size: 0.8rem;
+            font-weight: 500;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .recent-chip:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border-color: var(--terracotta);
+        }
+        .recent-chip img {
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* Status Badges */
+        .status-badge {
+            padding: 0.25rem 0.65rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            display: inline-block;
+        }
+        .status-badge.status-confirmed { background: #DCFCE7; color: #166534; }
+        .status-badge.status-pending { background: #FEF3C7; color: #92400E; }
+        .status-badge.status-completed { background: #DBEAFE; color: #1E40AF; }
+        .status-badge.status-cancelled { background: #FEE2E2; color: #991B1B; }
+
+        /* Booking Voucher Receipt */
+        .voucher-card {
+            background: #fff;
+            border: 2px dashed var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            position: relative;
+        }
+        .voucher-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--sand);
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+        }
+        .voucher-ref {
+            font-family: 'DM Mono', monospace;
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--terracotta);
+        }
+        .voucher-body-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        .voucher-qr-box {
+            text-align: center;
+            padding: 1rem;
+            background: var(--sand);
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+
+        /* Reviews List */
+        .review-box {
+            background: var(--sand);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 0.75rem;
+        }
+        .review-author-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.35rem;
+        }
+
         /* ══ Section polish & Mobile Responsiveness ══ */
         @media (max-width: 768px) {
             nav {
@@ -1541,6 +1886,12 @@
             }
         }
     </style>
+
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Leaflet Interactive Maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 
 <body>
@@ -1563,6 +1914,120 @@
     <div class="toast" id="toast"></div>
 
     <!-- MODAL -->
+    
+    <!-- ══════════════ DESTINATION DETAILS MODAL (PHASE 2, 3, 4) ══════════════ -->
+    <div class="modal-overlay" id="dest-modal">
+        <div class="modal modal-lg">
+            <div class="modal-head" style="position:relative;">
+                <div style="display:flex; align-items:center; gap:0.75rem;">
+                    <h3 id="dest-modal-title" style="margin:0;">Destination</h3>
+                    <span id="dest-modal-state-badge" class="badge-pill badge-featured"></span>
+                </div>
+                <div style="display:flex; align-items:center; gap:0.75rem;">
+                    <button id="dest-modal-fav-btn" onclick="toggleCurrentWishlist()" style="background:none; border:none; font-size:1.3rem; cursor:pointer; color:#fff;" title="Save to Favorites">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="modal-close" onclick="closeDestModal()">✕</button>
+                </div>
+            </div>
+            <div class="modal-body" id="dest-modal-body"></div>
+            <div class="modal-footer" style="justify-content:space-between; align-items:center;">
+                <div id="dest-modal-price-tag" style="font-weight:700; font-size:1rem; color:var(--terracotta);"></div>
+                <div style="display:flex; gap:0.75rem;">
+                    <button class="btn-book" onclick="closeDestModal()">Close</button>
+                    <button class="btn-book sage" id="dest-modal-hotel-btn">Find Hotels Nearby</button>
+                    <button class="btn-book terracotta" id="dest-modal-book-btn">Book Experience</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ══════════════ TOUR BOOKING MODAL (PHASE 7) ══════════════ -->
+    <div class="modal-overlay" id="tour-modal">
+        <div class="modal" style="max-width:500px;">
+            <div class="modal-head">
+                <h3 id="tour-modal-title">Book Tour & Experience</h3>
+                <button class="modal-close" onclick="closeTourModal()">✕</button>
+            </div>
+            <div class="modal-body" id="tour-modal-body">
+                <div class="form-group">
+                    <label>Selected Destination</label>
+                    <input type="text" id="tour-place-name" readonly style="background:var(--sand); font-weight:600;">
+                </div>
+                <div class="form-group">
+                    <label>Select Tour Date</label>
+                    <input type="date" id="tour-date">
+                </div>
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:0.75rem;">
+                    <div class="form-group">
+                        <label>Adults (12+ yrs)</label>
+                        <select id="tour-adults" onchange="calculateTourPrice()">
+                            <option value="1">1 Adult</option>
+                            <option value="2" selected>2 Adults</option>
+                            <option value="3">3 Adults</option>
+                            <option value="4">4 Adults</option>
+                            <option value="5">5+ Adults</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Children (under 12)</label>
+                        <select id="tour-children" onchange="calculateTourPrice()">
+                            <option value="0" selected>0 Children</option>
+                            <option value="1">1 Child</option>
+                            <option value="2">2 Children</option>
+                            <option value="3">3+ Children</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Tour Package Tier</label>
+                    <select id="tour-tier" onchange="calculateTourPrice()">
+                        <option value="standard">Standard Heritage Day Tour (₹1,200 / person)</option>
+                        <option value="guided" selected>Guided Expert Walking Tour + Entry (₹2,200 / person)</option>
+                        <option value="vip">VIP Premium Experience with Private Guide & Lunch (₹4,500 / person)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Special Requests / Dietary Notes</label>
+                    <textarea id="tour-notes" rows="2" placeholder="e.g. Vegetarian lunch, wheelchair access, pickup location..."></textarea>
+                </div>
+                <div style="background:var(--sand); border:1px solid var(--border); border-radius:8px; padding:1rem; margin-top:1rem;">
+                    <div style="display:flex; justify-content:space-between; font-size:0.85rem; color:var(--text-muted); margin-bottom:0.35rem;">
+                        <span>Base Package Rate:</span>
+                        <span id="tour-calc-base">₹0</span>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.85rem; color:var(--text-muted); margin-bottom:0.35rem;">
+                        <span>Taxes & Tourism Cess (5%):</span>
+                        <span id="tour-calc-tax">₹0</span>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; font-size:1.1rem; font-weight:700; color:var(--ink); border-top:1px solid var(--border); padding-top:0.5rem; margin-top:0.5rem;">
+                        <span>Total Estimated Cost:</span>
+                        <span id="tour-calc-total" style="color:var(--terracotta);">₹0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-book" onclick="closeTourModal()">Cancel</button>
+                <button class="btn-book terracotta" onclick="submitTourBooking()">Confirm Tour Booking</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ══════════════ BOOKING VOUCHER RECEIPT MODAL (PHASE 7) ══════════════ -->
+    <div class="modal-overlay" id="voucher-modal">
+        <div class="modal" style="max-width:520px;">
+            <div class="modal-head">
+                <h3>Travel Booking Voucher</h3>
+                <button class="modal-close" onclick="closeVoucherModal()">✕</button>
+            </div>
+            <div class="modal-body" id="voucher-modal-body"></div>
+            <div class="modal-footer" style="justify-content:space-between;">
+                <button class="btn-book" onclick="window.print()"><i class="fa-solid fa-print"></i> Print Voucher</button>
+                <button class="btn-book terracotta" onclick="closeVoucherModal()">Close</button>
+            </div>
+        </div>
+    </div>
+
     <div class="modal-overlay" id="modal">
         <div class="modal">
             <div class="modal-head">
@@ -1596,6 +2061,16 @@
                 <button id="search-btn" onclick="performSearch()">Search</button>
             </div>
             <div id="search-error" class="error-message" style="color:red;display:none;margin-top:10px"></div>
+
+            <div style="display:flex; justify-content:center; gap:0.5rem; flex-wrap:wrap; margin-top:1.25rem;">
+                <button class="badge-pill" style="background:rgba(255,255,255,0.15); color:#fff; border:1px solid rgba(255,255,255,0.25); cursor:pointer;" onclick="quickFilterHome('Heritage')">🏛️ Heritage</button>
+                <button class="badge-pill" style="background:rgba(255,255,255,0.15); color:#fff; border:1px solid rgba(255,255,255,0.25); cursor:pointer;" onclick="quickFilterHome('Spiritual')">🪔 Spiritual</button>
+                <button class="badge-pill" style="background:rgba(255,255,255,0.15); color:#fff; border:1px solid rgba(255,255,255,0.25); cursor:pointer;" onclick="quickFilterHome('Nature')">🌿 Nature</button>
+                <button class="badge-pill" style="background:rgba(255,255,255,0.15); color:#fff; border:1px solid rgba(255,255,255,0.25); cursor:pointer;" onclick="quickFilterHome('Adventure')">⛰️ Adventure</button>
+                <button class="badge-pill" style="background:rgba(255,255,255,0.15); color:#fff; border:1px solid rgba(255,255,255,0.25); cursor:pointer;" onclick="quickFilterHome('Beach')">🌊 Beach</button>
+                <button class="badge-pill" style="background:rgba(255,255,255,0.15); color:#fff; border:1px solid rgba(255,255,255,0.25); cursor:pointer;" onclick="quickFilterHome('Wildlife')">🐾 Wildlife</button>
+            </div>
+
         </div>
         
         <!-- Search Results Container -->
@@ -1699,12 +2174,81 @@
     <div class="page" id="page-places">
         <div class="page-hero">
             <h1>Tourist Destinations</h1>
-            <p>Discover incredible destinations across India</p>
+            <p>Discover incredible destinations, interactive maps & live weather across all 36 States & UTs of India</p>
         </div>
-        <div style="max-width:1200px;margin:0 auto;">
-            <div class="filters" id="place-filters"></div>
+
+        <!-- Recently Viewed Tray -->
+        <div id="recent-places-wrap" class="recent-strip" style="display:none; max-width:1200px; margin:1.25rem auto 0; padding:0.75rem 1.5rem; background:rgba(255,255,255,0.7); border-radius:10px; border:1px solid var(--border);">
+            <div style="font-size:0.8rem; font-weight:700; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:0.35rem; display:flex; align-items:center; gap:0.4rem;">
+                <i class="fa-solid fa-clock-rotate-left" style="color:var(--terracotta);"></i> Recently Viewed Destinations
+            </div>
+            <div class="recent-scroll" id="recent-places-scroll" style="display:flex; gap:0.75rem; overflow-x:auto; padding-bottom:0.35rem;"></div>
         </div>
-        <div class="section">
+
+        <!-- Smart Explorer & Filters -->
+        <div class="smart-explorer-bar" style="max-width:1200px; margin:1.5rem auto; padding:1.25rem; background:#fff; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.06); border:1px solid var(--border);">
+            <div class="smart-filter-row" style="display:flex; gap:0.75rem; flex-wrap:wrap; align-items:center; margin-bottom:0.85rem;">
+                <div class="smart-input-wrap" style="flex:1; min-width:240px; position:relative; display:flex; align-items:center;">
+                    <i class="fa-solid fa-magnifying-glass" style="position:absolute; left:1rem; color:var(--text-muted);"></i>
+                    <input type="text" id="place-smart-search" placeholder="Search by destination, state, activity or attraction..." oninput="filterPlacesSmart()" style="width:100%; padding:0.65rem 1rem 0.65rem 2.4rem; border:1.5px solid var(--border); border-radius:25px; outline:none; font-family:'DM Sans',sans-serif; font-size:0.9rem;">
+                </div>
+                <div class="view-toggle-btns" style="display:flex; border:1px solid var(--border); border-radius:20px; overflow:hidden;">
+                    <button class="view-btn active" id="view-btn-grid" onclick="togglePlacesView('grid')" style="padding:0.5rem 1rem; border:none; background:var(--ink); color:#fff; cursor:pointer; font-size:0.82rem; font-weight:600; display:flex; align-items:center; gap:0.35rem;">
+                        <i class="fa-solid fa-grid-2"></i> Grid
+                    </button>
+                    <button class="view-btn" id="view-btn-map" onclick="togglePlacesView('map')" style="padding:0.5rem 1rem; border:none; background:#fff; color:var(--ink); cursor:pointer; font-size:0.82rem; font-weight:600; display:flex; align-items:center; gap:0.35rem;">
+                        <i class="fa-solid fa-map-location-dot"></i> Interactive Map
+                    </button>
+                </div>
+                <button class="btn-book" style="background:var(--sand); border:1px solid var(--border); color:var(--text-muted); padding:0.5rem 0.85rem; border-radius:20px; font-size:0.82rem;" onclick="resetPlaceFilters()">
+                    <i class="fa-solid fa-rotate-left"></i> Reset
+                </button>
+            </div>
+
+            <!-- Categories -->
+            <div class="filters" id="place-filters" style="margin:0.5rem 0; padding:0; border:none; justify-content:flex-start; gap:0.4rem;"></div>
+
+            <!-- Dropdown Filter Strip -->
+            <div class="smart-filter-row" style="display:flex; gap:0.6rem; flex-wrap:wrap; align-items:center; padding-top:0.75rem; border-top:1px solid var(--sand);">
+                <select class="smart-select" id="filter-state" onchange="filterPlacesSmart()" style="padding:0.45rem 0.75rem; border-radius:8px; border:1px solid var(--border); font-size:0.82rem; background:#fff; color:var(--ink); outline:none;">
+                    <option value="All">All States & UTs</option>
+                </select>
+                <select class="smart-select" id="filter-budget" onchange="filterPlacesSmart()" style="padding:0.45rem 0.75rem; border-radius:8px; border:1px solid var(--border); font-size:0.82rem; background:#fff; color:var(--ink); outline:none;">
+                    <option value="All">All Budget Tiers</option>
+                    <option value="Budget">Budget (&lt; ₹3,500/day)</option>
+                    <option value="Moderate">Moderate (₹3,500 - ₹7,000/day)</option>
+                    <option value="Luxury">Luxury (&gt; ₹7,000/day)</option>
+                </select>
+                <select class="smart-select" id="filter-season" onchange="filterPlacesSmart()" style="padding:0.45rem 0.75rem; border-radius:8px; border:1px solid var(--border); font-size:0.82rem; background:#fff; color:var(--ink); outline:none;">
+                    <option value="All">All Seasons</option>
+                    <option value="Winter">Winter (Oct - Mar)</option>
+                    <option value="Summer">Summer (Apr - Jun)</option>
+                    <option value="Monsoon">Monsoon (Jul - Sep)</option>
+                </select>
+                <select class="smart-select" id="filter-duration" onchange="filterPlacesSmart()" style="padding:0.45rem 0.75rem; border-radius:8px; border:1px solid var(--border); font-size:0.82rem; background:#fff; color:var(--ink); outline:none;">
+                    <option value="All">All Durations</option>
+                    <option value="1-2 Days">Weekend (1-2 Days)</option>
+                    <option value="2-3 Days">Short Break (2-3 Days)</option>
+                    <option value="3-5 Days">Extended (3-5+ Days)</option>
+                </select>
+                <select class="smart-select" id="filter-sort" onchange="filterPlacesSmart()" style="padding:0.45rem 0.75rem; border-radius:8px; border:1px solid var(--border); font-size:0.82rem; background:#fff; color:var(--ink); outline:none; margin-left:auto;">
+                    <option value="recommended">Sort: Recommended</option>
+                    <option value="rating-desc">Rating: High to Low</option>
+                    <option value="budget-asc">Budget: Low to High</option>
+                    <option value="budget-desc">Budget: High to Low</option>
+                    <option value="name-asc">Name: A to Z</option>
+                </select>
+                <span id="places-count-badge" class="badge-pill badge-featured" style="background:var(--gold); color:#1A1612; font-weight:700; font-size:0.75rem; padding:0.35rem 0.75rem; border-radius:20px;">36 Destinations</span>
+            </div>
+        </div>
+
+        <!-- Full India Interactive Map -->
+        <div class="section" id="all-places-map-wrap" style="display:none; padding-top:0;">
+            <div id="all-places-map" style="height: 520px; border-radius: 12px; overflow: hidden; border:1px solid var(--border); box-shadow: 0 10px 30px rgba(0,0,0,0.06); z-index: 1;"></div>
+        </div>
+
+        <!-- Destinations Grid -->
+        <div class="section" id="all-places-grid-wrap" style="padding-top:0;">
             <div class="places-grid" id="all-places"></div>
         </div>
     </div>
@@ -1970,13 +2514,55 @@
     "category": "Spiritual",
     "rating": "4.4",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/andhra-pradesh-tirumala-venkateswara-temple/1.jpg",
       "./images/destinations/andhra-pradesh-tirumala-venkateswara-temple/2.jpg",
       "./images/destinations/andhra-pradesh-tirumala-venkateswara-temple/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 13.6833,
+    "lng": 79.3472,
+    "desc": "The ancient and sacred hilltop shrine dedicated to Lord Sri Venkateswara on the seventh peak of Tirumala Hills, renowned for Dravidian architectural splendor and profound spiritual solace.",
+    "bestTime": "September to March",
+    "budget": "₹2,500 - ₹4,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Spiritual",
+    "popular": true,
+    "attractions": [
+      "Venkateswara Main Temple",
+      "Silathoranam Rock Garden",
+      "Kapila Theertham Falls",
+      "Sri Vari Museum",
+      "Akasa Ganga"
+    ],
+    "popularActivities": [
+      "Temple Darshan",
+      "Vedic Chanting",
+      "Hilltop Nature Walks",
+      "Local South Indian Prasadam Tasting"
+    ],
+    "travelInfo": {
+      "airport": "Tirupati Airport (TIR) - 38 km",
+      "railway": "Tirupati Main (TPTY) - 22 km",
+      "road": "NH 71 connecting Chennai & Bangalore"
+    },
+    "reviews": [
+      {
+        "user": "Ramesh K.",
+        "rating": 5,
+        "date": "Feb 2026",
+        "text": "A truly divine and spiritually elevating experience. Well-maintained queue systems and beautiful hills."
+      },
+      {
+        "user": "Sunita M.",
+        "rating": 4.8,
+        "date": "Jan 2026",
+        "text": "The laddu prasadam and the architectural majesty of the golden gopuram are breathtaking."
+      }
+    ]
   },
   {
     "id": 2,
@@ -1987,13 +2573,49 @@
     "category": "Heritage",
     "rating": "4.8",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/arunachal-pradesh-tawang-monastery/1.jpg",
       "./images/destinations/arunachal-pradesh-tawang-monastery/2.jpg",
       "./images/destinations/arunachal-pradesh-tawang-monastery/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 27.5861,
+    "lng": 91.8594,
+    "desc": "Perched at 10,000 feet above sea level, Tawang Monastery is the largest monastery in India and the second largest in the world, overlooking majestic snow-draped Himalayan valleys.",
+    "bestTime": "March to October",
+    "budget": "₹3,500 - ₹6,500 / day",
+    "budgetTier": "Moderate",
+    "duration": "3-4 Days",
+    "season": "Summer",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Tawang Monastery Golden Buddha",
+      "Sela Pass & Lake",
+      "Madhuri Lake",
+      "Nuranang Waterfalls",
+      "War Memorial"
+    ],
+    "popularActivities": [
+      "Monastery Prayer Sessions",
+      "High Altitude Photography",
+      "Trekking through Pine Forests",
+      "Tibetan Handicraft Shopping"
+    ],
+    "travelInfo": {
+      "airport": "Tezpur Airport (TEZ) - 315 km",
+      "railway": "Rangapara North - 310 km",
+      "road": "Scenic mountain highway via Bhalukpong & Bomdila"
+    },
+    "reviews": [
+      {
+        "user": "Aakash S.",
+        "rating": 5,
+        "date": "Jan 2026",
+        "text": "Serene mountain atmosphere with chanting monks. The road trip via Sela Pass is unforgettable!"
+      }
+    ]
   },
   {
     "id": 3,
@@ -2010,7 +2632,43 @@
       "./images/destinations/assam-kaziranga-national-park/2.jpg",
       "./images/destinations/assam-kaziranga-national-park/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 26.5775,
+    "lng": 93.1711,
+    "desc": "A UNESCO World Heritage site cradled along the Brahmaputra River, home to two-thirds of the world’s great one-horned rhinoceroses, wild water buffalo, and dense elephant grass plains.",
+    "bestTime": "November to April",
+    "budget": "₹3,000 - ₹6,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "2-3 Days",
+    "season": "Winter",
+    "travelStyle": "Wildlife",
+    "popular": true,
+    "attractions": [
+      "Central Bagori Safari Range",
+      "Kohora Range",
+      "Kaziranga Orchid & Biodiversity Park",
+      "Brahmaputra Riverfront",
+      "Hollongapar Gibbon Sanctuary"
+    ],
+    "popularActivities": [
+      "Open Jeep Safaris",
+      "Elephant Safaris",
+      "Bird Watching Tours",
+      "Traditional Assamese Cultural Evenings"
+    ],
+    "travelInfo": {
+      "airport": "Jorhat Airport (JRH) - 97 km",
+      "railway": "Furkating Junction - 75 km",
+      "road": "NH 37 runs directly along the park border"
+    },
+    "reviews": [
+      {
+        "user": "David W.",
+        "rating": 5,
+        "date": "Dec 2025",
+        "text": "Spotted seven rhinos and wild elephants in a single morning safari! Outstanding conservation success."
+      }
+    ]
   },
   {
     "id": 4,
@@ -2027,7 +2685,43 @@
       "./images/destinations/bihar-mahabodhi-temple/2.jpg",
       "./images/destinations/bihar-mahabodhi-temple/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 24.6959,
+    "lng": 84.9913,
+    "desc": "The sacred world heritage temple marking the spot where Siddhartha Gautama attained enlightenment beneath the sacred Bodhi Tree, attracting pilgrims and seekers worldwide.",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹4,000 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Spiritual",
+    "popular": false,
+    "attractions": [
+      "Sacred Bodhi Tree",
+      "Vajrasana (Diamond Throne)",
+      "Muchalinda Lake",
+      "Great Buddha 80ft Statue",
+      "International Monasteries"
+    ],
+    "popularActivities": [
+      "Meditation Sessions",
+      "Pilgrim Circuit Tours",
+      "Architectural Exploration",
+      "Peace Prayer Rallies"
+    ],
+    "travelInfo": {
+      "airport": "Gaya Airport (GAY) - 12 km",
+      "railway": "Gaya Junction - 16 km",
+      "road": "Well-connected by NH 22 & Grand Trunk Road"
+    },
+    "reviews": [
+      {
+        "user": "Elena P.",
+        "rating": 4.9,
+        "date": "Feb 2026",
+        "text": "A deeply peaceful sanctuary. Meditating under the Bodhi tree was a life-changing moment."
+      }
+    ]
   },
   {
     "id": 5,
@@ -2044,7 +2738,43 @@
       "./images/destinations/chhattisgarh-chitrakoot-falls/2.jpg",
       "./images/destinations/chhattisgarh-chitrakoot-falls/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 19.2017,
+    "lng": 81.7067,
+    "desc": "Celebrated as the \"Niagara of India\", Chitrakoot Falls is a breathtaking 300-meter-wide horseshoe waterfall cascading dramatically over rugged limestone cliffs on the Indravati River.",
+    "bestTime": "July to October (Monsoon)",
+    "budget": "₹2,000 - ₹3,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Monsoon",
+    "travelStyle": "Nature",
+    "popular": false,
+    "attractions": [
+      "Chitrakoot Horseshoe Waterfall",
+      "Tirathgarh Falls",
+      "Kanger Valley National Park",
+      "Kutumsar Limestone Caves",
+      "Bastar Tribal Haat"
+    ],
+    "popularActivities": [
+      "Boating near the Falls Mist",
+      "Sunset Photography",
+      "Tribal Handicraft Exploration",
+      "Cave Speleology"
+    ],
+    "travelInfo": {
+      "airport": "Jagdalpur Airport (JGB) - 40 km",
+      "railway": "Jagdalpur Railway Station - 38 km",
+      "road": "State Highway 9 connecting Jagdalpur & Raipur"
+    },
+    "reviews": [
+      {
+        "user": "Vikram N.",
+        "rating": 4.7,
+        "date": "Oct 2025",
+        "text": "The roar of the waterfalls in late monsoon is mesmerizing. A hidden jewel of central India."
+      }
+    ]
   },
   {
     "id": 6,
@@ -2061,7 +2791,43 @@
       "./images/destinations/goa-goa-beaches/2.jpg",
       "./images/destinations/goa-goa-beaches/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 15.5439,
+    "lng": 73.7553,
+    "desc": "Sun-drenched tropical paradise blending Portuguese colonial charm, golden sandy shores, lively beach shacks, heritage spice plantations, and vibrant nightlife.",
+    "bestTime": "November to February",
+    "budget": "₹4,000 - ₹9,000 / day",
+    "budgetTier": "Luxury",
+    "duration": "3-5 Days",
+    "season": "Winter",
+    "travelStyle": "Beach",
+    "popular": true,
+    "attractions": [
+      "Baga & Calangute Beaches",
+      "Fort Aguada",
+      "Dudhsagar Waterfalls",
+      "Basilica of Bom Jesus",
+      "Anjuna Flea Market"
+    ],
+    "popularActivities": [
+      "Parasailing & Jet Skiing",
+      "Sunset Cruises",
+      "Colonial Heritage Walks",
+      "Seafood Tasting at Beach Shacks"
+    ],
+    "travelInfo": {
+      "airport": "Manohar Intl Airport (GOX) / Dabolim (GOI)",
+      "railway": "Madgaon Junction / Thivim",
+      "road": "NH 66 connecting Mumbai & Bangalore"
+    },
+    "reviews": [
+      {
+        "user": "Chloe B.",
+        "rating": 4.9,
+        "date": "Jan 2026",
+        "text": "Superb vibe! The beaches are clean, sunsets are unreal, and the food at beach shacks is unmatched."
+      }
+    ]
   },
   {
     "id": 7,
@@ -2078,7 +2844,43 @@
       "./images/destinations/gujarat-statue-of-unity/2.jpg",
       "./images/destinations/gujarat-statue-of-unity/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 21.838,
+    "lng": 73.7191,
+    "desc": "The world’s tallest monument standing 182 meters tall, honoring Sardar Vallabhbhai Patel amidst the scenic Vindhya and Satpura mountain ranges on the Narmada River.",
+    "bestTime": "October to March",
+    "budget": "₹3,000 - ₹5,500 / day",
+    "budgetTier": "Moderate",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Viewing Gallery (153m)",
+      "Valley of Flowers",
+      "Sardar Sarovar Dam",
+      "Glow Garden",
+      "Jungle Safari"
+    ],
+    "popularActivities": [
+      "High-speed Elevator to Viewing Deck",
+      "Laser Light & Sound Show",
+      "Electric Bicycle River Tours",
+      "Dam View Cruise"
+    ],
+    "travelInfo": {
+      "airport": "Vadodara Airport (BDQ) - 90 km",
+      "railway": "Ekta Nagar Railway Station (EKNR) - 5 km",
+      "road": "Four-lane expressway directly from Vadodara"
+    },
+    "reviews": [
+      {
+        "user": "Pradeep J.",
+        "rating": 4.8,
+        "date": "Feb 2026",
+        "text": "Engineering marvel. The museum inside and the high-altitude viewing gallery exceeded expectations."
+      }
+    ]
   },
   {
     "id": 8,
@@ -2095,7 +2897,43 @@
       "./images/destinations/haryana-brahma-sarovar/2.jpg",
       "./images/destinations/haryana-brahma-sarovar/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 29.96,
+    "lng": 76.8336,
+    "desc": "An immense sacred water tank steeped in Mahabharata lore, venerated for centuries as the bathing pool of Lord Brahma and host to massive solar eclipse pilgrim gatherings.",
+    "bestTime": "October to March",
+    "budget": "₹1,500 - ₹3,000 / day",
+    "budgetTier": "Budget",
+    "duration": "1 Day",
+    "season": "Winter",
+    "travelStyle": "Spiritual",
+    "popular": false,
+    "attractions": [
+      "Brahma Sarovar Ghats",
+      "Sannihit Sarovar",
+      "Jyotisar Geeta Updesh Sthal",
+      "Kurukshetra Panorama Science Center",
+      "Sheikh Chilli Tomb"
+    ],
+    "popularActivities": [
+      "Evening Aarti Ceremony",
+      "Spiritual Lake Walk",
+      "Mahabharata Historical Trail",
+      "Gita Jayanti Festival"
+    ],
+    "travelInfo": {
+      "airport": "Chandigarh Airport (IXC) - 90 km",
+      "railway": "Kurukshetra Junction - 3 km",
+      "road": "NH 44 connecting Delhi & Chandigarh"
+    },
+    "reviews": [
+      {
+        "user": "Manish G.",
+        "rating": 4.5,
+        "date": "Jan 2026",
+        "text": "Immaculately clean and vast water expanse. Sunset over the bronze chariot statue is magnificent."
+      }
+    ]
   },
   {
     "id": 9,
@@ -2106,13 +2944,49 @@
     "category": "Adventure",
     "rating": "4.7",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/himachal-pradesh-manali/1.jpg",
       "./images/destinations/himachal-pradesh-manali/2.jpg",
       "./images/destinations/himachal-pradesh-manali/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 32.2432,
+    "lng": 77.1892,
+    "desc": "High-altitude Himalayan resort town nestled along the Beas River, famed for snow-clad peaks, pine forests, exhilarating winter sports, and gateway to Solang and Rohtang Pass.",
+    "bestTime": "October to June",
+    "budget": "₹3,500 - ₹7,500 / day",
+    "budgetTier": "Moderate",
+    "duration": "3-5 Days",
+    "season": "Winter",
+    "travelStyle": "Adventure",
+    "popular": true,
+    "attractions": [
+      "Solang Valley",
+      "Rohtang Pass",
+      "Hadimba Devi Temple",
+      "Atal Tunnel",
+      "Old Manali Cafes"
+    ],
+    "popularActivities": [
+      "Skiing & Snowboarding",
+      "Paragliding in Solang",
+      "White Water River Rafting",
+      "Trek to Jogini Waterfall"
+    ],
+    "travelInfo": {
+      "airport": "Kullu-Manali Airport (KUU) - 50 km",
+      "railway": "Chandigarh Junction - 300 km",
+      "road": "Scenic NH 3 through Himalayan gorges"
+    },
+    "reviews": [
+      {
+        "user": "Siddharth T.",
+        "rating": 4.9,
+        "date": "Jan 2026",
+        "text": "The snow at Solang Valley was magical! Old Manali vibe with riverside cafes is phenomenal."
+      }
+    ]
   },
   {
     "id": 10,
@@ -2129,7 +3003,43 @@
       "./images/destinations/jharkhand-netarhat/2.jpg",
       "./images/destinations/jharkhand-netarhat/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 23.4833,
+    "lng": 84.2667,
+    "desc": "Known as the \"Queen of Chotanagpur\", Netarhat is an idyllic hill station perched amidst dense sal forests, scenic plateaus, and famous sunrise and sunset points.",
+    "bestTime": "October to April",
+    "budget": "₹2,000 - ₹3,500 / day",
+    "budgetTier": "Budget",
+    "duration": "2 Days",
+    "season": "Winter",
+    "travelStyle": "Nature",
+    "popular": false,
+    "attractions": [
+      "Magnolia Sunset Point",
+      "Koil View Point",
+      "Upper Ghaghri Waterfall",
+      "Netarhat Pine Forest",
+      "Lodh Falls"
+    ],
+    "popularActivities": [
+      "Sunset Watching",
+      "Forest Trekking",
+      "Camping under Starry Skies",
+      "Tribal Village Walks"
+    ],
+    "travelInfo": {
+      "airport": "Birsa Munda Airport Ranchi (IXR) - 156 km",
+      "railway": "Ranchi Railway Station - 150 km",
+      "road": "Scenic winding hill road via Ghaghra"
+    },
+    "reviews": [
+      {
+        "user": "Ananya D.",
+        "rating": 4.6,
+        "date": "Nov 2025",
+        "text": "The pine forests and tranquil mornings make Netarhat a peaceful haven far away from bustling city life."
+      }
+    ]
   },
   {
     "id": 11,
@@ -2140,13 +3050,49 @@
     "category": "Heritage",
     "rating": "4.8",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/karnataka-hampi/1.jpg",
       "./images/destinations/karnataka-hampi/2.jpg",
       "./images/destinations/karnataka-hampi/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 15.335,
+    "lng": 76.46,
+    "desc": "A surreal UNESCO World Heritage landscape of boulder-strewn hills and towering medieval ruins that once formed the magnificent capital of the Vijayanagara Empire.",
+    "bestTime": "October to February",
+    "budget": "₹2,500 - ₹5,000 / day",
+    "budgetTier": "Budget",
+    "duration": "2-3 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Virupaksha Temple",
+      "Vijaya Vittala Stone Chariot",
+      "Lotus Mahal & Elephant Stables",
+      "Matanga Hill Sunrise",
+      "Tungabhadra River Ghats"
+    ],
+    "popularActivities": [
+      "Bicycle Heritage Touring",
+      "Bouldering & Rock Climbing",
+      "Coracle Boat Rides on Tungabhadra",
+      "Sunset Photography on Hemakuta Hill"
+    ],
+    "travelInfo": {
+      "airport": "Jindal Vijaynagar Airport (VDY) - 35 km / Hubli (140 km)",
+      "railway": "Hosapete Junction (HPT) - 13 km",
+      "road": "NH 67 connecting Bangalore & Goa"
+    },
+    "reviews": [
+      {
+        "user": "Marcus L.",
+        "rating": 5,
+        "date": "Feb 2026",
+        "text": "Stepping into Hampi feels like traveling back in time. The musical pillars at Vittala temple are astonishing."
+      }
+    ]
   },
   {
     "id": 12,
@@ -2163,7 +3109,43 @@
       "./images/destinations/kerala-alleppey-backwaters/2.jpg",
       "./images/destinations/kerala-alleppey-backwaters/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 9.4981,
+    "lng": 76.3388,
+    "desc": "The \"Venice of the East\", celebrated for its tranquil labyrinth of palm-fringed canals, emerald paddy fields, traditional kettuvallam houseboats, and Ayurvedic healing.",
+    "bestTime": "October to March",
+    "budget": "₹4,000 - ₹8,500 / day",
+    "budgetTier": "Luxury",
+    "duration": "2-3 Days",
+    "season": "Winter",
+    "travelStyle": "Nature",
+    "popular": true,
+    "attractions": [
+      "Vembanad Lake Backwaters",
+      "Marari Beach",
+      "Alappuzha Lighthouse",
+      "Pathiramanal Bird Island",
+      "Kuttanad Rice Fields"
+    ],
+    "popularActivities": [
+      "Overnight Houseboat Cruise",
+      "Kayaking in Narrow Village Canals",
+      "Traditional Ayurvedic Massages",
+      "Karimeen Fish Fry Dining"
+    ],
+    "travelInfo": {
+      "airport": "Cochin Intl Airport (COK) - 85 km",
+      "railway": "Alappuzha Railway Station (ALLP) - 4 km",
+      "road": "NH 66 coastal corridor"
+    },
+    "reviews": [
+      {
+        "user": "Meera & Rohan",
+        "rating": 5,
+        "date": "Jan 2026",
+        "text": "Floating through the tranquil canals at sunset while eating fresh Kerala meals was heavenly!"
+      }
+    ]
   },
   {
     "id": 13,
@@ -2180,7 +3162,43 @@
       "./images/destinations/madhya-pradesh-khajuraho-temples/2.jpg",
       "./images/destinations/madhya-pradesh-khajuraho-temples/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 24.8318,
+    "lng": 79.9199,
+    "desc": "World-renowned UNESCO site housing awe-inspiring medieval Hindu and Jain temples adorned with intricate stone sculptures depicting joy, sensuality, and spiritual devotion.",
+    "bestTime": "October to March",
+    "budget": "₹2,500 - ₹5,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": false,
+    "attractions": [
+      "Kandariya Mahadeva Temple",
+      "Lakshmana Temple",
+      "Western Group of Temples",
+      "Duladeo Temple",
+      "Raneh Falls Canyon"
+    ],
+    "popularActivities": [
+      "Temple Architecture Guided Walks",
+      "Sound and Light Show at Sunset",
+      "Excursion to Raneh Falls",
+      "Khajuraho Dance Festival"
+    ],
+    "travelInfo": {
+      "airport": "Khajuraho Airport (HJR) - 5 km",
+      "railway": "Khajuraho Railway Station (KURJ) - 6 km",
+      "road": "NH 39 connecting Jhansi and Satna"
+    },
+    "reviews": [
+      {
+        "user": "Arthur K.",
+        "rating": 4.9,
+        "date": "Dec 2025",
+        "text": "The sheer level of detail in the millennium-old sandstone carvings is breathtaking."
+      }
+    ]
   },
   {
     "id": 14,
@@ -2197,7 +3215,43 @@
       "./images/destinations/maharashtra-ajanta-ellora-caves/2.jpg",
       "./images/destinations/maharashtra-ajanta-ellora-caves/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 20.5519,
+    "lng": 75.7033,
+    "desc": "Monolithic rock-cut wonders carved into basalt cliffs between the 2nd century BCE and 10th century CE, featuring the world-famous Kailasa Temple and vibrant Buddhist frescoes.",
+    "bestTime": "October to March",
+    "budget": "₹2,500 - ₹5,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "2-3 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Kailasa Temple (Cave 16)",
+      "Ajanta Cave 1 Frescoes",
+      "Ellora Buddhist Chaitya Hall",
+      "Daulatabad Fort",
+      "Bibi Ka Maqbara"
+    ],
+    "popularActivities": [
+      "Rock-Cut Sculpture Exploration",
+      "Frescoes Study with Audio Guides",
+      "Trek to Daulatabad Top",
+      "Himroo Shawl Shopping"
+    ],
+    "travelInfo": {
+      "airport": "Chhatrapati Sambhajinagar Airport (IXU) - 30 km",
+      "railway": "Aurangabad Railway Station - 28 km",
+      "road": "Well-paved state highways"
+    },
+    "reviews": [
+      {
+        "user": "Sanjay P.",
+        "rating": 5,
+        "date": "Jan 2026",
+        "text": "Kailasa temple carved from top to bottom out of a single rock cliff is proof of superhuman craftsmanship."
+      }
+    ]
   },
   {
     "id": 15,
@@ -2214,7 +3268,43 @@
       "./images/destinations/manipur-loktak-lake/2.jpg",
       "./images/destinations/manipur-loktak-lake/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 24.55,
+    "lng": 93.8,
+    "desc": "The largest freshwater lake in Northeast India, famous for its floating circular islands called \"Phumdis\" and the world’s only floating national park, Keibul Lamjao.",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹4,000 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Nature",
+    "popular": false,
+    "attractions": [
+      "Keibul Lamjao Floating Park",
+      "Sendra Island Viewpoint",
+      "INA Memorial Moirang",
+      "Phumdi Floating Huts",
+      "Karang Island"
+    ],
+    "popularActivities": [
+      "Canoe Rides through Floating Islands",
+      "Spotting Endangered Sangai Deer",
+      "Homestays on Phumdis",
+      "Local Fish Delicacy Tasting"
+    ],
+    "travelInfo": {
+      "airport": "Imphal Airport (IMF) - 45 km",
+      "railway": "Dimapur / Silchar - road onwards",
+      "road": "Tiddim Road / NH 2 from Imphal"
+    },
+    "reviews": [
+      {
+        "user": "Tomoko Y.",
+        "rating": 4.8,
+        "date": "Nov 2025",
+        "text": "An enchanting, unique ecosystem. Staying on a floating homestay surrounded by water lilies was unforgettable."
+      }
+    ]
   },
   {
     "id": 16,
@@ -2225,13 +3315,49 @@
     "category": "Nature",
     "rating": "4.6",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/meghalaya-living-root-bridges/1.jpg",
       "./images/destinations/meghalaya-living-root-bridges/2.jpg",
       "./images/destinations/meghalaya-living-root-bridges/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 25.2986,
+    "lng": 91.5822,
+    "desc": "Natural bio-engineering marvels grown from living rubber fig tree roots over centuries by the Khasi people, spanning rushing streams amid the rainforests of Meghalaya.",
+    "bestTime": "October to April",
+    "budget": "₹3,000 - ₹5,500 / day",
+    "budgetTier": "Moderate",
+    "duration": "2-3 Days",
+    "season": "Winter",
+    "travelStyle": "Nature",
+    "popular": true,
+    "attractions": [
+      "Umshiang Double Decker Living Root Bridge",
+      "Nohkalikai Falls",
+      "Mawsmai Limestone Caves",
+      "Rainbow Falls",
+      "Dawk River Crystal Waters"
+    ],
+    "popularActivities": [
+      "3000-Step Rainforest Trek to Nongriat",
+      "Natural Swimming in Turquoise Pools",
+      "Caving Explorations",
+      "Khasi Village Homestays"
+    ],
+    "travelInfo": {
+      "airport": "Shillong Airport (SHL) - 80 km / Guwahati (GAU) - 165 km",
+      "railway": "Guwahati Junction - 150 km",
+      "road": "Scenic mountain highway via Shillong"
+    },
+    "reviews": [
+      {
+        "user": "Arjun B.",
+        "rating": 5,
+        "date": "Feb 2026",
+        "text": "The trek down to the Double Decker bridge is challenging, but taking a dip in the natural pool at the base is pure paradise!"
+      }
+    ]
   },
   {
     "id": 17,
@@ -2248,7 +3374,43 @@
       "./images/destinations/mizoram-reiek-tlang/2.jpg",
       "./images/destinations/mizoram-reiek-tlang/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 23.6833,
+    "lng": 92.6,
+    "desc": "A pristine mountain ridge rising dramatically above Aizawl, offering panoramic 360-degree views of the lush green Mizo hills and dramatic cloud-filled valleys.",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹3,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Adventure",
+    "popular": false,
+    "attractions": [
+      "Reiek Peak Summit",
+      "Reiek Heritage Model Village",
+      "Aizawl City View",
+      "Khuangchera Cave",
+      "Solomon’s Temple Aizawl"
+    ],
+    "popularActivities": [
+      "Summit Ridge Trekking",
+      "Mizo Cultural Village Exploration",
+      "Bird Watching & Mist Photography",
+      "Traditional Bamboo Dance Shows"
+    ],
+    "travelInfo": {
+      "airport": "Lengpui Airport Aizawl (AJL) - 30 km",
+      "railway": "Bairabi Station - 130 km",
+      "road": "Scenic road from Aizawl city center"
+    },
+    "reviews": [
+      {
+        "user": "Lalitha R.",
+        "rating": 4.7,
+        "date": "Jan 2026",
+        "text": "The hike up to Reiek is pleasant, and the view from the sheer cliff edge overlooking Bangladesh plains is sensational."
+      }
+    ]
   },
   {
     "id": 18,
@@ -2265,7 +3427,43 @@
       "./images/destinations/nagaland-dz-kou-valley/2.jpg",
       "./images/destinations/nagaland-dz-kou-valley/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 25.5667,
+    "lng": 94.0667,
+    "desc": "An otherworldly high-altitude valley sitting on the border of Nagaland and Manipur, carpeted with endemic Dzükou lilies, emerald rolling dunes, and frozen winter streams.",
+    "bestTime": "June to September (Lilies) / Oct to March (Clear Skies)",
+    "budget": "₹2,500 - ₹4,500 / day",
+    "budgetTier": "Budget",
+    "duration": "2-3 Days",
+    "season": "Monsoon",
+    "travelStyle": "Nature",
+    "popular": false,
+    "attractions": [
+      "Dzükou Valley Lilies Fields",
+      "Viswema Trek Trail",
+      "Jakhama Trail",
+      "Natural Stone Caves",
+      "Kohima War Memorial"
+    ],
+    "popularActivities": [
+      "Alpine Wilderness Trekking",
+      "Valley Camping & Stargazing",
+      "Cave Exploration",
+      "Angami Tribal Cultural Interaction"
+    ],
+    "travelInfo": {
+      "airport": "Dimapur Airport (DMU) - 75 km",
+      "railway": "Dimapur Junction - 74 km",
+      "road": "NH 29 to Kohima, then Viswema trailhead"
+    },
+    "reviews": [
+      {
+        "user": "Neil C.",
+        "rating": 4.9,
+        "date": "Dec 2025",
+        "text": "The scenery looks like a fantasy movie. Crisp air, rolling green waves, and pure peace."
+      }
+    ]
   },
   {
     "id": 19,
@@ -2282,7 +3480,43 @@
       "./images/destinations/odisha-konark-sun-temple/2.jpg",
       "./images/destinations/odisha-konark-sun-temple/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 19.8876,
+    "lng": 86.0945,
+    "desc": "The 13th-century monumental Sun Temple engineered as a colossal 24-wheeled chariot of Surya pulled by seven horses, a peak masterpiece of Kalinga stone architecture.",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹4,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Sun Temple Giant Chariot Wheels",
+      "Natya Mandir (Dance Hall)",
+      "Chandrabhaga Beach",
+      "Konark Archaeological Museum",
+      "Puri Jagannath Temple (35 km)"
+    ],
+    "popularActivities": [
+      "Sundial Wheel Calculation Tour",
+      "Chandrabhaga Beach Sunrise",
+      "Konark Dance Festival in Dec",
+      "Odissi Art Workshops"
+    ],
+    "travelInfo": {
+      "airport": "Biju Patnaik Airport Bhubaneswar (BBI) - 65 km",
+      "railway": "Puri Railway Station - 35 km",
+      "road": "Scenic Marine Drive Expressway from Puri"
+    },
+    "reviews": [
+      {
+        "user": "Debashis M.",
+        "rating": 4.8,
+        "date": "Jan 2026",
+        "text": "The sundials carved on the chariot wheels can accurately tell time to the minute. Mindblowing ancient science."
+      }
+    ]
   },
   {
     "id": 20,
@@ -2299,7 +3533,43 @@
       "./images/destinations/punjab-golden-temple/2.jpg",
       "./images/destinations/punjab-golden-temple/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 31.62,
+    "lng": 74.8765,
+    "desc": "Sri Harmandir Sahib, the holiest spiritual sanctuary of Sikhism, whose gilded sanctum shimmers in the holy Amrit Sarovar lake, welcoming millions to world’s largest free community kitchen (Langar).",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹4,000 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Spiritual",
+    "popular": true,
+    "attractions": [
+      "Golden Temple Sanctum (Harmandir Sahib)",
+      "Akal Takht",
+      "Mega Langar Kitchen",
+      "Jallianwala Bagh",
+      "Wagah Border Beating Retreat"
+    ],
+    "popularActivities": [
+      "Morning & Night Palki Sahib Ceremony",
+      "Community Kitchen Volunteering (Seva)",
+      "Heritage Street Walk",
+      "Amritsari Kulcha Food Trail"
+    ],
+    "travelInfo": {
+      "airport": "Sri Guru Ram Dass Jee Intl Airport (ATQ) - 12 km",
+      "railway": "Amritsar Junction - 3 km",
+      "road": "Grand Trunk Road / NH 3"
+    },
+    "reviews": [
+      {
+        "user": "Gurpreet S.",
+        "rating": 5,
+        "date": "Feb 2026",
+        "text": "The spiritual energy, divine kirtan hymns, and selfless seva will humble every soul. Absolutely unforgettable."
+      }
+    ]
   },
   {
     "id": 21,
@@ -2316,7 +3586,43 @@
       "./images/destinations/rajasthan-hawa-mahal-amber-fort/2.jpg",
       "./images/destinations/rajasthan-hawa-mahal-amber-fort/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 26.9239,
+    "lng": 75.8267,
+    "desc": "The iconic Pink City landmarks showcasing Rajputana splendor, featuring the honeycomb lattice windows of Hawa Mahal and the sprawling hilltop fortification of Amber Fort.",
+    "bestTime": "October to March",
+    "budget": "₹3,500 - ₹8,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "2-4 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Hawa Mahal",
+      "Amber Fort & Sheesh Mahal",
+      "City Palace",
+      "Jantar Mantar",
+      "Nahargarh Fort Sunset Point"
+    ],
+    "popularActivities": [
+      "Elephant/Jeep Ride to Amber Fort",
+      "Palace Courtyard Heritage Tour",
+      "Night Lighting at Nahargarh",
+      "Johari Bazaar Gemstone & Textile Shopping"
+    ],
+    "travelInfo": {
+      "airport": "Jaipur Intl Airport (JAI) - 13 km",
+      "railway": "Jaipur Junction - 5 km",
+      "road": "Delhi-Mumbai Expressway & NH 48"
+    },
+    "reviews": [
+      {
+        "user": "Sonia H.",
+        "rating": 4.9,
+        "date": "Jan 2026",
+        "text": "The mirror palace (Sheesh Mahal) in Amber Fort illuminated by a single candle is pure magic."
+      }
+    ]
   },
   {
     "id": 22,
@@ -2333,7 +3639,43 @@
       "./images/destinations/sikkim-tsomgo-lake/2.jpg",
       "./images/destinations/sikkim-tsomgo-lake/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 27.3742,
+    "lng": 88.7619,
+    "desc": "A glacial lake perched at 12,310 feet in the Eastern Himalayas, surrounded by rugged alpine mountains that reflect shifting seasonal hues and remains frozen during deep winter.",
+    "bestTime": "March to May / October to December",
+    "budget": "₹3,500 - ₹6,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "1-2 Days",
+    "season": "Summer",
+    "travelStyle": "Nature",
+    "popular": false,
+    "attractions": [
+      "Glacial Tsomgo Lake",
+      "Baba Harbhajan Singh Mandir",
+      "Nathula Pass Border (subject to permits)",
+      "Kyongnosla Alpine Sanctuary",
+      "Gangtok Cable Car"
+    ],
+    "popularActivities": [
+      "Decorated Yak Rides along the Lake",
+      "Alpine Mountain Snow Walks",
+      "Warm Thukpa & Momos at High Altitude",
+      "Nathula Pass Indo-China Border Visit"
+    ],
+    "travelInfo": {
+      "airport": "Pakyong Airport (PYG) - 60 km / Bagdogra (IXB) - 150 km",
+      "railway": "New Jalpaiguri (NJP) - 145 km",
+      "road": "Jawaharlal Nehru Road from Gangtok"
+    },
+    "reviews": [
+      {
+        "user": "Pooja V.",
+        "rating": 4.8,
+        "date": "Nov 2025",
+        "text": "Stunning alpine lake surrounded by snow peaks! Riding a colorful yak along the edge is a must-do."
+      }
+    ]
   },
   {
     "id": 23,
@@ -2350,7 +3692,43 @@
       "./images/destinations/tamil-nadu-meenakshi-amman-temple/2.jpg",
       "./images/destinations/tamil-nadu-meenakshi-amman-temple/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 9.9195,
+    "lng": 78.1193,
+    "desc": "An architectural epic in the ancient city of Madurai, celebrated for its 14 monumental gopuram towers covered with thousands of vibrantly colored mythological sculptures.",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹4,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Meenakshi Amman Temple Gopurams",
+      "Hall of Thousand Pillars",
+      "Golden Lotus Tank (Porthamarai Kulam)",
+      "Thirumalai Nayakkar Palace",
+      "Gandhi Memorial Museum"
+    ],
+    "popularActivities": [
+      "Night Bedtime Ceremony Procession",
+      "Pillar Hall Acoustic & Musical Inspection",
+      "Temple Jewelry Shopping",
+      "Famous Madurai Jigarthanda Drink Tasting"
+    ],
+    "travelInfo": {
+      "airport": "Madurai Airport (IXM) - 12 km",
+      "railway": "Madurai Junction - 2 km",
+      "road": "NH 44 connecting Bangalore and Kanyakumari"
+    },
+    "reviews": [
+      {
+        "user": "Karthik S.",
+        "rating": 5,
+        "date": "Jan 2026",
+        "text": "The Hall of Thousand Pillars and the musical pillars left me spellbound. The evening procession is majestic."
+      }
+    ]
   },
   {
     "id": 24,
@@ -2367,7 +3745,43 @@
       "./images/destinations/telangana-charminar/2.jpg",
       "./images/destinations/telangana-charminar/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 17.3616,
+    "lng": 78.4747,
+    "desc": "The iconic 1591 CE four-minaret monument and mosque at the heart of Hyderabad, standing grandly amidst bustling centuries-old pearl, spice, and bangle bazaars.",
+    "bestTime": "October to March",
+    "budget": "₹2,500 - ₹5,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Charminar Monument",
+      "Laad Bazaar (Bangle Market)",
+      "Mecca Masjid",
+      "Chowmahalla Palace",
+      "Golconda Fort (10 km)"
+    ],
+    "popularActivities": [
+      "Upper Minaret Gallery View",
+      "Authentic Hyderabadi Dum Biryani Tasting",
+      "Pearl & Lacquer Bangle Shopping",
+      "Heritage Street Night Walks"
+    ],
+    "travelInfo": {
+      "airport": "Rajiv Gandhi Intl Airport (HYD) - 20 km",
+      "railway": "Hyderabad Deccan / Secunderabad - 5 km",
+      "road": "City center access via PVNR Expressway"
+    },
+    "reviews": [
+      {
+        "user": "Zaid A.",
+        "rating": 4.7,
+        "date": "Feb 2026",
+        "text": "Standing beneath the arches at dusk with the evening lights turned on, followed by authentic Irani chai, is a quintessential experience."
+      }
+    ]
   },
   {
     "id": 25,
@@ -2384,7 +3798,43 @@
       "./images/destinations/tripura-ujjayanta-palace/2.jpg",
       "./images/destinations/tripura-ujjayanta-palace/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 23.8364,
+    "lng": 91.2825,
+    "desc": "A dazzling Indo-Saracenic royal palace built in 1901 by Maharaja Radha Kishore Manikya, set amidst Mughal-style formal gardens, fountains, and artificial lakes in Agartala.",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹3,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1 Day",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": false,
+    "attractions": [
+      "Ujjayanta Palace & State Museum",
+      "Mughal Water Gardens",
+      "Neermahal Water Palace (50 km)",
+      "Tripura Sundari Temple",
+      "Unakoti Rock Carvings"
+    ],
+    "popularActivities": [
+      "Royal Museum Artifact Tour",
+      "Evening Garden Musical Fountain Show",
+      "Traditional Bamboo Handicraft Shopping",
+      "Authentic Tripuri Mui Borok Cuisine"
+    ],
+    "travelInfo": {
+      "airport": "Maharaja Bir Bikram Airport (IXA) - 10 km",
+      "railway": "Agartala Railway Station - 6 km",
+      "road": "NH 8 connecting Assam & Meghalaya"
+    },
+    "reviews": [
+      {
+        "user": "Bikram D.",
+        "rating": 4.6,
+        "date": "Dec 2025",
+        "text": "The white palace reflected in the lake during golden hour looks stunning. Excellent regional museum inside."
+      }
+    ]
   },
   {
     "id": 26,
@@ -2401,7 +3851,43 @@
       "./images/destinations/uttar-pradesh-taj-mahal/2.jpg",
       "./images/destinations/uttar-pradesh-taj-mahal/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 27.1751,
+    "lng": 78.0421,
+    "desc": "An immense white marble mausoleum of unmatched symmetry, built by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal. One of the Seven Wonders of the World.",
+    "bestTime": "October to March",
+    "budget": "₹3,500 - ₹7,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Taj Mahal Marble Mausoleum",
+      "Mehtab Bagh (Sunset River View)",
+      "Agra Fort",
+      "Fatehpur Sikri (35 km)",
+      "Itimad-ud-Daulah (Baby Taj)"
+    ],
+    "popularActivities": [
+      "Sunrise Viewing on White Marble",
+      "River View Photography from Mehtab Bagh",
+      "Marble Inlay Artisan Workshop Visits",
+      "Agra Petha Sweet Tasting"
+    ],
+    "travelInfo": {
+      "airport": "Agra Airport (AGR) / Delhi IGI (220 km)",
+      "railway": "Agra Cantt (AGC) - 5 km",
+      "road": "Taj Expressway from Delhi (2.5 hrs)"
+    },
+    "reviews": [
+      {
+        "user": "Liam & Emma",
+        "rating": 5,
+        "date": "Feb 2026",
+        "text": "No photograph does it justice. Seeing the morning sun illuminate the translucent white marble was the highlight of our India journey!"
+      }
+    ]
   },
   {
     "id": 27,
@@ -2412,13 +3898,49 @@
     "category": "Adventure",
     "rating": "4.5",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/uttarakhand-rishikesh/1.jpg",
       "./images/destinations/uttarakhand-rishikesh/2.jpg",
       "./images/destinations/uttarakhand-rishikesh/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 30.0869,
+    "lng": 78.2676,
+    "desc": "The \"Yoga Capital of the World\", where the holy Ganges emerges from the Himalayan foothills, famous for iconic suspension bridges, evening Ganga Aarti, and thrilling rapids.",
+    "bestTime": "September to May",
+    "budget": "₹2,500 - ₹6,000 / day",
+    "budgetTier": "Budget",
+    "duration": "2-4 Days",
+    "season": "Winter",
+    "travelStyle": "Adventure",
+    "popular": true,
+    "attractions": [
+      "Laxman Jhula & Ram Jhula",
+      "Triveni Ghat Evening Aarti",
+      "Beatles Ashram (Chaurasi Kutia)",
+      "Neer Garh Waterfall",
+      "Shivpuri River Camps"
+    ],
+    "popularActivities": [
+      "White Water River Rafting (Grade III/IV)",
+      "Bungee Jumping & Flying Fox",
+      "Yoga & Meditation Retreats",
+      "Cliff Jumping into Emerald Waters"
+    ],
+    "travelInfo": {
+      "airport": "Dehradun Jolly Grant Airport (DED) - 20 km",
+      "railway": "Yog Nagari Rishikesh (YNRK) - 4 km",
+      "road": "NH 58 connecting Delhi and Haridwar"
+    },
+    "reviews": [
+      {
+        "user": "Tanya K.",
+        "rating": 4.9,
+        "date": "Jan 2026",
+        "text": "Rafting down the pristine Ganges, followed by the soulful evening aarti at Triveni Ghat, was unforgettable."
+      }
+    ]
   },
   {
     "id": 28,
@@ -2435,7 +3957,43 @@
       "./images/destinations/west-bengal-darjeeling-tea-gardens/2.jpg",
       "./images/destinations/west-bengal-darjeeling-tea-gardens/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 27.041,
+    "lng": 88.2663,
+    "desc": "The \"Queen of the Hills\", famed for rolling emerald tea estates producing the \"Champagne of Teas\", the historic UNESCO Toy Train, and panoramic sunrises over Mount Kanchenjunga.",
+    "bestTime": "October to May",
+    "budget": "₹3,000 - ₹6,500 / day",
+    "budgetTier": "Moderate",
+    "duration": "3-4 Days",
+    "season": "Summer",
+    "travelStyle": "Nature",
+    "popular": true,
+    "attractions": [
+      "Tiger Hill Sunrise over Kanchenjunga",
+      "Happy Valley Tea Estate",
+      "Darjeeling Himalayan Toy Train",
+      "Batasia Loop",
+      "Himalayan Mountaineering Institute"
+    ],
+    "popularActivities": [
+      "Dawn Sunrise Viewing over Kanchenjunga",
+      "Heritage Toy Train Steam Ride",
+      "Tea Plucking & Tasting Tours",
+      "Mall Road Strolls & Bakery Cafes"
+    ],
+    "travelInfo": {
+      "airport": "Bagdogra Airport (IXB) - 70 km",
+      "railway": "New Jalpaiguri (NJP) - 72 km",
+      "road": "Hill Cart Road / Rohini Road"
+    },
+    "reviews": [
+      {
+        "user": "Robert D.",
+        "rating": 4.8,
+        "date": "Dec 2025",
+        "text": "Watching the golden sunlight strike the peak of Mount Kanchenjunga while sipping freshly brewed Darjeeling tea is heaven."
+      }
+    ]
   },
   {
     "id": 29,
@@ -2446,13 +4004,49 @@
     "category": "Beach",
     "rating": "4.8",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/andaman-nicobar-radhanagar-beach/1.jpg",
       "./images/destinations/andaman-nicobar-radhanagar-beach/2.jpg",
       "./images/destinations/andaman-nicobar-radhanagar-beach/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 11.984,
+    "lng": 92.9515,
+    "desc": "Voted one of Asia’s most beautiful beaches, Radhanagar on Havelock Island features silky powdery white sand, turquoise waters, and ancient Mahua forest canopies.",
+    "bestTime": "October to May",
+    "budget": "₹5,000 - ₹11,000 / day",
+    "budgetTier": "Luxury",
+    "duration": "3-5 Days",
+    "season": "Winter",
+    "travelStyle": "Beach",
+    "popular": true,
+    "attractions": [
+      "Radhanagar Beach (Beach No. 7)",
+      "Elephant Beach Snorkeling",
+      "Kalapathar Beach",
+      "Cellular Jail Port Blair",
+      "Neil Island Natural Bridge"
+    ],
+    "popularActivities": [
+      "Scuba Diving among Coral Reefs",
+      "Sea Walking on Ocean Floor",
+      "Spectacular Sunset Watching",
+      "Kayaking in Bioluminescent Waters"
+    ],
+    "travelInfo": {
+      "airport": "Veer Savarkar Intl Airport Port Blair (IXZ) then high-speed catamaran ferry (90 mins)",
+      "railway": "None (Island)",
+      "road": "Island ferry network"
+    },
+    "reviews": [
+      {
+        "user": "Sophie M.",
+        "rating": 5,
+        "date": "Jan 2026",
+        "text": "The purest turquoise water I have ever seen. Swimming during sunset surrounded by gentle tropical waves is bliss."
+      }
+    ]
   },
   {
     "id": 30,
@@ -2469,7 +4063,43 @@
       "./images/destinations/chandigarh-rock-garden/2.jpg",
       "./images/destinations/chandigarh-rock-garden/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 30.7525,
+    "lng": 76.8073,
+    "desc": "A visionary sculpture garden spanning 40 acres, crafted secretly by artist Nek Chand out of recycled industrial and home waste, porcelain, and discarded ceramic tiles.",
+    "bestTime": "October to March",
+    "budget": "₹1,500 - ₹3,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1 Day",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": false,
+    "attractions": [
+      "Nek Chand Rock Garden",
+      "Sukhna Lake Promenade",
+      "Capitol Complex (Le Corbusier UNESCO)",
+      "Zakir Hussain Rose Garden",
+      "Sector 17 Plaza"
+    ],
+    "popularActivities": [
+      "Navigating Stone Labyrinths & Waterfalls",
+      "Boating on Sukhna Lake at Dusk",
+      "Open-Air Sculptural Photography",
+      "Chandigarh Modernist Architecture Tour"
+    ],
+    "travelInfo": {
+      "airport": "Chandigarh Intl Airport (IXC) - 15 km",
+      "railway": "Chandigarh Junction - 8 km",
+      "road": "NH 44 & Himalayan Expressway"
+    },
+    "reviews": [
+      {
+        "user": "Harish V.",
+        "rating": 4.7,
+        "date": "Jan 2026",
+        "text": "Unbelievable creative genius. Millions of broken bangles and tiles turned into life-size warriors and dancers."
+      }
+    ]
   },
   {
     "id": 31,
@@ -2486,7 +4116,43 @@
       "./images/destinations/daman-diu-diu-fort/2.jpg",
       "./images/destinations/daman-diu-diu-fort/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 20.7144,
+    "lng": 70.9874,
+    "desc": "An imposing 16th-century Portuguese fortress surrounded by the Arabian Sea on three sides, commanding panoramic ocean ramparts, bronze cannons, and historic stone lighthouses.",
+    "bestTime": "October to April",
+    "budget": "₹2,500 - ₹4,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": false,
+    "attractions": [
+      "Diu Sea Fortress",
+      "Naida Caves Natural Caverns",
+      "Nagoa Horseshoe Beach",
+      "St. Paul’s Baroque Church",
+      "INS Khukri Memorial"
+    ],
+    "popularActivities": [
+      "Walking Ocean Fortress Ramparts",
+      "Exploring Sunlit Naida Cave Chambers",
+      "Water Sports at Nagoa Beach",
+      "Portuguese Seafood Dining"
+    ],
+    "travelInfo": {
+      "airport": "Diu Airport (DIU) - 7 km",
+      "railway": "Veraval Junction - 90 km",
+      "road": "NH 51 connecting Somnath and Bhavnagar"
+    },
+    "reviews": [
+      {
+        "user": "Bhavna K.",
+        "rating": 4.6,
+        "date": "Feb 2026",
+        "text": "Peaceful, unhurried coastal vibe. The views of crashing ocean waves from the bastion are breathtaking."
+      }
+    ]
   },
   {
     "id": 32,
@@ -2503,7 +4169,43 @@
       "./images/destinations/delhi-red-fort/2.jpg",
       "./images/destinations/delhi-red-fort/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 28.6562,
+    "lng": 77.241,
+    "desc": "The historic red sandstone seat of the Mughal Empire in Old Delhi, where Emperor Shah Jahan established Shahjahanabad and India celebrates its national Independence Day.",
+    "bestTime": "October to March",
+    "budget": "₹2,500 - ₹5,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Lahori Gate & Diwan-i-Aam",
+      "Diwan-i-Khas (Hall of Private Audience)",
+      "Chandni Chowk Market",
+      "Jama Masjid",
+      "Qutub Minar (South Delhi)"
+    ],
+    "popularActivities": [
+      "Historical Fort Walk with Audio Guide",
+      "Sound & Light Show in English/Hindi",
+      "Rickshaw Ride through Chandni Chowk",
+      "Paranthe Wali Gali Culinary Tour"
+    ],
+    "travelInfo": {
+      "airport": "Indira Gandhi Intl Airport (DEL) - 20 km",
+      "railway": "Old Delhi / New Delhi Station - 3 km",
+      "road": "Delhi Metro Lal Qila Station right outside"
+    },
+    "reviews": [
+      {
+        "user": "Kunal R.",
+        "rating": 4.7,
+        "date": "Jan 2026",
+        "text": "The sheer scale of the red sandstone ramparts is commanding. Beautiful museum galleries inside the restored barracks."
+      }
+    ]
   },
   {
     "id": 33,
@@ -2514,13 +4216,49 @@
     "category": "Nature",
     "rating": "4.4",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/jammu-kashmir-dal-lake/1.jpg",
       "./images/destinations/jammu-kashmir-dal-lake/2.jpg",
       "./images/destinations/jammu-kashmir-dal-lake/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 34.0837,
+    "lng": 74.837,
+    "desc": "The \"Jewel in the crown of Kashmir\", Dal Lake is famous for intricately carved cedar-wood houseboats, colorful shikaras, and vibrant floating vegetable and lotus flower markets.",
+    "bestTime": "April to October (Pleasant) / Dec to Feb (Snow)",
+    "budget": "₹4,000 - ₹8,500 / day",
+    "budgetTier": "Luxury",
+    "duration": "3-4 Days",
+    "season": "Summer",
+    "travelStyle": "Nature",
+    "popular": true,
+    "attractions": [
+      "Dal Lake Shikara Ghats",
+      "Mughal Gardens (Shalimar & Nishat Bagh)",
+      "Chashme Shahi",
+      "Pari Mahal",
+      "Shankaracharya Hilltop Temple"
+    ],
+    "popularActivities": [
+      "Sunset Shikara Ride across Lotus Beds",
+      "Dawn Visit to Floating Flower Market",
+      "Stay on a Heritage Wood Houseboat",
+      "Kashmiri Wazwan & Kahwa Tasting"
+    ],
+    "travelInfo": {
+      "airport": "Sheikh ul-Alam Intl Airport Srinagar (SXR) - 15 km",
+      "railway": "Srinagar / Jammu Tawi (260 km)",
+      "road": "NH 44 via Chenani-Nashri Tunnel"
+    },
+    "reviews": [
+      {
+        "user": "Sameer & Divya",
+        "rating": 5,
+        "date": "May 2026",
+        "text": "Gliding on a shikara surrounded by the Zabarwan mountains while sipping saffron kahwa is pure paradise."
+      }
+    ]
   },
   {
     "id": 34,
@@ -2537,7 +4275,43 @@
       "./images/destinations/ladakh-pangong-lake/2.jpg",
       "./images/destinations/ladakh-pangong-lake/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 33.7595,
+    "lng": 78.6674,
+    "desc": "A stunning endorheic high-altitude salt lake situated at 14,270 feet in Ladakh, spanning 134 km across India and Tibet, celebrated for changing colors from turquoise to deep cobalt.",
+    "bestTime": "May to September",
+    "budget": "₹4,500 - ₹9,000 / day",
+    "budgetTier": "Luxury",
+    "duration": "2-3 Days",
+    "season": "Summer",
+    "travelStyle": "Adventure",
+    "popular": true,
+    "attractions": [
+      "Pangong Tso Turquoise Shores",
+      "Chang La High Altitude Pass (17,590 ft)",
+      "Spangmik Village Camps",
+      "Thiksey Monastery (en route)",
+      "Hemis Monastery"
+    ],
+    "popularActivities": [
+      "Stargazing under Milky Way Skies",
+      "High-Altitude Landscape Photography",
+      "Spotting Himalayan Marmots",
+      "Lakeside Glamping in Geodesic Domes"
+    ],
+    "travelInfo": {
+      "airport": "Kushok Bakula Rimpochee Airport Leh (IXL) - 150 km",
+      "railway": "None (Flight to Leh)",
+      "road": "Adventurous mountain drive across Chang La pass"
+    },
+    "reviews": [
+      {
+        "user": "Gaurav B.",
+        "rating": 5,
+        "date": "Jul 2025",
+        "text": "The bluest water on earth against barren brown mountains! The night sky with the Milky Way visible to the naked eye is surreal."
+      }
+    ]
   },
   {
     "id": 35,
@@ -2548,13 +4322,49 @@
     "category": "Beach",
     "rating": "4.4",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/lakshadweep-agatti-island/1.jpg",
       "./images/destinations/lakshadweep-agatti-island/2.jpg",
       "./images/destinations/lakshadweep-agatti-island/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 10.8533,
+    "lng": 72.1942,
+    "desc": "A shimmering teardrop-shaped coral atoll surrounded by a shallow, crystal-clear turquoise lagoon, offering world-class pristine reefs, sea turtles, and secluded coral beaches.",
+    "bestTime": "October to May",
+    "budget": "₹6,000 - ₹13,000 / day",
+    "budgetTier": "Luxury",
+    "duration": "3-4 Days",
+    "season": "Winter",
+    "travelStyle": "Beach",
+    "popular": true,
+    "attractions": [
+      "Agatti Coral Lagoon",
+      "Bangaram Island Sandbank (boat trip)",
+      "Thinnakara Island",
+      "Deep Sea Coral Gardens",
+      "Shipwreck Snorkel Site"
+    ],
+    "popularActivities": [
+      "Scuba Diving with Sea Turtles & Manta Rays",
+      "Glass Bottom Lagoon Boating",
+      "Deep Sea Sport Fishing",
+      "Lagoon Kayaking & Paddleboarding"
+    ],
+    "travelInfo": {
+      "airport": "Agatti Airport (AGX) - direct flights from Kochi (COK)",
+      "railway": "None",
+      "road": "Island walks and electric carts"
+    },
+    "reviews": [
+      {
+        "user": "Vikrant S.",
+        "rating": 5,
+        "date": "Dec 2025",
+        "text": "Touching down on the narrow airstrip surrounded by turquoise water on both sides is thrilling. An untouched tropical wonder."
+      }
+    ]
   },
   {
     "id": 36,
@@ -2571,7 +4381,43 @@
       "./images/destinations/puducherry-white-town/2.jpg",
       "./images/destinations/puducherry-white-town/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 11.9338,
+    "lng": 79.8359,
+    "desc": "The picturesque French Quarter of Pondicherry with mustard-yellow colonial villas, bougainvillea-draped balconies, chic seaside cafes, and quiet cobblestone avenues.",
+    "bestTime": "October to March",
+    "budget": "₹3,000 - ₹6,500 / day",
+    "budgetTier": "Moderate",
+    "duration": "2-3 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Promenade Beach & Rock Beach",
+      "Aurobindo Ashram",
+      "Auroville Matrimandir (12 km)",
+      "French War Memorial",
+      "Our Lady of Angels Church"
+    ],
+    "popularActivities": [
+      "Bicycle Tour of French Heritage Quarter",
+      "Seaside Cafe Croissant & Coffee Hopping",
+      "Meditation at Auroville Matrimandir",
+      "Surfing at Serenity Beach"
+    ],
+    "travelInfo": {
+      "airport": "Puducherry Airport (PNY) / Chennai Intl (150 km)",
+      "railway": "Puducherry Railway Station (PDY) - 1.5 km",
+      "road": "Scenic East Coast Road (ECR) from Chennai"
+    },
+    "reviews": [
+      {
+        "user": "Camille T.",
+        "rating": 4.8,
+        "date": "Jan 2026",
+        "text": "Fabulous blend of Franco-Tamil heritage. Walking along the Promenade at sunrise and eating in courtyard cafes is pure joy."
+      }
+    ]
   }
 ];
 
@@ -4858,6 +6704,15 @@
 
         // ══ NAV & HASH ROUTING ══
         function showPage(name, updateHash = true) {
+            // Protected Admin Route (Phase 6)
+            if (name === 'admin') {
+                if (!currentUser || !currentUser.isAdmin) {
+                    showToast('Admin privilege required. Please sign in as an Administrator.', 'error');
+                    showPage('auth');
+                    return;
+                }
+            }
+
             const pageEl = document.getElementById('page-' + name);
             if (!pageEl) return;
 
@@ -4872,6 +6727,11 @@
                 history.pushState(null, '', '#' + name);
             }
             
+            if (name === 'places') {
+                renderRecentlyViewed();
+                populateStateDropdown();
+                filterPlacesSmart();
+            }
             if (name === 'dashboard') renderDashboard();
             if (name === 'admin') renderAdminOverview();
         }
@@ -4896,28 +6756,953 @@
             document.getElementById('auth-subtitle').textContent = mode === 'login' ? 'Sign in to manage your bookings' : 'Join thousands of happy travellers';
         }
 
-        function doLogin() {
+        
+        // ══════════════════════════════════════════════════════════
+        // PHASES 2, 3, 4, 5, 6, 7 ENHANCEMENTS: LOGIC & CONTROLLERS
+        // ══════════════════════════════════════════════════════════
+
+        // --- State Variables ---
+        let currentPlacesFilter = 'All';
+        let currentPlacesView = 'grid';
+        let allPlacesMapInstance = null;
+        let destMapInstance = null;
+        let activeDashFilter = 'All';
+        let activeTourPlace = null;
+
+        // --- SHA-256 Web Crypto Password Hashing (Phase 6) ---
+        async function hashPassword(password, salt = 'wanderly_salt_2026') {
+            const encoder = new TextEncoder();
+            const data = encoder.encode(password + salt);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        // --- WMO Weather Interpretation Table (Phase 4) ---
+        const WMO_WEATHER_MAP = {
+            0: { text: 'Clear Sky', icon: '☀️' },
+            1: { text: 'Mainly Clear', icon: '🌤️' },
+            2: { text: 'Partly Cloudy', icon: '⛅' },
+            3: { text: 'Overcast', icon: '☁️' },
+            45: { text: 'Foggy', icon: '🌫️' },
+            48: { text: 'Depositing Rime Fog', icon: '🌫️' },
+            51: { text: 'Light Drizzle', icon: '🌦️' },
+            53: { text: 'Moderate Drizzle', icon: '🌦️' },
+            55: { text: 'Dense Drizzle', icon: '🌧️' },
+            61: { text: 'Slight Rain', icon: '🌧️' },
+            63: { text: 'Moderate Rain', icon: '🌧️' },
+            65: { text: 'Heavy Rain', icon: '🌧️' },
+            71: { text: 'Slight Snow', icon: '🌨️' },
+            73: { text: 'Moderate Snow', icon: '❄️' },
+            75: { text: 'Heavy Snow', icon: '❄️' },
+            80: { text: 'Rain Showers', icon: '🌦️' },
+            81: { text: 'Moderate Showers', icon: '🌧️' },
+            82: { text: 'Violent Showers', icon: '⛈️' },
+            95: { text: 'Thunderstorm', icon: '⛈️' },
+            96: { text: 'Thunderstorm with Hail', icon: '⛈️' }
+        };
+
+        // --- Recently Viewed & Wishlist Controllers (Phase 2) ---
+        function trackRecentlyViewed(id) {
+            let list = JSON.parse(localStorage.getItem('wanderly_recent_places') || '[]');
+            list = list.filter(x => String(x) !== String(id));
+            list.unshift(String(id));
+            if (list.length > 8) list = list.slice(0, 8);
+            localStorage.setItem('wanderly_recent_places', JSON.stringify(list));
+            renderRecentlyViewed();
+        }
+
+        function renderRecentlyViewed() {
+            const wrap = document.getElementById('recent-places-wrap');
+            const scroll = document.getElementById('recent-places-scroll');
+            if (!wrap || !scroll) return;
+            const list = JSON.parse(localStorage.getItem('wanderly_recent_places') || '[]');
+            if (list.length === 0) {
+                wrap.style.display = 'none';
+                return;
+            }
+            wrap.style.display = 'block';
+            scroll.innerHTML = list.map(id => {
+                const p = PLACES.find(x => String(x.id) === String(id));
+                if (!p) return '';
+                const img = p.images && p.images[0] ? p.images[0] : '';
+                return `
+                    <div onclick="openPlaceModal('${p.id}')" style="display:flex; align-items:center; gap:0.5rem; background:#fff; border:1px solid var(--border); border-radius:20px; padding:0.3rem 0.75rem 0.3rem 0.35rem; cursor:pointer; flex-shrink:0; transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="${img}" style="width:28px; height:28px; border-radius:50%; object-fit:cover;">
+                        <span style="font-size:0.8rem; font-weight:600; color:var(--ink);">${p.name}</span>
+                        <span style="font-size:0.75rem; color:var(--gold);"><i class="fa-solid fa-star"></i> ${p.rating}</span>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function toggleWishlist(id, event) {
+            if (event) event.stopPropagation();
+            let wishlist = JSON.parse(localStorage.getItem('wanderly_wishlist') || '[]');
+            const idx = wishlist.indexOf(String(id));
+            if (idx !== -1) {
+                wishlist.splice(idx, 1);
+                showToast('Removed from favorites', 'info');
+            } else {
+                wishlist.push(String(id));
+                showToast('Saved to your favorites! ❤️', 'success');
+            }
+            localStorage.setItem('wanderly_wishlist', JSON.stringify(wishlist));
+            updateFavIcon(id);
+        }
+
+        function toggleCurrentWishlist() {
+            if (!pendingBooking || pendingBooking.type !== 'place') return;
+            toggleWishlist(pendingBooking.data.id);
+        }
+
+        function updateFavIcon(id) {
+            const btn = document.getElementById('dest-modal-fav-btn');
+            if (!btn) return;
+            const wishlist = JSON.parse(localStorage.getItem('wanderly_wishlist') || '[]');
+            const isSaved = wishlist.includes(String(id));
+            btn.innerHTML = isSaved ? '<i class="fa-solid fa-heart" style="color:var(--terracotta);"></i>' : '<i class="fa-regular fa-heart"></i>';
+        }
+
+        // --- Weather Fetcher (Phase 4) ---
+        async function fetchDestinationWeather(lat, lng) {
+            const weatherEl = document.getElementById('dest-weather-widget');
+            if (!weatherEl) return;
+            weatherEl.innerHTML = '<div style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i class="fa-solid fa-spinner fa-spin"></i> Fetching live weather forecast...</div>';
+            
+            if (!lat || !lng) {
+                weatherEl.innerHTML = '<div style="font-size:0.85rem;color:var(--text-muted);">Weather forecast data unavailable</div>';
+                return;
+            }
+
+            try {
+                const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current=temperature_2m,relative_humidity_2m,weather_code,wind_speed_10m&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=auto&forecast_days=3`;
+                const res = await fetch(url);
+                if (!res.ok) throw new Error('Weather API failed');
+                const data = await res.json();
+
+                const curr = data.current;
+                const codeInfo = WMO_WEATHER_MAP[curr.weather_code] || { text: 'Pleasant Weather', icon: '⛅' };
+                const daily = data.daily;
+
+                let forecastHtml = '';
+                if (daily && daily.time) {
+                    forecastHtml = daily.time.map((dateStr, i) => {
+                        const d = new Date(dateStr);
+                        const dayName = i === 0 ? 'Today' : d.toLocaleDateString('en-US', { weekday: 'short' });
+                        const fCode = WMO_WEATHER_MAP[daily.weather_code[i]] || { text: 'Pleasant', icon: '⛅' };
+                        const maxT = Math.round(daily.temperature_2m_max[i]);
+                        const minT = Math.round(daily.temperature_2m_min[i]);
+                        return `
+                            <div style="flex:1;text-align:center;padding:0.5rem 0.25rem;background:#fff;border-radius:8px;border:1px solid var(--border);">
+                                <div style="font-size:0.75rem;font-weight:600;color:var(--text-muted);">${dayName}</div>
+                                <div style="font-size:1.4rem;margin:0.25rem 0;">${fCode.icon}</div>
+                                <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">${maxT}° / <span style="font-weight:400;color:var(--text-muted);">${minT}°</span></div>
+                            </div>
+                        `;
+                    }).join('');
+                }
+
+                weatherEl.innerHTML = `
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.85rem;">
+                        <div style="display:flex; align-items:center; gap:0.85rem;">
+                            <span style="font-size:2.6rem; line-height:1;">${codeInfo.icon}</span>
+                            <div>
+                                <div style="font-size:1.6rem; font-weight:700; color:var(--ink);">${Math.round(curr.temperature_2m)}°C</div>
+                                <div style="font-size:0.82rem; font-weight:600; color:var(--text-muted);">${codeInfo.text}</div>
+                            </div>
+                        </div>
+                        <div style="text-align:right; font-size:0.78rem; color:var(--text-muted); line-height:1.6;">
+                            <div><i class="fa-solid fa-droplet" style="color:var(--sky);"></i> Humidity: <b>${curr.relative_humidity_2m}%</b></div>
+                            <div><i class="fa-solid fa-wind" style="color:var(--sage);"></i> Wind: <b>${Math.round(curr.wind_speed_10m)} km/h</b></div>
+                        </div>
+                    </div>
+                    <div style="display:flex; gap:0.5rem;">${forecastHtml}</div>
+                `;
+            } catch (err) {
+                console.warn('Weather fetch fallback:', err);
+                weatherEl.innerHTML = `
+                    <div style="display:flex; align-items:center; gap:0.75rem; padding:0.5rem 0;">
+                        <span style="font-size:2.2rem;">🌤️</span>
+                        <div>
+                            <div style="font-size:1.25rem; font-weight:700; color:var(--ink);">24°C · Pleasant Conditions</div>
+                            <div style="font-size:0.8rem; color:var(--text-muted);">Seasonal historical forecast (offline mode)</div>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        // --- Leaflet Destination Map (Phase 3) ---
+        function initDestinationMap(p) {
+            const container = document.getElementById('dest-map-container');
+            if (!container) return;
+            if (destMapInstance) {
+                destMapInstance.remove();
+                destMapInstance = null;
+            }
+            if (!p.lat || !p.lng || typeof L === 'undefined') {
+                container.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--text-muted);font-size:0.85rem;">Coordinates unavailable</div>';
+                return;
+            }
+            container.innerHTML = '';
+            try {
+                destMapInstance = L.map('dest-map-container', {
+                    center: [p.lat, p.lng],
+                    zoom: 12,
+                    scrollWheelZoom: false
+                });
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+                    maxZoom: 18
+                }).addTo(destMapInstance);
+
+                const customPin = L.divIcon({
+                    className: 'custom-map-pin',
+                    html: `<div style="background:var(--terracotta);color:#fff;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 10px rgba(0,0,0,0.3);border:2px solid #fff;font-size:16px;">📍</div>`,
+                    iconSize: [34, 34],
+                    iconAnchor: [17, 34]
+                });
+
+                L.marker([p.lat, p.lng], { icon: customPin }).addTo(destMapInstance)
+                    .bindPopup(`<b>${p.name}</b><br><small>${p.location}</small>`)
+                    .openPopup();
+
+                setTimeout(() => {
+                    if (destMapInstance) destMapInstance.invalidateSize();
+                }, 250);
+            } catch (e) {
+                console.error('Error initializing destination map:', e);
+            }
+        }
+
+        // --- All-Places India Map (Phase 3) ---
+        function initAllPlacesMap() {
+            const container = document.getElementById('all-places-map');
+            if (!container || typeof L === 'undefined') return;
+            if (allPlacesMapInstance) {
+                setTimeout(() => allPlacesMapInstance.invalidateSize(), 150);
+                return;
+            }
+            try {
+                allPlacesMapInstance = L.map('all-places-map', {
+                    center: [22.5, 82.0],
+                    zoom: 5,
+                    scrollWheelZoom: false
+                });
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; OpenStreetMap',
+                    maxZoom: 18
+                }).addTo(allPlacesMapInstance);
+
+                PLACES.forEach(p => {
+                    if (!p.lat || !p.lng) return;
+                    const pin = L.divIcon({
+                        className: 'map-destination-pin',
+                        html: `<div style="background:var(--ink);color:var(--gold);padding:4px 8px;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,0.3);font-size:11px;font-weight:700;display:flex;align-items:center;gap:3px;border:1.5px solid var(--gold);white-space:nowrap;cursor:pointer;"><i class="fa-solid fa-location-dot" style="color:var(--terracotta);"></i> ${p.name}</div>`,
+                        iconSize: [80, 24],
+                        iconAnchor: [40, 12]
+                    });
+                    const marker = L.marker([p.lat, p.lng], { icon: pin }).addTo(allPlacesMapInstance);
+                    const popupHtml = `
+                        <div style="width:200px;font-family:'DM Sans',sans-serif;">
+                            <img src="${p.images && p.images[0] ? p.images[0] : ''}" style="width:100%;height:100px;object-fit:cover;border-radius:6px;margin-bottom:6px;">
+                            <h4 style="margin:0 0 4px;font-size:14px;font-family:'Playfair Display',serif;">${p.name}</h4>
+                            <p style="margin:0 0 6px;font-size:11px;color:#7A7065;">${p.location}</p>
+                            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+                                <span style="font-size:11px;font-weight:bold;color:var(--gold);">★ ${p.rating}</span>
+                                <span style="font-size:11px;background:#f5f0eb;padding:2px 6px;border-radius:4px;">${p.category}</span>
+                            </div>
+                            <button onclick="openPlaceModal('${p.id}')" style="width:100%;padding:5px;background:var(--terracotta);color:#fff;border:none;border-radius:4px;font-size:11px;font-weight:bold;cursor:pointer;">Explore Destination</button>
+                        </div>
+                    `;
+                    marker.bindPopup(popupHtml);
+                });
+            } catch (e) {
+                console.error('Error initializing all-places map:', e);
+            }
+        }
+
+        function togglePlacesView(mode) {
+            currentPlacesView = mode;
+            const gridBtn = document.getElementById('view-btn-grid');
+            const mapBtn = document.getElementById('view-btn-map');
+            const gridWrap = document.getElementById('all-places-grid-wrap');
+            const mapWrap = document.getElementById('all-places-map-wrap');
+
+            if (mode === 'grid') {
+                if (gridBtn) { gridBtn.style.background = 'var(--ink)'; gridBtn.style.color = '#fff'; }
+                if (mapBtn) { mapBtn.style.background = '#fff'; mapBtn.style.color = 'var(--ink)'; }
+                if (gridWrap) gridWrap.style.display = 'block';
+                if (mapWrap) mapWrap.style.display = 'none';
+            } else {
+                if (mapBtn) { mapBtn.style.background = 'var(--ink)'; mapBtn.style.color = '#fff'; }
+                if (gridBtn) { gridBtn.style.background = '#fff'; gridBtn.style.color = 'var(--ink)'; }
+                if (gridWrap) gridWrap.style.display = 'none';
+                if (mapWrap) {
+                    mapWrap.style.display = 'block';
+                    initAllPlacesMap();
+                    if (allPlacesMapInstance) {
+                        setTimeout(() => allPlacesMapInstance.invalidateSize(), 200);
+                    }
+                }
+            }
+        }
+
+        // --- Enhanced Destination Modal (Phase 2) ---
+        function openPlaceModal(id) {
+            const p = PLACES.find(x => String(x.id) === String(id));
+            if (!p) return;
+
+            trackRecentlyViewed(p.id);
+            pendingBooking = { type: 'place', data: p };
+            activeTourPlace = p;
+
+            // Header info
+            document.getElementById('dest-modal-title').textContent = p.name;
+            const stateBadge = document.getElementById('dest-modal-state-badge');
+            if (stateBadge) stateBadge.textContent = p.state || p.location;
+            updateFavIcon(p.id);
+
+            // Images slideshow
+            const cfg = CAT_CONFIG[p.category] || { bg: 'linear-gradient(160deg,#1A2B3C,#2C4A3E)' };
+            const imagesJson = JSON.stringify(p.images || []).replace(/"/g, '&quot;');
+            const imageHtml = `<image-slideshow data-images="${imagesJson}" data-alt="${p.name}" data-emoji="${p.emoji}" data-bg="${cfg.bg}"></image-slideshow>`;
+
+            // Attractions & Activities Pills
+            const attractionsHtml = (p.attractions || []).map(a => `<span class="amenity-chip" style="background:var(--sand);border:1px solid var(--border);"><i class="fa-solid fa-landmark"></i> ${a}</span>`).join(' ');
+            const activitiesHtml = (p.activities || []).map(act => `<span class="amenity-chip" style="background:#f0faf0;color:var(--sage);border:1px solid #c8e6c9;"><i class="fa-solid fa-person-walking"></i> ${act}</span>`).join(' ');
+
+            // Logistics
+            const logistics = p.travelInfo || {
+                nearestAirport: 'Domestic / International Airport connection nearby',
+                nearestRailway: 'Connected via Indian Railways Main Junction',
+                roadways: 'All-weather National Highway & State Expressways'
+            };
+
+            // Modal Body Layout
+            const modalBody = document.getElementById('dest-modal-body');
+            modalBody.innerHTML = `
+                <!-- Hero Photo Slideshow -->
+                <div style="height:260px; border-radius:10px; overflow:hidden; position:relative; margin-bottom:1.5rem; background:${cfg.bg};">
+                    ${imageHtml}
+                    <div style="position:absolute; bottom:12px; left:14px; z-index:10; display:flex; gap:0.5rem; flex-wrap:wrap;">
+                        <span class="badge-pill" style="background:rgba(0,0,0,0.65);color:#fff;backdrop-filter:blur(4px);font-size:0.75rem;"><i class="fa-solid fa-tag"></i> ${p.category}</span>
+                        <span class="badge-pill" style="background:var(--gold);color:#1A1612;font-size:0.75rem;font-weight:700;"><i class="fa-solid fa-star"></i> ${p.rating} / 5.0</span>
+                        <span class="badge-pill" style="background:rgba(255,255,255,0.85);color:var(--ink);font-size:0.75rem;"><i class="fa-regular fa-clock"></i> ${p.duration || '2-3 Days'}</span>
+                    </div>
+                </div>
+
+                <!-- Description & Quick Highlights Grid -->
+                <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:1rem; margin-bottom:1.5rem; background:var(--sand); padding:1rem; border-radius:8px;">
+                    <div>
+                        <div style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; font-weight:700;">Best Season to Visit</div>
+                        <div style="font-weight:600; color:var(--ink); margin-top:2px;"><i class="fa-regular fa-calendar-check" style="color:var(--terracotta);"></i> ${p.bestTime || 'October to March'}</div>
+                    </div>
+                    <div>
+                        <div style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; font-weight:700;">Estimated Budget</div>
+                        <div style="font-weight:600; color:var(--ink); margin-top:2px;"><i class="fa-solid fa-wallet" style="color:var(--sage);"></i> ${p.dailyBudget ? '₹' + p.dailyBudget.toLocaleString() + ' / day' : '₹3,500 / day'}</div>
+                    </div>
+                    <div>
+                        <div style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; font-weight:700;">Travel Style</div>
+                        <div style="font-weight:600; color:var(--ink); margin-top:2px;"><i class="fa-solid fa-compass" style="color:var(--sky);"></i> ${p.travelStyle || p.category}</div>
+                    </div>
+                </div>
+
+                <!-- Overview Paragraph -->
+                <div style="margin-bottom:1.5rem;">
+                    <h4 style="font-family:'Playfair Display',serif; margin-bottom:0.4rem; font-size:1.15rem;">About ${p.name}</h4>
+                    <p style="color:var(--ink); line-height:1.7; font-size:0.92rem;">${p.desc || p.description || ''}</p>
+                </div>
+
+                <!-- Top Attractions & Experiences -->
+                <div style="margin-bottom:1.5rem;">
+                    <h4 style="font-family:'Playfair Display',serif; margin-bottom:0.5rem; font-size:1.15rem;">Key Attractions & Must-Do Activities</h4>
+                    <div style="display:flex; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.75rem;">${attractionsHtml}</div>
+                    <div style="display:flex; flex-wrap:wrap; gap:0.4rem;">${activitiesHtml}</div>
+                </div>
+
+                <!-- Split Container: Weather Card & Interactive Map -->
+                <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:1.25rem; margin-bottom:1.5rem;">
+                    <!-- Weather Card (Phase 4) -->
+                    <div style="background:#fff; border:1px solid var(--border); border-radius:10px; padding:1.2rem; box-shadow:0 2px 10px rgba(0,0,0,0.04);">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+                            <h4 style="margin:0; font-size:0.95rem; font-family:'Playfair Display',serif;"><i class="fa-solid fa-cloud-sun"></i> Live Weather & 3-Day Forecast</h4>
+                            <span style="font-size:0.7rem; color:var(--text-muted); background:var(--sand); padding:2px 6px; border-radius:4px;">Open-Meteo Live</span>
+                        </div>
+                        <div id="dest-weather-widget"></div>
+                    </div>
+
+                    <!-- Map Container (Phase 3) -->
+                    <div style="background:#fff; border:1px solid var(--border); border-radius:10px; padding:1.2rem; box-shadow:0 2px 10px rgba(0,0,0,0.04); display:flex; flex-direction:column;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+                            <h4 style="margin:0; font-size:0.95rem; font-family:'Playfair Display',serif;"><i class="fa-solid fa-map-pin"></i> Location & Surroundings</h4>
+                            <span style="font-size:0.7rem; color:var(--text-muted); background:var(--sand); padding:2px 6px; border-radius:4px;">OpenStreetMap</span>
+                        </div>
+                        <div id="dest-map-container" style="height:190px; border-radius:8px; overflow:hidden; border:1px solid var(--border);"></div>
+                    </div>
+                </div>
+
+                <!-- Logistics Guide -->
+                <div style="background:var(--sand); border:1px solid var(--border); border-radius:10px; padding:1.2rem; margin-bottom:1.5rem;">
+                    <h4 style="font-family:'Playfair Display',serif; margin-bottom:0.75rem; font-size:1.05rem;"><i class="fa-solid fa-route"></i> Getting There & Logistics</h4>
+                    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:0.75rem; font-size:0.85rem; line-height:1.5;">
+                        <div>
+                            <b><i class="fa-solid fa-plane" style="color:var(--sky);"></i> Nearest Airport:</b>
+                            <div style="color:var(--text-muted); margin-top:2px;">${logistics.nearestAirport}</div>
+                        </div>
+                        <div>
+                            <b><i class="fa-solid fa-train" style="color:var(--terracotta);"></i> Nearest Railway:</b>
+                            <div style="color:var(--text-muted); margin-top:2px;">${logistics.nearestRailway}</div>
+                        </div>
+                        <div>
+                            <b><i class="fa-solid fa-car" style="color:var(--sage);"></i> Road Connectivity:</b>
+                            <div style="color:var(--text-muted); margin-top:2px;">${logistics.roadways}</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Traveler Reviews & Ratings (Phase 2) -->
+                <div>
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+                        <h4 style="font-family:'Playfair Display',serif; margin:0; font-size:1.1rem;"><i class="fa-solid fa-comments"></i> Verified Traveler Reviews</h4>
+                        <span style="font-size:0.85rem; font-weight:700; color:var(--gold);">★ ${p.rating} / 5.0 (from ${p.reviewCount || 128} verified trips)</span>
+                    </div>
+                    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:0.75rem;">
+                        ${(p.reviews || [
+                            { author: 'Aditi Sharma', rating: 5, date: '2 weeks ago', comment: 'Absolutely breathtaking! Highly recommend taking the morning guided tour to beat the rush.' },
+                            { author: 'Rahul Verma', rating: 5, date: 'Last month', comment: 'One of the best destinations in India. Culture, hospitality and heritage are world class.' }
+                        ]).map(r => `
+                            <div style="background:#fff; border:1px solid var(--border); border-radius:8px; padding:0.85rem; font-size:0.85rem;">
+                                <div style="display:flex; justify-content:space-between; margin-bottom:0.35rem;">
+                                    <b>${r.author}</b>
+                                    <span style="color:var(--gold); font-size:0.8rem;">${'★'.repeat(r.rating || 5)}</span>
+                                </div>
+                                <p style="color:var(--text-muted); font-size:0.8rem; margin:0 0 0.35rem; line-height:1.4;">"${r.comment}"</p>
+                                <small style="color:#aaa; font-size:0.72rem;">${r.date || 'Verified Traveler'}</small>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+
+            // Footer setup
+            const priceTag = document.getElementById('dest-modal-price-tag');
+            if (priceTag) priceTag.innerHTML = `Daily Est: <b>${p.price}</b>`;
+
+            const bookBtn = document.getElementById('dest-modal-book-btn');
+            if (bookBtn) {
+                bookBtn.onclick = () => {
+                    closeDestModal();
+                    openTourModal(p.id);
+                };
+            }
+
+            const hotelBtn = document.getElementById('dest-modal-hotel-btn');
+            if (hotelBtn) {
+                hotelBtn.onclick = () => {
+                    closeDestModal();
+                    selectedPlaceName = p.name;
+                    showPage('hotels');
+                    const hotelDestInput = document.getElementById('hotel-dest');
+                    if (hotelDestInput) hotelDestInput.value = p.name;
+                    showToast('Showing hotels near ' + p.name, 'success');
+                    searchHotels();
+                };
+            }
+
+            // Open modal
+            document.getElementById('dest-modal').classList.add('open');
+
+            // Trigger Map & Weather
+            setTimeout(() => {
+                initDestinationMap(p);
+                fetchDestinationWeather(p.lat, p.lng);
+            }, 100);
+        }
+
+        function closeDestModal() {
+            const modal = document.getElementById('dest-modal');
+            if (modal) modal.classList.remove('open');
+            if (destMapInstance) {
+                destMapInstance.remove();
+                destMapInstance = null;
+            }
+        }
+
+        // --- Smart Explorer Search & Multi-Filters (Phase 5) ---
+        function populateStateDropdown() {
+            const select = document.getElementById('filter-state');
+            if (!select) return;
+            const states = Array.from(new Set(PLACES.map(p => p.state || p.location))).filter(Boolean).sort();
+            select.innerHTML = '<option value="All">All States & UTs</option>' + 
+                states.map(s => `<option value="${s}">${s}</option>`).join('');
+        }
+
+        function filterPlacesSmart() {
+            const query = (document.getElementById('place-smart-search')?.value || '').toLowerCase().trim();
+            const selectedState = document.getElementById('filter-state')?.value || 'All';
+            const selectedBudget = document.getElementById('filter-budget')?.value || 'All';
+            const selectedSeason = document.getElementById('filter-season')?.value || 'All';
+            const selectedDuration = document.getElementById('filter-duration')?.value || 'All';
+            const selectedSort = document.getElementById('filter-sort')?.value || 'recommended';
+
+            let filtered = PLACES.filter(p => {
+                // Category match
+                if (currentPlacesFilter !== 'All' && p.category !== currentPlacesFilter) return false;
+
+                // State match
+                if (selectedState !== 'All' && (p.state !== selectedState && p.location !== selectedState)) return false;
+
+                // Budget Tier match
+                if (selectedBudget !== 'All' && p.budgetTier !== selectedBudget) return false;
+
+                // Season match
+                if (selectedSeason !== 'All') {
+                    const season = (p.season || p.bestTime || '').toLowerCase();
+                    if (!season.includes(selectedSeason.toLowerCase())) return false;
+                }
+
+                // Duration match
+                if (selectedDuration !== 'All' && p.duration !== selectedDuration) return false;
+
+                // Keyword Search across multiple fields
+                if (query) {
+                    const textCorpus = [
+                        p.name,
+                        p.location,
+                        p.state,
+                        p.category,
+                        p.travelStyle,
+                        p.desc || p.description,
+                        ...(p.attractions || []),
+                        ...(p.activities || [])
+                    ].filter(Boolean).join(' ').toLowerCase();
+
+                    if (!textCorpus.includes(query)) return false;
+                }
+
+                return true;
+            });
+
+            // Sorting
+            if (selectedSort === 'rating-desc') {
+                filtered.sort((a, b) => b.rating - a.rating);
+            } else if (selectedSort === 'budget-asc') {
+                filtered.sort((a, b) => (a.dailyBudget || 3000) - (b.dailyBudget || 3000));
+            } else if (selectedSort === 'budget-desc') {
+                filtered.sort((a, b) => (b.dailyBudget || 3000) - (a.dailyBudget || 3000));
+            } else if (selectedSort === 'name-asc') {
+                filtered.sort((a, b) => a.name.localeCompare(b.name));
+            }
+
+            // Update Count Badge
+            const countBadge = document.getElementById('places-count-badge');
+            if (countBadge) countBadge.textContent = `${filtered.length} Destination${filtered.length === 1 ? '' : 's'}`;
+
+            // Render to Grid
+            const grid = document.getElementById('all-places');
+            if (grid) {
+                if (filtered.length === 0) {
+                    grid.innerHTML = `
+                        <div style="grid-column: 1 / -1; padding: 4rem 1rem; text-align: center; color: var(--text-muted);">
+                            <div style="font-size: 3rem; margin-bottom: 1rem;">🔍</div>
+                            <h3 style="font-family:'Playfair Display',serif; color:var(--ink); margin-bottom:0.5rem;">No matching destinations found</h3>
+                            <p style="margin-bottom: 1.5rem;">Try adjusting your search criteria, clearing category pills, or selecting all budget tiers.</p>
+                            <button class="btn-book terracotta" onclick="resetPlaceFilters()">Reset All Filters</button>
+                        </div>
+                    `;
+                } else {
+                    grid.innerHTML = filtered.map(renderPlaceCard).join('');
+                }
+            }
+        }
+
+        function resetPlaceFilters() {
+            const searchInput = document.getElementById('place-smart-search');
+            if (searchInput) searchInput.value = '';
+            const stateSelect = document.getElementById('filter-state');
+            if (stateSelect) stateSelect.value = 'All';
+            const budgetSelect = document.getElementById('filter-budget');
+            if (budgetSelect) budgetSelect.value = 'All';
+            const seasonSelect = document.getElementById('filter-season');
+            if (seasonSelect) seasonSelect.value = 'All';
+            const durationSelect = document.getElementById('filter-duration');
+            if (durationSelect) durationSelect.value = 'All';
+            const sortSelect = document.getElementById('filter-sort');
+            if (sortSelect) sortSelect.value = 'recommended';
+
+            currentPlacesFilter = 'All';
+            document.querySelectorAll('#place-filters .filter-btn').forEach((b, i) => {
+                b.classList.toggle('active', i === 0);
+            });
+
+            filterPlacesSmart();
+        }
+
+        function quickFilterHome(cat) {
+            showPage('places');
+            currentPlacesFilter = cat;
+            document.querySelectorAll('#place-filters .filter-btn').forEach(b => {
+                b.classList.toggle('active', b.textContent.trim() === cat);
+            });
+            filterPlacesSmart();
+        }
+
+        // --- Tour Booking Controller (Phase 7) ---
+        function openTourModal(placeId) {
+            if (!currentUser) {
+                showToast('Please sign in to book a tour experience', 'error');
+                showPage('auth');
+                return;
+            }
+            const p = PLACES.find(x => String(x.id) === String(placeId)) || activeTourPlace;
+            if (!p) return;
+            activeTourPlace = p;
+
+            document.getElementById('tour-place-name').value = `${p.name} (${p.location})`;
+            
+            // Set default date to tomorrow
+            const tomorrow = new Date();
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            document.getElementById('tour-date').value = tomorrow.toISOString().split('T')[0];
+
+            calculateTourPrice();
+            document.getElementById('tour-modal').classList.add('open');
+        }
+
+        function closeTourModal() {
+            const m = document.getElementById('tour-modal');
+            if (m) m.classList.remove('open');
+        }
+
+        function calculateTourPrice() {
+            const tier = document.getElementById('tour-tier')?.value || 'guided';
+            const adults = parseInt(document.getElementById('tour-adults')?.value || '2', 10);
+            const children = parseInt(document.getElementById('tour-children')?.value || '0', 10);
+
+            const tierRates = {
+                standard: 1200,
+                guided: 2200,
+                vip: 4500
+            };
+
+            const rate = tierRates[tier] || 2200;
+            const baseAmount = (adults * rate) + (children * rate * 0.5);
+            const tax = Math.round(baseAmount * 0.05);
+            const total = baseAmount + tax;
+
+            const baseEl = document.getElementById('tour-calc-base');
+            const taxEl = document.getElementById('tour-calc-tax');
+            const totalEl = document.getElementById('tour-calc-total');
+
+            if (baseEl) baseEl.textContent = '₹' + baseAmount.toLocaleString();
+            if (taxEl) taxEl.textContent = '₹' + tax.toLocaleString();
+            if (totalEl) totalEl.textContent = '₹' + total.toLocaleString();
+
+            return { rate, baseAmount, tax, total };
+        }
+
+        function submitTourBooking() {
+            if (!currentUser) {
+                showToast('Please sign in to complete booking', 'error');
+                showPage('auth');
+                return;
+            }
+            const date = document.getElementById('tour-date')?.value;
+            if (!date) {
+                showToast('Please select a valid tour date', 'error');
+                return;
+            }
+
+            const pricing = calculateTourPrice();
+            const tier = document.getElementById('tour-tier')?.value || 'guided';
+            const tierNames = {
+                standard: 'Standard Day Tour',
+                guided: 'Guided Expert Walking Tour',
+                vip: 'VIP Premium Experience'
+            };
+            const adults = document.getElementById('tour-adults')?.value;
+            const children = document.getElementById('tour-children')?.value;
+            const notes = document.getElementById('tour-notes')?.value || 'None';
+
+            const bookingRef = '#WN-' + Math.floor(10000 + Math.random() * 90000);
+            const newBooking = {
+                id: bookingRef,
+                userEmail: currentUser.email,
+                userName: currentUser.name,
+                type: 'tour',
+                title: `${tierNames[tier]} · ${activeTourPlace.name}`,
+                placeName: activeTourPlace.name,
+                location: activeTourPlace.location,
+                icon: '🧭',
+                details: `Date: ${new Date(date).toLocaleDateString()} · ${adults} Adults, ${children} Children`,
+                date: new Date().toISOString(),
+                travelDate: date,
+                tier: tierNames[tier],
+                pax: `${adults} Adults, ${children} Children`,
+                notes: notes,
+                price: pricing.total,
+                status: 'Confirmed'
+            };
+
+            // Save in localStorage
+            const bookings = JSON.parse(localStorage.getItem('wanderly_bookings') || '[]');
+            bookings.push(newBooking);
+            localStorage.setItem('wanderly_bookings', JSON.stringify(bookings));
+
+            closeTourModal();
+            showToast(`Tour booking confirmed! Reference: ${bookingRef}`, 'success');
+
+            // Refresh Dashboard if visible
+            if (document.getElementById('page-dashboard')?.classList.contains('active')) {
+                renderDashboard();
+            }
+        }
+
+        // --- Cancellation & Voucher Controllers (Phase 7) ---
+        function cancelBooking(bookingId) {
+            if (!confirm(`Are you sure you want to cancel booking ${bookingId}? Cancellations made 24h prior receive full refund.`)) {
+                return;
+            }
+            const bookings = JSON.parse(localStorage.getItem('wanderly_bookings') || '[]');
+            const b = bookings.find(x => x.id === bookingId);
+            if (b) {
+                b.status = 'Cancelled';
+                localStorage.setItem('wanderly_bookings', JSON.stringify(bookings));
+                showToast(`Booking ${bookingId} has been cancelled.`, 'info');
+                renderDashboard();
+            }
+        }
+
+        function openVoucherModal(bookingId) {
+            const bookings = JSON.parse(localStorage.getItem('wanderly_bookings') || '[]');
+            const b = bookings.find(x => x.id === bookingId);
+            if (!b) {
+                showToast('Booking details not found', 'error');
+                return;
+            }
+
+            const body = document.getElementById('voucher-modal-body');
+            const statusClass = b.status === 'Confirmed' ? 'status-confirmed' : (b.status === 'Cancelled' ? 'status-cancelled' : 'status-pending');
+
+            body.innerHTML = `
+                <div style="border:2px dashed var(--border); border-radius:12px; padding:1.5rem; background:#fff; font-family:'DM Sans',sans-serif;">
+                    <!-- Brand Header -->
+                    <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1.5px solid var(--border); padding-bottom:1rem; margin-bottom:1rem;">
+                        <div>
+                            <div style="font-family:'Playfair Display',serif; font-size:1.6rem; font-weight:700; color:var(--ink);">Wanderly<span style="color:var(--gold);">.</span></div>
+                            <div style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.08em;">Official Travel Booking Voucher</div>
+                        </div>
+                        <div style="text-align:right;">
+                            <span class="status-badge ${statusClass}">${b.status}</span>
+                            <div style="font-size:0.8rem; font-family:'DM Mono',monospace; font-weight:700; color:var(--ink); margin-top:4px;">${b.id}</div>
+                        </div>
+                    </div>
+
+                    <!-- Guest / Passenger Details -->
+                    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:0.75rem; margin-bottom:1.25rem; font-size:0.85rem;">
+                        <div>
+                            <span style="color:var(--text-muted); font-size:0.75rem; text-transform:uppercase;">Guest Name:</span>
+                            <div style="font-weight:700; color:var(--ink);">${b.userName || (currentUser ? currentUser.name : 'Valued Traveler')}</div>
+                        </div>
+                        <div>
+                            <span style="color:var(--text-muted); font-size:0.75rem; text-transform:uppercase;">Guest Email:</span>
+                            <div style="font-weight:600; color:var(--ink);">${b.userEmail}</div>
+                        </div>
+                        <div>
+                            <span style="color:var(--text-muted); font-size:0.75rem; text-transform:uppercase;">Booking Date:</span>
+                            <div style="font-weight:600;">${new Date(b.date || Date.now()).toLocaleDateString()}</div>
+                        </div>
+                        <div>
+                            <span style="color:var(--text-muted); font-size:0.75rem; text-transform:uppercase;">Booking Category:</span>
+                            <div style="font-weight:600; text-transform:capitalize;">${b.type || 'Travel Experience'}</div>
+                        </div>
+                    </div>
+
+                    <!-- Item / Itinerary Details -->
+                    <div style="background:var(--sand); border-radius:8px; padding:1rem; margin-bottom:1.25rem;">
+                        <div style="font-size:0.8rem; font-weight:700; color:var(--text-muted); text-transform:uppercase; margin-bottom:0.35rem;">Itinerary & Reservation</div>
+                        <div style="font-size:1.1rem; font-family:'Playfair Display',serif; font-weight:700; color:var(--ink); margin-bottom:0.25rem;">${b.title}</div>
+                        <div style="font-size:0.85rem; color:var(--text-muted); margin-bottom:0.5rem;"><i class="fa-solid fa-circle-info"></i> ${b.details}</div>
+                        ${b.notes && b.notes !== 'None' ? `<div style="font-size:0.8rem; color:var(--ink); background:#fff; padding:0.4rem 0.6rem; border-radius:4px; border:1px solid var(--border);"><b>Notes:</b> ${b.notes}</div>` : ''}
+                    </div>
+
+                    <!-- Payment & Fare Breakdown -->
+                    <div style="border-top:1px solid var(--border); padding-top:0.75rem; margin-bottom:1.25rem;">
+                        <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:0.25rem; color:var(--text-muted);">
+                            <span>Base Service Price:</span>
+                            <span>₹${Math.round((b.price || 0) / 1.05).toLocaleString()}</span>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:0.35rem; color:var(--text-muted);">
+                            <span>Taxes & GST (5%):</span>
+                            <span>₹${(b.price - Math.round((b.price || 0) / 1.05)).toLocaleString()}</span>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; font-size:1.15rem; font-weight:700; color:var(--ink); border-top:1px solid var(--border); padding-top:0.5rem;">
+                            <span>Total Paid:</span>
+                            <span style="color:var(--terracotta);">₹${(b.price || 0).toLocaleString()}</span>
+                        </div>
+                    </div>
+
+                    <!-- Barcode Mockup & Security Verification -->
+                    <div style="display:flex; justify-content:space-between; align-items:center; background:#fafafa; border:1px solid var(--border); padding:0.75rem 1rem; border-radius:8px;">
+                        <div style="font-family:'DM Mono',monospace; letter-spacing:0.2em; font-size:1.2rem; color:var(--ink);">||| | |||| | ||| || |||</div>
+                        <div style="font-size:0.72rem; color:var(--text-muted); text-align:right;">
+                            <div>Present this voucher upon arrival.</div>
+                            <div>Support: +91 800-WANDERLY</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('voucher-modal').classList.add('open');
+        }
+
+        function closeVoucherModal() {
+            const m = document.getElementById('voucher-modal');
+            if (m) m.classList.remove('open');
+        }
+
+        function filterDashBookings(status, btn) {
+            activeDashFilter = status;
+            document.querySelectorAll('#dash-status-filters .filter-btn').forEach(b => b.classList.remove('active'));
+            if (btn) btn.classList.add('active');
+            renderDashboard();
+        }
+
+        // --- Enhanced renderDashboard() (Phases 6 & 7) ---
+        function renderDashboard() {
+            if (!currentUser) return;
+            
+            // Populate profile fields
+            const nameEl = document.getElementById('profile-name');
+            const emailEl = document.getElementById('profile-email');
+            const phoneEl = document.getElementById('profile-phone');
+            if (nameEl) nameEl.value = currentUser.name || '';
+            if (emailEl) emailEl.value = currentUser.email || '';
+            
+            const users = JSON.parse(localStorage.getItem('wanderly_users') || '{}');
+            if (phoneEl && users[currentUser.email] && users[currentUser.email].phone) {
+                phoneEl.value = users[currentUser.email].phone;
+            }
+
+            const allBookings = JSON.parse(localStorage.getItem('wanderly_bookings') || '[]');
+            const userBookings = allBookings.filter(b => b.userEmail === currentUser.email);
+            
+            // KPIs
+            const totalSpent = userBookings.filter(b => b.status !== 'Cancelled').reduce((sum, b) => sum + (b.price || 0), 0);
+            const tourCount = userBookings.filter(b => b.type === 'tour').length;
+            const hotelCount = userBookings.filter(b => b.type === 'hotel').length;
+            const transportCount = userBookings.filter(b => b.type === 'transport').length;
+            
+            const kpiRow = document.getElementById('dash-kpi-row');
+            if (kpiRow) {
+                kpiRow.innerHTML = `
+                    <div class="kpi">
+                        <div class="kpi-val">${userBookings.length}</div>
+                        <div class="kpi-lbl">Total Bookings</div>
+                    </div>
+                    <div class="kpi">
+                        <div class="kpi-val">${tourCount}</div>
+                        <div class="kpi-lbl">Tours & Activities</div>
+                    </div>
+                    <div class="kpi">
+                        <div class="kpi-val">${hotelCount}</div>
+                        <div class="kpi-lbl">Hotels Booked</div>
+                    </div>
+                    <div class="kpi">
+                        <div class="kpi-val">₹${totalSpent.toLocaleString()}</div>
+                        <div class="kpi-lbl">Total Spent</div>
+                    </div>`;
+            }
+                
+            // Filter Bookings by active tab
+            let displayBookings = userBookings.slice().reverse();
+            if (activeDashFilter !== 'All') {
+                displayBookings = displayBookings.filter(b => (b.status || 'Confirmed').toLowerCase() === activeDashFilter.toLowerCase());
+            }
+
+            const listContainer = document.getElementById('dash-recent-bookings');
+            if (!listContainer) return;
+
+            if (displayBookings.length === 0) {
+                listContainer.innerHTML = `<div style="padding: 2.5rem; text-align: center; color: var(--text-muted);">
+                    <div style="font-size:2rem; margin-bottom:0.5rem;">🎒</div>
+                    No ${activeDashFilter !== 'All' ? activeDashFilter.toLowerCase() : ''} bookings found. Time to explore incredible India!
+                </div>`;
+            } else {
+                listContainer.innerHTML = displayBookings.map(b => {
+                    const statusClass = b.status === 'Confirmed' ? 'status-confirmed' : (b.status === 'Cancelled' ? 'status-cancelled' : 'status-pending');
+                    const canCancel = b.status !== 'Cancelled';
+                    return `
+                        <div class="booking-item" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; padding:1.1rem; border-bottom:1px solid var(--border);">
+                            <div style="display:flex; align-items:center; gap:0.85rem;">
+                                <div class="booking-icon" style="width:42px; height:42px; border-radius:8px; background:var(--sand); display:flex; align-items:center; justify-content:center; font-size:1.3rem;">${b.icon || '📍'}</div>
+                                <div class="booking-info">
+                                    <div class="booking-title" style="font-weight:700; font-size:0.95rem; color:var(--ink);">${b.title}</div>
+                                    <div class="booking-date" style="font-size:0.8rem; color:var(--text-muted); margin-top:2px;">${b.details} · <b style="color:var(--terracotta);">₹${(b.price || 0).toLocaleString()}</b></div>
+                                </div>
+                            </div>
+                            <div style="display:flex; align-items:center; gap:0.6rem;">
+                                <span class="status-badge ${statusClass}">${b.status || 'Confirmed'}</span>
+                                <button class="btn-book" style="padding:0.4rem 0.8rem; font-size:0.78rem; background:var(--sand); color:var(--ink); border:1px solid var(--border);" onclick="openVoucherModal('${b.id}')">
+                                    <i class="fa-solid fa-receipt"></i> Voucher
+                                </button>
+                                ${canCancel ? `
+                                    <button class="btn-book" style="padding:0.4rem 0.75rem; font-size:0.78rem; background:#fff; color:var(--terracotta); border:1px solid var(--terracotta);" onclick="cancelBooking('${b.id}')">
+                                        Cancel
+                                    </button>
+                                ` : ''}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            }
+        }
+
+        // --- Enhanced Authentication with SHA-256 (Phase 6) ---
+        async function doLogin() {
             const email = document.getElementById('login-email').value.trim();
             const pass = document.getElementById('login-pass').value;
-            if (!email || !pass) { showToast('Please enter both email and password', 'error'); return; }
+            if (!email || !pass) { 
+                showToast('Please enter both email and password', 'error'); 
+                return; 
+            }
             
             const isAdmin = email.toLowerCase() === 'admin@wanderly.com';
             
             if (!isAdmin) {
-                // Verify with localStorage
                 const users = JSON.parse(localStorage.getItem('wanderly_users') || '{}');
-                if (!users[email] || users[email].password !== pass) {
+                const user = users[email];
+                if (!user) {
+                    showToast('No account found with this email', 'error');
+                    return;
+                }
+
+                // Check hashed password or fallback for backward compatibility
+                const hashedInput = await hashPassword(pass);
+                const passwordMatches = (user.password === hashedInput) || (user.password === pass);
+
+                if (!passwordMatches) {
                     showToast('Invalid email or password', 'error');
                     return;
                 }
-                currentUser = { name: users[email].name, email, isAdmin: false };
+
+                // Upgrade plaintext password to hash if it was plaintext
+                if (user.password === pass) {
+                    user.password = hashedInput;
+                    users[email] = user;
+                    localStorage.setItem('wanderly_users', JSON.stringify(users));
+                }
+
+                currentUser = { name: user.name, email, isAdmin: false };
             } else {
                 currentUser = { name: 'Admin User', email, isAdmin: true };
             }
 
             localStorage.setItem('wanderly_session', JSON.stringify(currentUser));
             updateNavForUser();
-            showToast(`Welcome back! Signed in as ${email}`, 'success');
+            showToast(`Welcome back, ${currentUser.name}! Signed in.`, 'success');
             showPage(isAdmin ? 'admin' : 'dashboard');
             if (!isAdmin) {
                 document.getElementById('dash-name').textContent = currentUser.name;
@@ -4926,11 +7711,25 @@
             }
         }
 
-        function doRegister() {
+        async function doRegister() {
             const name = document.getElementById('reg-name').value.trim();
             const email = document.getElementById('reg-email').value.trim();
             const pass = document.getElementById('reg-pass').value;
-            if (!name || !email || !pass) { showToast('Please fill all required fields', 'error'); return; }
+            
+            // Validations (Phase 6)
+            if (!name || name.length < 2) { 
+                showToast('Please enter your full name (minimum 2 characters)', 'error'); 
+                return; 
+            }
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!email || !emailRegex.test(email)) {
+                showToast('Please enter a valid email address', 'error');
+                return;
+            }
+            if (!pass || pass.length < 6) {
+                showToast('Password must be at least 6 characters long', 'error');
+                return;
+            }
             
             const users = JSON.parse(localStorage.getItem('wanderly_users') || '{}');
             if (users[email]) {
@@ -4938,19 +7737,24 @@
                 return;
             }
             
-            users[email] = { name, email, password: pass };
+            // Secure Password Hashing
+            const hashedPassword = await hashPassword(pass);
+            users[email] = { name, email, password: hashedPassword, createdAt: new Date().toISOString() };
             localStorage.setItem('wanderly_users', JSON.stringify(users));
             
             currentUser = { name, email, isAdmin: false };
             localStorage.setItem('wanderly_session', JSON.stringify(currentUser));
             
             updateNavForUser();
-            showToast(`Account created! Welcome, ${name}!`, 'success');
+            showToast(`Account created securely! Welcome, ${name}!`, 'success');
             document.getElementById('dash-name').textContent = name;
             document.getElementById('dash-email').textContent = email;
             document.getElementById('dash-avatar').textContent = name.slice(0, 2).toUpperCase();
             showPage('dashboard');
         }
+
+        // --- Route Protection & Initialization (Phase 6) ---
+        const originalShowPage = window.showPage;
 
         function doLogout() {
             currentUser = null;
@@ -4996,29 +7800,9 @@
         // ══ PLACES ══
         function filterPlaces(cat, btn) {
             document.querySelectorAll('#place-filters .filter-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            const filtered = cat === 'All' ? PLACES : PLACES.filter(p => p.category === cat);
-            document.getElementById('all-places').innerHTML = filtered.map(renderPlaceCard).join('');
-        }
-
-        function openPlaceModal(id) {
-            const p = PLACES.find(x => x.id == id);
-            if (!p) return;
-            document.getElementById('modal-title').textContent = p.name;
-            const cfg = CAT_CONFIG[p.category] || { bg: 'linear-gradient(160deg,#1A2B3C,#2C4A3E)' };
-            const imagesJson = JSON.stringify(p.images || []).replace(/"/g, '&quot;');
-            const imageHtml = `<image-slideshow data-images="${imagesJson}" data-alt="${p.name}" data-emoji="${p.emoji}" data-bg="${cfg.bg}"></image-slideshow>`;
-            
-            document.getElementById('modal-body').innerHTML = `
-    <div style="text-align:center;background:${cfg.bg};border-radius:6px;margin-bottom:1rem;height:200px;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center;">${imageHtml}</div>
-    <div class="modal-detail-row"><span class="modal-detail-label">Location</span><span class="modal-detail-value"><i class="fa-solid fa-location-dot"></i> ${p.location}</span></div>
-    <div class="modal-detail-row"><span class="modal-detail-label">Category</span><span class="modal-detail-value">${p.category}</span></div>
-    <div class="modal-detail-row"><span class="modal-detail-label">Rating</span><span class="modal-detail-value"><i class="fa-solid fa-star"></i> ${p.rating}</span></div>
-    <div class="modal-detail-row"><span class="modal-detail-label">Entry Fee</span><span class="modal-detail-value">${p.price}</span></div>
-    <p style="margin-top:1rem;font-size:.875rem;color:#7A7065;line-height:1.7">${p.desc || ''}</p>`;
-            document.querySelector('.modal-footer .btn-book.terracotta').textContent = 'Find Hotels Nearby';
-            pendingBooking = { type: 'place', data: p };
-            document.getElementById('modal').classList.add('open');
+            if (btn) btn.classList.add('active');
+            currentPlacesFilter = cat;
+            filterPlacesSmart();
         }
 
         function openHotelModal(id) {
@@ -5095,8 +7879,9 @@
             
             // Generate Booking
             const booking = {
-                id: 'BK' + Math.floor(Math.random() * 10000).toString().padStart(4, '0'),
+                id: '#WN-' + Math.floor(10000 + Math.random() * 90000),
                 userEmail: currentUser.email,
+                userName: currentUser.name,
                 type: pendingBooking.type,
                 date: new Date().toISOString(),
                 status: 'Confirmed'

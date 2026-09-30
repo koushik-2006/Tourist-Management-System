@@ -50,11 +50,12 @@ CREATE TABLE IF NOT EXISTS Food (
 
 CREATE TABLE IF NOT EXISTS Bookings (
     booking_id INT AUTO_INCREMENT PRIMARY KEY,
+    booking_ref VARCHAR(50),
     user_id INT,
-    item_type ENUM('hotel', 'transport', 'food', 'place'),
+    item_type ENUM('hotel', 'transport', 'food', 'place', 'tour'),
     item_id INT,
     booking_date DATE,
-    status ENUM('pending', 'confirmed', 'cancelled') DEFAULT 'pending',
+    status ENUM('pending', 'confirmed', 'completed', 'cancelled') DEFAULT 'pending',
     
     -- Hotel booking extra details
     hotel_name VARCHAR(255),
@@ -70,6 +71,11 @@ CREATE TABLE IF NOT EXISTS Bookings (
     total_price DECIMAL(10,2),
     food_image TEXT,
     restaurant VARCHAR(255),
+
+    -- Tour booking extra details
+    tour_tier VARCHAR(100),
+    tour_pax VARCHAR(100),
+    special_requests TEXT,
     
     FOREIGN KEY (user_id) REFERENCES Users(user_id)
 );

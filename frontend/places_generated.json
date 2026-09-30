@@ -8,13 +8,55 @@
     "category": "Spiritual",
     "rating": "4.4",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/andhra-pradesh-tirumala-venkateswara-temple/1.jpg",
       "./images/destinations/andhra-pradesh-tirumala-venkateswara-temple/2.jpg",
       "./images/destinations/andhra-pradesh-tirumala-venkateswara-temple/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 13.6833,
+    "lng": 79.3472,
+    "desc": "The ancient and sacred hilltop shrine dedicated to Lord Sri Venkateswara on the seventh peak of Tirumala Hills, renowned for Dravidian architectural splendor and profound spiritual solace.",
+    "bestTime": "September to March",
+    "budget": "₹2,500 - ₹4,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Spiritual",
+    "popular": true,
+    "attractions": [
+      "Venkateswara Main Temple",
+      "Silathoranam Rock Garden",
+      "Kapila Theertham Falls",
+      "Sri Vari Museum",
+      "Akasa Ganga"
+    ],
+    "popularActivities": [
+      "Temple Darshan",
+      "Vedic Chanting",
+      "Hilltop Nature Walks",
+      "Local South Indian Prasadam Tasting"
+    ],
+    "travelInfo": {
+      "airport": "Tirupati Airport (TIR) - 38 km",
+      "railway": "Tirupati Main (TPTY) - 22 km",
+      "road": "NH 71 connecting Chennai & Bangalore"
+    },
+    "reviews": [
+      {
+        "user": "Ramesh K.",
+        "rating": 5,
+        "date": "Feb 2026",
+        "text": "A truly divine and spiritually elevating experience. Well-maintained queue systems and beautiful hills."
+      },
+      {
+        "user": "Sunita M.",
+        "rating": 4.8,
+        "date": "Jan 2026",
+        "text": "The laddu prasadam and the architectural majesty of the golden gopuram are breathtaking."
+      }
+    ]
   },
   {
     "id": 2,
@@ -25,13 +67,49 @@
     "category": "Heritage",
     "rating": "4.8",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/arunachal-pradesh-tawang-monastery/1.jpg",
       "./images/destinations/arunachal-pradesh-tawang-monastery/2.jpg",
       "./images/destinations/arunachal-pradesh-tawang-monastery/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 27.5861,
+    "lng": 91.8594,
+    "desc": "Perched at 10,000 feet above sea level, Tawang Monastery is the largest monastery in India and the second largest in the world, overlooking majestic snow-draped Himalayan valleys.",
+    "bestTime": "March to October",
+    "budget": "₹3,500 - ₹6,500 / day",
+    "budgetTier": "Moderate",
+    "duration": "3-4 Days",
+    "season": "Summer",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Tawang Monastery Golden Buddha",
+      "Sela Pass & Lake",
+      "Madhuri Lake",
+      "Nuranang Waterfalls",
+      "War Memorial"
+    ],
+    "popularActivities": [
+      "Monastery Prayer Sessions",
+      "High Altitude Photography",
+      "Trekking through Pine Forests",
+      "Tibetan Handicraft Shopping"
+    ],
+    "travelInfo": {
+      "airport": "Tezpur Airport (TEZ) - 315 km",
+      "railway": "Rangapara North - 310 km",
+      "road": "Scenic mountain highway via Bhalukpong & Bomdila"
+    },
+    "reviews": [
+      {
+        "user": "Aakash S.",
+        "rating": 5,
+        "date": "Jan 2026",
+        "text": "Serene mountain atmosphere with chanting monks. The road trip via Sela Pass is unforgettable!"
+      }
+    ]
   },
   {
     "id": 3,
@@ -48,7 +126,43 @@
       "./images/destinations/assam-kaziranga-national-park/2.jpg",
       "./images/destinations/assam-kaziranga-national-park/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 26.5775,
+    "lng": 93.1711,
+    "desc": "A UNESCO World Heritage site cradled along the Brahmaputra River, home to two-thirds of the world’s great one-horned rhinoceroses, wild water buffalo, and dense elephant grass plains.",
+    "bestTime": "November to April",
+    "budget": "₹3,000 - ₹6,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "2-3 Days",
+    "season": "Winter",
+    "travelStyle": "Wildlife",
+    "popular": true,
+    "attractions": [
+      "Central Bagori Safari Range",
+      "Kohora Range",
+      "Kaziranga Orchid & Biodiversity Park",
+      "Brahmaputra Riverfront",
+      "Hollongapar Gibbon Sanctuary"
+    ],
+    "popularActivities": [
+      "Open Jeep Safaris",
+      "Elephant Safaris",
+      "Bird Watching Tours",
+      "Traditional Assamese Cultural Evenings"
+    ],
+    "travelInfo": {
+      "airport": "Jorhat Airport (JRH) - 97 km",
+      "railway": "Furkating Junction - 75 km",
+      "road": "NH 37 runs directly along the park border"
+    },
+    "reviews": [
+      {
+        "user": "David W.",
+        "rating": 5,
+        "date": "Dec 2025",
+        "text": "Spotted seven rhinos and wild elephants in a single morning safari! Outstanding conservation success."
+      }
+    ]
   },
   {
     "id": 4,
@@ -65,7 +179,43 @@
       "./images/destinations/bihar-mahabodhi-temple/2.jpg",
       "./images/destinations/bihar-mahabodhi-temple/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 24.6959,
+    "lng": 84.9913,
+    "desc": "The sacred world heritage temple marking the spot where Siddhartha Gautama attained enlightenment beneath the sacred Bodhi Tree, attracting pilgrims and seekers worldwide.",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹4,000 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Spiritual",
+    "popular": false,
+    "attractions": [
+      "Sacred Bodhi Tree",
+      "Vajrasana (Diamond Throne)",
+      "Muchalinda Lake",
+      "Great Buddha 80ft Statue",
+      "International Monasteries"
+    ],
+    "popularActivities": [
+      "Meditation Sessions",
+      "Pilgrim Circuit Tours",
+      "Architectural Exploration",
+      "Peace Prayer Rallies"
+    ],
+    "travelInfo": {
+      "airport": "Gaya Airport (GAY) - 12 km",
+      "railway": "Gaya Junction - 16 km",
+      "road": "Well-connected by NH 22 & Grand Trunk Road"
+    },
+    "reviews": [
+      {
+        "user": "Elena P.",
+        "rating": 4.9,
+        "date": "Feb 2026",
+        "text": "A deeply peaceful sanctuary. Meditating under the Bodhi tree was a life-changing moment."
+      }
+    ]
   },
   {
     "id": 5,
@@ -82,7 +232,43 @@
       "./images/destinations/chhattisgarh-chitrakoot-falls/2.jpg",
       "./images/destinations/chhattisgarh-chitrakoot-falls/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 19.2017,
+    "lng": 81.7067,
+    "desc": "Celebrated as the \"Niagara of India\", Chitrakoot Falls is a breathtaking 300-meter-wide horseshoe waterfall cascading dramatically over rugged limestone cliffs on the Indravati River.",
+    "bestTime": "July to October (Monsoon)",
+    "budget": "₹2,000 - ₹3,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Monsoon",
+    "travelStyle": "Nature",
+    "popular": false,
+    "attractions": [
+      "Chitrakoot Horseshoe Waterfall",
+      "Tirathgarh Falls",
+      "Kanger Valley National Park",
+      "Kutumsar Limestone Caves",
+      "Bastar Tribal Haat"
+    ],
+    "popularActivities": [
+      "Boating near the Falls Mist",
+      "Sunset Photography",
+      "Tribal Handicraft Exploration",
+      "Cave Speleology"
+    ],
+    "travelInfo": {
+      "airport": "Jagdalpur Airport (JGB) - 40 km",
+      "railway": "Jagdalpur Railway Station - 38 km",
+      "road": "State Highway 9 connecting Jagdalpur & Raipur"
+    },
+    "reviews": [
+      {
+        "user": "Vikram N.",
+        "rating": 4.7,
+        "date": "Oct 2025",
+        "text": "The roar of the waterfalls in late monsoon is mesmerizing. A hidden jewel of central India."
+      }
+    ]
   },
   {
     "id": 6,
@@ -99,7 +285,43 @@
       "./images/destinations/goa-goa-beaches/2.jpg",
       "./images/destinations/goa-goa-beaches/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 15.5439,
+    "lng": 73.7553,
+    "desc": "Sun-drenched tropical paradise blending Portuguese colonial charm, golden sandy shores, lively beach shacks, heritage spice plantations, and vibrant nightlife.",
+    "bestTime": "November to February",
+    "budget": "₹4,000 - ₹9,000 / day",
+    "budgetTier": "Luxury",
+    "duration": "3-5 Days",
+    "season": "Winter",
+    "travelStyle": "Beach",
+    "popular": true,
+    "attractions": [
+      "Baga & Calangute Beaches",
+      "Fort Aguada",
+      "Dudhsagar Waterfalls",
+      "Basilica of Bom Jesus",
+      "Anjuna Flea Market"
+    ],
+    "popularActivities": [
+      "Parasailing & Jet Skiing",
+      "Sunset Cruises",
+      "Colonial Heritage Walks",
+      "Seafood Tasting at Beach Shacks"
+    ],
+    "travelInfo": {
+      "airport": "Manohar Intl Airport (GOX) / Dabolim (GOI)",
+      "railway": "Madgaon Junction / Thivim",
+      "road": "NH 66 connecting Mumbai & Bangalore"
+    },
+    "reviews": [
+      {
+        "user": "Chloe B.",
+        "rating": 4.9,
+        "date": "Jan 2026",
+        "text": "Superb vibe! The beaches are clean, sunsets are unreal, and the food at beach shacks is unmatched."
+      }
+    ]
   },
   {
     "id": 7,
@@ -116,7 +338,43 @@
       "./images/destinations/gujarat-statue-of-unity/2.jpg",
       "./images/destinations/gujarat-statue-of-unity/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 21.838,
+    "lng": 73.7191,
+    "desc": "The world’s tallest monument standing 182 meters tall, honoring Sardar Vallabhbhai Patel amidst the scenic Vindhya and Satpura mountain ranges on the Narmada River.",
+    "bestTime": "October to March",
+    "budget": "₹3,000 - ₹5,500 / day",
+    "budgetTier": "Moderate",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Viewing Gallery (153m)",
+      "Valley of Flowers",
+      "Sardar Sarovar Dam",
+      "Glow Garden",
+      "Jungle Safari"
+    ],
+    "popularActivities": [
+      "High-speed Elevator to Viewing Deck",
+      "Laser Light & Sound Show",
+      "Electric Bicycle River Tours",
+      "Dam View Cruise"
+    ],
+    "travelInfo": {
+      "airport": "Vadodara Airport (BDQ) - 90 km",
+      "railway": "Ekta Nagar Railway Station (EKNR) - 5 km",
+      "road": "Four-lane expressway directly from Vadodara"
+    },
+    "reviews": [
+      {
+        "user": "Pradeep J.",
+        "rating": 4.8,
+        "date": "Feb 2026",
+        "text": "Engineering marvel. The museum inside and the high-altitude viewing gallery exceeded expectations."
+      }
+    ]
   },
   {
     "id": 8,
@@ -133,7 +391,43 @@
       "./images/destinations/haryana-brahma-sarovar/2.jpg",
       "./images/destinations/haryana-brahma-sarovar/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 29.96,
+    "lng": 76.8336,
+    "desc": "An immense sacred water tank steeped in Mahabharata lore, venerated for centuries as the bathing pool of Lord Brahma and host to massive solar eclipse pilgrim gatherings.",
+    "bestTime": "October to March",
+    "budget": "₹1,500 - ₹3,000 / day",
+    "budgetTier": "Budget",
+    "duration": "1 Day",
+    "season": "Winter",
+    "travelStyle": "Spiritual",
+    "popular": false,
+    "attractions": [
+      "Brahma Sarovar Ghats",
+      "Sannihit Sarovar",
+      "Jyotisar Geeta Updesh Sthal",
+      "Kurukshetra Panorama Science Center",
+      "Sheikh Chilli Tomb"
+    ],
+    "popularActivities": [
+      "Evening Aarti Ceremony",
+      "Spiritual Lake Walk",
+      "Mahabharata Historical Trail",
+      "Gita Jayanti Festival"
+    ],
+    "travelInfo": {
+      "airport": "Chandigarh Airport (IXC) - 90 km",
+      "railway": "Kurukshetra Junction - 3 km",
+      "road": "NH 44 connecting Delhi & Chandigarh"
+    },
+    "reviews": [
+      {
+        "user": "Manish G.",
+        "rating": 4.5,
+        "date": "Jan 2026",
+        "text": "Immaculately clean and vast water expanse. Sunset over the bronze chariot statue is magnificent."
+      }
+    ]
   },
   {
     "id": 9,
@@ -144,13 +438,49 @@
     "category": "Adventure",
     "rating": "4.7",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/himachal-pradesh-manali/1.jpg",
       "./images/destinations/himachal-pradesh-manali/2.jpg",
       "./images/destinations/himachal-pradesh-manali/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 32.2432,
+    "lng": 77.1892,
+    "desc": "High-altitude Himalayan resort town nestled along the Beas River, famed for snow-clad peaks, pine forests, exhilarating winter sports, and gateway to Solang and Rohtang Pass.",
+    "bestTime": "October to June",
+    "budget": "₹3,500 - ₹7,500 / day",
+    "budgetTier": "Moderate",
+    "duration": "3-5 Days",
+    "season": "Winter",
+    "travelStyle": "Adventure",
+    "popular": true,
+    "attractions": [
+      "Solang Valley",
+      "Rohtang Pass",
+      "Hadimba Devi Temple",
+      "Atal Tunnel",
+      "Old Manali Cafes"
+    ],
+    "popularActivities": [
+      "Skiing & Snowboarding",
+      "Paragliding in Solang",
+      "White Water River Rafting",
+      "Trek to Jogini Waterfall"
+    ],
+    "travelInfo": {
+      "airport": "Kullu-Manali Airport (KUU) - 50 km",
+      "railway": "Chandigarh Junction - 300 km",
+      "road": "Scenic NH 3 through Himalayan gorges"
+    },
+    "reviews": [
+      {
+        "user": "Siddharth T.",
+        "rating": 4.9,
+        "date": "Jan 2026",
+        "text": "The snow at Solang Valley was magical! Old Manali vibe with riverside cafes is phenomenal."
+      }
+    ]
   },
   {
     "id": 10,
@@ -167,7 +497,43 @@
       "./images/destinations/jharkhand-netarhat/2.jpg",
       "./images/destinations/jharkhand-netarhat/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 23.4833,
+    "lng": 84.2667,
+    "desc": "Known as the \"Queen of Chotanagpur\", Netarhat is an idyllic hill station perched amidst dense sal forests, scenic plateaus, and famous sunrise and sunset points.",
+    "bestTime": "October to April",
+    "budget": "₹2,000 - ₹3,500 / day",
+    "budgetTier": "Budget",
+    "duration": "2 Days",
+    "season": "Winter",
+    "travelStyle": "Nature",
+    "popular": false,
+    "attractions": [
+      "Magnolia Sunset Point",
+      "Koil View Point",
+      "Upper Ghaghri Waterfall",
+      "Netarhat Pine Forest",
+      "Lodh Falls"
+    ],
+    "popularActivities": [
+      "Sunset Watching",
+      "Forest Trekking",
+      "Camping under Starry Skies",
+      "Tribal Village Walks"
+    ],
+    "travelInfo": {
+      "airport": "Birsa Munda Airport Ranchi (IXR) - 156 km",
+      "railway": "Ranchi Railway Station - 150 km",
+      "road": "Scenic winding hill road via Ghaghra"
+    },
+    "reviews": [
+      {
+        "user": "Ananya D.",
+        "rating": 4.6,
+        "date": "Nov 2025",
+        "text": "The pine forests and tranquil mornings make Netarhat a peaceful haven far away from bustling city life."
+      }
+    ]
   },
   {
     "id": 11,
@@ -178,13 +544,49 @@
     "category": "Heritage",
     "rating": "4.8",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/karnataka-hampi/1.jpg",
       "./images/destinations/karnataka-hampi/2.jpg",
       "./images/destinations/karnataka-hampi/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 15.335,
+    "lng": 76.46,
+    "desc": "A surreal UNESCO World Heritage landscape of boulder-strewn hills and towering medieval ruins that once formed the magnificent capital of the Vijayanagara Empire.",
+    "bestTime": "October to February",
+    "budget": "₹2,500 - ₹5,000 / day",
+    "budgetTier": "Budget",
+    "duration": "2-3 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Virupaksha Temple",
+      "Vijaya Vittala Stone Chariot",
+      "Lotus Mahal & Elephant Stables",
+      "Matanga Hill Sunrise",
+      "Tungabhadra River Ghats"
+    ],
+    "popularActivities": [
+      "Bicycle Heritage Touring",
+      "Bouldering & Rock Climbing",
+      "Coracle Boat Rides on Tungabhadra",
+      "Sunset Photography on Hemakuta Hill"
+    ],
+    "travelInfo": {
+      "airport": "Jindal Vijaynagar Airport (VDY) - 35 km / Hubli (140 km)",
+      "railway": "Hosapete Junction (HPT) - 13 km",
+      "road": "NH 67 connecting Bangalore & Goa"
+    },
+    "reviews": [
+      {
+        "user": "Marcus L.",
+        "rating": 5,
+        "date": "Feb 2026",
+        "text": "Stepping into Hampi feels like traveling back in time. The musical pillars at Vittala temple are astonishing."
+      }
+    ]
   },
   {
     "id": 12,
@@ -201,7 +603,43 @@
       "./images/destinations/kerala-alleppey-backwaters/2.jpg",
       "./images/destinations/kerala-alleppey-backwaters/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 9.4981,
+    "lng": 76.3388,
+    "desc": "The \"Venice of the East\", celebrated for its tranquil labyrinth of palm-fringed canals, emerald paddy fields, traditional kettuvallam houseboats, and Ayurvedic healing.",
+    "bestTime": "October to March",
+    "budget": "₹4,000 - ₹8,500 / day",
+    "budgetTier": "Luxury",
+    "duration": "2-3 Days",
+    "season": "Winter",
+    "travelStyle": "Nature",
+    "popular": true,
+    "attractions": [
+      "Vembanad Lake Backwaters",
+      "Marari Beach",
+      "Alappuzha Lighthouse",
+      "Pathiramanal Bird Island",
+      "Kuttanad Rice Fields"
+    ],
+    "popularActivities": [
+      "Overnight Houseboat Cruise",
+      "Kayaking in Narrow Village Canals",
+      "Traditional Ayurvedic Massages",
+      "Karimeen Fish Fry Dining"
+    ],
+    "travelInfo": {
+      "airport": "Cochin Intl Airport (COK) - 85 km",
+      "railway": "Alappuzha Railway Station (ALLP) - 4 km",
+      "road": "NH 66 coastal corridor"
+    },
+    "reviews": [
+      {
+        "user": "Meera & Rohan",
+        "rating": 5,
+        "date": "Jan 2026",
+        "text": "Floating through the tranquil canals at sunset while eating fresh Kerala meals was heavenly!"
+      }
+    ]
   },
   {
     "id": 13,
@@ -218,7 +656,43 @@
       "./images/destinations/madhya-pradesh-khajuraho-temples/2.jpg",
       "./images/destinations/madhya-pradesh-khajuraho-temples/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 24.8318,
+    "lng": 79.9199,
+    "desc": "World-renowned UNESCO site housing awe-inspiring medieval Hindu and Jain temples adorned with intricate stone sculptures depicting joy, sensuality, and spiritual devotion.",
+    "bestTime": "October to March",
+    "budget": "₹2,500 - ₹5,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": false,
+    "attractions": [
+      "Kandariya Mahadeva Temple",
+      "Lakshmana Temple",
+      "Western Group of Temples",
+      "Duladeo Temple",
+      "Raneh Falls Canyon"
+    ],
+    "popularActivities": [
+      "Temple Architecture Guided Walks",
+      "Sound and Light Show at Sunset",
+      "Excursion to Raneh Falls",
+      "Khajuraho Dance Festival"
+    ],
+    "travelInfo": {
+      "airport": "Khajuraho Airport (HJR) - 5 km",
+      "railway": "Khajuraho Railway Station (KURJ) - 6 km",
+      "road": "NH 39 connecting Jhansi and Satna"
+    },
+    "reviews": [
+      {
+        "user": "Arthur K.",
+        "rating": 4.9,
+        "date": "Dec 2025",
+        "text": "The sheer level of detail in the millennium-old sandstone carvings is breathtaking."
+      }
+    ]
   },
   {
     "id": 14,
@@ -235,7 +709,43 @@
       "./images/destinations/maharashtra-ajanta-ellora-caves/2.jpg",
       "./images/destinations/maharashtra-ajanta-ellora-caves/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 20.5519,
+    "lng": 75.7033,
+    "desc": "Monolithic rock-cut wonders carved into basalt cliffs between the 2nd century BCE and 10th century CE, featuring the world-famous Kailasa Temple and vibrant Buddhist frescoes.",
+    "bestTime": "October to March",
+    "budget": "₹2,500 - ₹5,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "2-3 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Kailasa Temple (Cave 16)",
+      "Ajanta Cave 1 Frescoes",
+      "Ellora Buddhist Chaitya Hall",
+      "Daulatabad Fort",
+      "Bibi Ka Maqbara"
+    ],
+    "popularActivities": [
+      "Rock-Cut Sculpture Exploration",
+      "Frescoes Study with Audio Guides",
+      "Trek to Daulatabad Top",
+      "Himroo Shawl Shopping"
+    ],
+    "travelInfo": {
+      "airport": "Chhatrapati Sambhajinagar Airport (IXU) - 30 km",
+      "railway": "Aurangabad Railway Station - 28 km",
+      "road": "Well-paved state highways"
+    },
+    "reviews": [
+      {
+        "user": "Sanjay P.",
+        "rating": 5,
+        "date": "Jan 2026",
+        "text": "Kailasa temple carved from top to bottom out of a single rock cliff is proof of superhuman craftsmanship."
+      }
+    ]
   },
   {
     "id": 15,
@@ -252,7 +762,43 @@
       "./images/destinations/manipur-loktak-lake/2.jpg",
       "./images/destinations/manipur-loktak-lake/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 24.55,
+    "lng": 93.8,
+    "desc": "The largest freshwater lake in Northeast India, famous for its floating circular islands called \"Phumdis\" and the world’s only floating national park, Keibul Lamjao.",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹4,000 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Nature",
+    "popular": false,
+    "attractions": [
+      "Keibul Lamjao Floating Park",
+      "Sendra Island Viewpoint",
+      "INA Memorial Moirang",
+      "Phumdi Floating Huts",
+      "Karang Island"
+    ],
+    "popularActivities": [
+      "Canoe Rides through Floating Islands",
+      "Spotting Endangered Sangai Deer",
+      "Homestays on Phumdis",
+      "Local Fish Delicacy Tasting"
+    ],
+    "travelInfo": {
+      "airport": "Imphal Airport (IMF) - 45 km",
+      "railway": "Dimapur / Silchar - road onwards",
+      "road": "Tiddim Road / NH 2 from Imphal"
+    },
+    "reviews": [
+      {
+        "user": "Tomoko Y.",
+        "rating": 4.8,
+        "date": "Nov 2025",
+        "text": "An enchanting, unique ecosystem. Staying on a floating homestay surrounded by water lilies was unforgettable."
+      }
+    ]
   },
   {
     "id": 16,
@@ -263,13 +809,49 @@
     "category": "Nature",
     "rating": "4.6",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/meghalaya-living-root-bridges/1.jpg",
       "./images/destinations/meghalaya-living-root-bridges/2.jpg",
       "./images/destinations/meghalaya-living-root-bridges/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 25.2986,
+    "lng": 91.5822,
+    "desc": "Natural bio-engineering marvels grown from living rubber fig tree roots over centuries by the Khasi people, spanning rushing streams amid the rainforests of Meghalaya.",
+    "bestTime": "October to April",
+    "budget": "₹3,000 - ₹5,500 / day",
+    "budgetTier": "Moderate",
+    "duration": "2-3 Days",
+    "season": "Winter",
+    "travelStyle": "Nature",
+    "popular": true,
+    "attractions": [
+      "Umshiang Double Decker Living Root Bridge",
+      "Nohkalikai Falls",
+      "Mawsmai Limestone Caves",
+      "Rainbow Falls",
+      "Dawk River Crystal Waters"
+    ],
+    "popularActivities": [
+      "3000-Step Rainforest Trek to Nongriat",
+      "Natural Swimming in Turquoise Pools",
+      "Caving Explorations",
+      "Khasi Village Homestays"
+    ],
+    "travelInfo": {
+      "airport": "Shillong Airport (SHL) - 80 km / Guwahati (GAU) - 165 km",
+      "railway": "Guwahati Junction - 150 km",
+      "road": "Scenic mountain highway via Shillong"
+    },
+    "reviews": [
+      {
+        "user": "Arjun B.",
+        "rating": 5,
+        "date": "Feb 2026",
+        "text": "The trek down to the Double Decker bridge is challenging, but taking a dip in the natural pool at the base is pure paradise!"
+      }
+    ]
   },
   {
     "id": 17,
@@ -286,7 +868,43 @@
       "./images/destinations/mizoram-reiek-tlang/2.jpg",
       "./images/destinations/mizoram-reiek-tlang/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 23.6833,
+    "lng": 92.6,
+    "desc": "A pristine mountain ridge rising dramatically above Aizawl, offering panoramic 360-degree views of the lush green Mizo hills and dramatic cloud-filled valleys.",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹3,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Adventure",
+    "popular": false,
+    "attractions": [
+      "Reiek Peak Summit",
+      "Reiek Heritage Model Village",
+      "Aizawl City View",
+      "Khuangchera Cave",
+      "Solomon’s Temple Aizawl"
+    ],
+    "popularActivities": [
+      "Summit Ridge Trekking",
+      "Mizo Cultural Village Exploration",
+      "Bird Watching & Mist Photography",
+      "Traditional Bamboo Dance Shows"
+    ],
+    "travelInfo": {
+      "airport": "Lengpui Airport Aizawl (AJL) - 30 km",
+      "railway": "Bairabi Station - 130 km",
+      "road": "Scenic road from Aizawl city center"
+    },
+    "reviews": [
+      {
+        "user": "Lalitha R.",
+        "rating": 4.7,
+        "date": "Jan 2026",
+        "text": "The hike up to Reiek is pleasant, and the view from the sheer cliff edge overlooking Bangladesh plains is sensational."
+      }
+    ]
   },
   {
     "id": 18,
@@ -303,7 +921,43 @@
       "./images/destinations/nagaland-dz-kou-valley/2.jpg",
       "./images/destinations/nagaland-dz-kou-valley/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 25.5667,
+    "lng": 94.0667,
+    "desc": "An otherworldly high-altitude valley sitting on the border of Nagaland and Manipur, carpeted with endemic Dzükou lilies, emerald rolling dunes, and frozen winter streams.",
+    "bestTime": "June to September (Lilies) / Oct to March (Clear Skies)",
+    "budget": "₹2,500 - ₹4,500 / day",
+    "budgetTier": "Budget",
+    "duration": "2-3 Days",
+    "season": "Monsoon",
+    "travelStyle": "Nature",
+    "popular": false,
+    "attractions": [
+      "Dzükou Valley Lilies Fields",
+      "Viswema Trek Trail",
+      "Jakhama Trail",
+      "Natural Stone Caves",
+      "Kohima War Memorial"
+    ],
+    "popularActivities": [
+      "Alpine Wilderness Trekking",
+      "Valley Camping & Stargazing",
+      "Cave Exploration",
+      "Angami Tribal Cultural Interaction"
+    ],
+    "travelInfo": {
+      "airport": "Dimapur Airport (DMU) - 75 km",
+      "railway": "Dimapur Junction - 74 km",
+      "road": "NH 29 to Kohima, then Viswema trailhead"
+    },
+    "reviews": [
+      {
+        "user": "Neil C.",
+        "rating": 4.9,
+        "date": "Dec 2025",
+        "text": "The scenery looks like a fantasy movie. Crisp air, rolling green waves, and pure peace."
+      }
+    ]
   },
   {
     "id": 19,
@@ -320,7 +974,43 @@
       "./images/destinations/odisha-konark-sun-temple/2.jpg",
       "./images/destinations/odisha-konark-sun-temple/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 19.8876,
+    "lng": 86.0945,
+    "desc": "The 13th-century monumental Sun Temple engineered as a colossal 24-wheeled chariot of Surya pulled by seven horses, a peak masterpiece of Kalinga stone architecture.",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹4,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Sun Temple Giant Chariot Wheels",
+      "Natya Mandir (Dance Hall)",
+      "Chandrabhaga Beach",
+      "Konark Archaeological Museum",
+      "Puri Jagannath Temple (35 km)"
+    ],
+    "popularActivities": [
+      "Sundial Wheel Calculation Tour",
+      "Chandrabhaga Beach Sunrise",
+      "Konark Dance Festival in Dec",
+      "Odissi Art Workshops"
+    ],
+    "travelInfo": {
+      "airport": "Biju Patnaik Airport Bhubaneswar (BBI) - 65 km",
+      "railway": "Puri Railway Station - 35 km",
+      "road": "Scenic Marine Drive Expressway from Puri"
+    },
+    "reviews": [
+      {
+        "user": "Debashis M.",
+        "rating": 4.8,
+        "date": "Jan 2026",
+        "text": "The sundials carved on the chariot wheels can accurately tell time to the minute. Mindblowing ancient science."
+      }
+    ]
   },
   {
     "id": 20,
@@ -337,7 +1027,43 @@
       "./images/destinations/punjab-golden-temple/2.jpg",
       "./images/destinations/punjab-golden-temple/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 31.62,
+    "lng": 74.8765,
+    "desc": "Sri Harmandir Sahib, the holiest spiritual sanctuary of Sikhism, whose gilded sanctum shimmers in the holy Amrit Sarovar lake, welcoming millions to world’s largest free community kitchen (Langar).",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹4,000 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Spiritual",
+    "popular": true,
+    "attractions": [
+      "Golden Temple Sanctum (Harmandir Sahib)",
+      "Akal Takht",
+      "Mega Langar Kitchen",
+      "Jallianwala Bagh",
+      "Wagah Border Beating Retreat"
+    ],
+    "popularActivities": [
+      "Morning & Night Palki Sahib Ceremony",
+      "Community Kitchen Volunteering (Seva)",
+      "Heritage Street Walk",
+      "Amritsari Kulcha Food Trail"
+    ],
+    "travelInfo": {
+      "airport": "Sri Guru Ram Dass Jee Intl Airport (ATQ) - 12 km",
+      "railway": "Amritsar Junction - 3 km",
+      "road": "Grand Trunk Road / NH 3"
+    },
+    "reviews": [
+      {
+        "user": "Gurpreet S.",
+        "rating": 5,
+        "date": "Feb 2026",
+        "text": "The spiritual energy, divine kirtan hymns, and selfless seva will humble every soul. Absolutely unforgettable."
+      }
+    ]
   },
   {
     "id": 21,
@@ -354,7 +1080,43 @@
       "./images/destinations/rajasthan-hawa-mahal-amber-fort/2.jpg",
       "./images/destinations/rajasthan-hawa-mahal-amber-fort/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 26.9239,
+    "lng": 75.8267,
+    "desc": "The iconic Pink City landmarks showcasing Rajputana splendor, featuring the honeycomb lattice windows of Hawa Mahal and the sprawling hilltop fortification of Amber Fort.",
+    "bestTime": "October to March",
+    "budget": "₹3,500 - ₹8,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "2-4 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Hawa Mahal",
+      "Amber Fort & Sheesh Mahal",
+      "City Palace",
+      "Jantar Mantar",
+      "Nahargarh Fort Sunset Point"
+    ],
+    "popularActivities": [
+      "Elephant/Jeep Ride to Amber Fort",
+      "Palace Courtyard Heritage Tour",
+      "Night Lighting at Nahargarh",
+      "Johari Bazaar Gemstone & Textile Shopping"
+    ],
+    "travelInfo": {
+      "airport": "Jaipur Intl Airport (JAI) - 13 km",
+      "railway": "Jaipur Junction - 5 km",
+      "road": "Delhi-Mumbai Expressway & NH 48"
+    },
+    "reviews": [
+      {
+        "user": "Sonia H.",
+        "rating": 4.9,
+        "date": "Jan 2026",
+        "text": "The mirror palace (Sheesh Mahal) in Amber Fort illuminated by a single candle is pure magic."
+      }
+    ]
   },
   {
     "id": 22,
@@ -371,7 +1133,43 @@
       "./images/destinations/sikkim-tsomgo-lake/2.jpg",
       "./images/destinations/sikkim-tsomgo-lake/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 27.3742,
+    "lng": 88.7619,
+    "desc": "A glacial lake perched at 12,310 feet in the Eastern Himalayas, surrounded by rugged alpine mountains that reflect shifting seasonal hues and remains frozen during deep winter.",
+    "bestTime": "March to May / October to December",
+    "budget": "₹3,500 - ₹6,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "1-2 Days",
+    "season": "Summer",
+    "travelStyle": "Nature",
+    "popular": false,
+    "attractions": [
+      "Glacial Tsomgo Lake",
+      "Baba Harbhajan Singh Mandir",
+      "Nathula Pass Border (subject to permits)",
+      "Kyongnosla Alpine Sanctuary",
+      "Gangtok Cable Car"
+    ],
+    "popularActivities": [
+      "Decorated Yak Rides along the Lake",
+      "Alpine Mountain Snow Walks",
+      "Warm Thukpa & Momos at High Altitude",
+      "Nathula Pass Indo-China Border Visit"
+    ],
+    "travelInfo": {
+      "airport": "Pakyong Airport (PYG) - 60 km / Bagdogra (IXB) - 150 km",
+      "railway": "New Jalpaiguri (NJP) - 145 km",
+      "road": "Jawaharlal Nehru Road from Gangtok"
+    },
+    "reviews": [
+      {
+        "user": "Pooja V.",
+        "rating": 4.8,
+        "date": "Nov 2025",
+        "text": "Stunning alpine lake surrounded by snow peaks! Riding a colorful yak along the edge is a must-do."
+      }
+    ]
   },
   {
     "id": 23,
@@ -388,7 +1186,43 @@
       "./images/destinations/tamil-nadu-meenakshi-amman-temple/2.jpg",
       "./images/destinations/tamil-nadu-meenakshi-amman-temple/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 9.9195,
+    "lng": 78.1193,
+    "desc": "An architectural epic in the ancient city of Madurai, celebrated for its 14 monumental gopuram towers covered with thousands of vibrantly colored mythological sculptures.",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹4,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Meenakshi Amman Temple Gopurams",
+      "Hall of Thousand Pillars",
+      "Golden Lotus Tank (Porthamarai Kulam)",
+      "Thirumalai Nayakkar Palace",
+      "Gandhi Memorial Museum"
+    ],
+    "popularActivities": [
+      "Night Bedtime Ceremony Procession",
+      "Pillar Hall Acoustic & Musical Inspection",
+      "Temple Jewelry Shopping",
+      "Famous Madurai Jigarthanda Drink Tasting"
+    ],
+    "travelInfo": {
+      "airport": "Madurai Airport (IXM) - 12 km",
+      "railway": "Madurai Junction - 2 km",
+      "road": "NH 44 connecting Bangalore and Kanyakumari"
+    },
+    "reviews": [
+      {
+        "user": "Karthik S.",
+        "rating": 5,
+        "date": "Jan 2026",
+        "text": "The Hall of Thousand Pillars and the musical pillars left me spellbound. The evening procession is majestic."
+      }
+    ]
   },
   {
     "id": 24,
@@ -405,7 +1239,43 @@
       "./images/destinations/telangana-charminar/2.jpg",
       "./images/destinations/telangana-charminar/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 17.3616,
+    "lng": 78.4747,
+    "desc": "The iconic 1591 CE four-minaret monument and mosque at the heart of Hyderabad, standing grandly amidst bustling centuries-old pearl, spice, and bangle bazaars.",
+    "bestTime": "October to March",
+    "budget": "₹2,500 - ₹5,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Charminar Monument",
+      "Laad Bazaar (Bangle Market)",
+      "Mecca Masjid",
+      "Chowmahalla Palace",
+      "Golconda Fort (10 km)"
+    ],
+    "popularActivities": [
+      "Upper Minaret Gallery View",
+      "Authentic Hyderabadi Dum Biryani Tasting",
+      "Pearl & Lacquer Bangle Shopping",
+      "Heritage Street Night Walks"
+    ],
+    "travelInfo": {
+      "airport": "Rajiv Gandhi Intl Airport (HYD) - 20 km",
+      "railway": "Hyderabad Deccan / Secunderabad - 5 km",
+      "road": "City center access via PVNR Expressway"
+    },
+    "reviews": [
+      {
+        "user": "Zaid A.",
+        "rating": 4.7,
+        "date": "Feb 2026",
+        "text": "Standing beneath the arches at dusk with the evening lights turned on, followed by authentic Irani chai, is a quintessential experience."
+      }
+    ]
   },
   {
     "id": 25,
@@ -422,7 +1292,43 @@
       "./images/destinations/tripura-ujjayanta-palace/2.jpg",
       "./images/destinations/tripura-ujjayanta-palace/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 23.8364,
+    "lng": 91.2825,
+    "desc": "A dazzling Indo-Saracenic royal palace built in 1901 by Maharaja Radha Kishore Manikya, set amidst Mughal-style formal gardens, fountains, and artificial lakes in Agartala.",
+    "bestTime": "October to March",
+    "budget": "₹2,000 - ₹3,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1 Day",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": false,
+    "attractions": [
+      "Ujjayanta Palace & State Museum",
+      "Mughal Water Gardens",
+      "Neermahal Water Palace (50 km)",
+      "Tripura Sundari Temple",
+      "Unakoti Rock Carvings"
+    ],
+    "popularActivities": [
+      "Royal Museum Artifact Tour",
+      "Evening Garden Musical Fountain Show",
+      "Traditional Bamboo Handicraft Shopping",
+      "Authentic Tripuri Mui Borok Cuisine"
+    ],
+    "travelInfo": {
+      "airport": "Maharaja Bir Bikram Airport (IXA) - 10 km",
+      "railway": "Agartala Railway Station - 6 km",
+      "road": "NH 8 connecting Assam & Meghalaya"
+    },
+    "reviews": [
+      {
+        "user": "Bikram D.",
+        "rating": 4.6,
+        "date": "Dec 2025",
+        "text": "The white palace reflected in the lake during golden hour looks stunning. Excellent regional museum inside."
+      }
+    ]
   },
   {
     "id": 26,
@@ -439,7 +1345,43 @@
       "./images/destinations/uttar-pradesh-taj-mahal/2.jpg",
       "./images/destinations/uttar-pradesh-taj-mahal/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 27.1751,
+    "lng": 78.0421,
+    "desc": "An immense white marble mausoleum of unmatched symmetry, built by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal. One of the Seven Wonders of the World.",
+    "bestTime": "October to March",
+    "budget": "₹3,500 - ₹7,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Taj Mahal Marble Mausoleum",
+      "Mehtab Bagh (Sunset River View)",
+      "Agra Fort",
+      "Fatehpur Sikri (35 km)",
+      "Itimad-ud-Daulah (Baby Taj)"
+    ],
+    "popularActivities": [
+      "Sunrise Viewing on White Marble",
+      "River View Photography from Mehtab Bagh",
+      "Marble Inlay Artisan Workshop Visits",
+      "Agra Petha Sweet Tasting"
+    ],
+    "travelInfo": {
+      "airport": "Agra Airport (AGR) / Delhi IGI (220 km)",
+      "railway": "Agra Cantt (AGC) - 5 km",
+      "road": "Taj Expressway from Delhi (2.5 hrs)"
+    },
+    "reviews": [
+      {
+        "user": "Liam & Emma",
+        "rating": 5,
+        "date": "Feb 2026",
+        "text": "No photograph does it justice. Seeing the morning sun illuminate the translucent white marble was the highlight of our India journey!"
+      }
+    ]
   },
   {
     "id": 27,
@@ -450,13 +1392,49 @@
     "category": "Adventure",
     "rating": "4.5",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/uttarakhand-rishikesh/1.jpg",
       "./images/destinations/uttarakhand-rishikesh/2.jpg",
       "./images/destinations/uttarakhand-rishikesh/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 30.0869,
+    "lng": 78.2676,
+    "desc": "The \"Yoga Capital of the World\", where the holy Ganges emerges from the Himalayan foothills, famous for iconic suspension bridges, evening Ganga Aarti, and thrilling rapids.",
+    "bestTime": "September to May",
+    "budget": "₹2,500 - ₹6,000 / day",
+    "budgetTier": "Budget",
+    "duration": "2-4 Days",
+    "season": "Winter",
+    "travelStyle": "Adventure",
+    "popular": true,
+    "attractions": [
+      "Laxman Jhula & Ram Jhula",
+      "Triveni Ghat Evening Aarti",
+      "Beatles Ashram (Chaurasi Kutia)",
+      "Neer Garh Waterfall",
+      "Shivpuri River Camps"
+    ],
+    "popularActivities": [
+      "White Water River Rafting (Grade III/IV)",
+      "Bungee Jumping & Flying Fox",
+      "Yoga & Meditation Retreats",
+      "Cliff Jumping into Emerald Waters"
+    ],
+    "travelInfo": {
+      "airport": "Dehradun Jolly Grant Airport (DED) - 20 km",
+      "railway": "Yog Nagari Rishikesh (YNRK) - 4 km",
+      "road": "NH 58 connecting Delhi and Haridwar"
+    },
+    "reviews": [
+      {
+        "user": "Tanya K.",
+        "rating": 4.9,
+        "date": "Jan 2026",
+        "text": "Rafting down the pristine Ganges, followed by the soulful evening aarti at Triveni Ghat, was unforgettable."
+      }
+    ]
   },
   {
     "id": 28,
@@ -473,7 +1451,43 @@
       "./images/destinations/west-bengal-darjeeling-tea-gardens/2.jpg",
       "./images/destinations/west-bengal-darjeeling-tea-gardens/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 27.041,
+    "lng": 88.2663,
+    "desc": "The \"Queen of the Hills\", famed for rolling emerald tea estates producing the \"Champagne of Teas\", the historic UNESCO Toy Train, and panoramic sunrises over Mount Kanchenjunga.",
+    "bestTime": "October to May",
+    "budget": "₹3,000 - ₹6,500 / day",
+    "budgetTier": "Moderate",
+    "duration": "3-4 Days",
+    "season": "Summer",
+    "travelStyle": "Nature",
+    "popular": true,
+    "attractions": [
+      "Tiger Hill Sunrise over Kanchenjunga",
+      "Happy Valley Tea Estate",
+      "Darjeeling Himalayan Toy Train",
+      "Batasia Loop",
+      "Himalayan Mountaineering Institute"
+    ],
+    "popularActivities": [
+      "Dawn Sunrise Viewing over Kanchenjunga",
+      "Heritage Toy Train Steam Ride",
+      "Tea Plucking & Tasting Tours",
+      "Mall Road Strolls & Bakery Cafes"
+    ],
+    "travelInfo": {
+      "airport": "Bagdogra Airport (IXB) - 70 km",
+      "railway": "New Jalpaiguri (NJP) - 72 km",
+      "road": "Hill Cart Road / Rohini Road"
+    },
+    "reviews": [
+      {
+        "user": "Robert D.",
+        "rating": 4.8,
+        "date": "Dec 2025",
+        "text": "Watching the golden sunlight strike the peak of Mount Kanchenjunga while sipping freshly brewed Darjeeling tea is heaven."
+      }
+    ]
   },
   {
     "id": 29,
@@ -484,13 +1498,49 @@
     "category": "Beach",
     "rating": "4.8",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/andaman-nicobar-radhanagar-beach/1.jpg",
       "./images/destinations/andaman-nicobar-radhanagar-beach/2.jpg",
       "./images/destinations/andaman-nicobar-radhanagar-beach/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 11.984,
+    "lng": 92.9515,
+    "desc": "Voted one of Asia’s most beautiful beaches, Radhanagar on Havelock Island features silky powdery white sand, turquoise waters, and ancient Mahua forest canopies.",
+    "bestTime": "October to May",
+    "budget": "₹5,000 - ₹11,000 / day",
+    "budgetTier": "Luxury",
+    "duration": "3-5 Days",
+    "season": "Winter",
+    "travelStyle": "Beach",
+    "popular": true,
+    "attractions": [
+      "Radhanagar Beach (Beach No. 7)",
+      "Elephant Beach Snorkeling",
+      "Kalapathar Beach",
+      "Cellular Jail Port Blair",
+      "Neil Island Natural Bridge"
+    ],
+    "popularActivities": [
+      "Scuba Diving among Coral Reefs",
+      "Sea Walking on Ocean Floor",
+      "Spectacular Sunset Watching",
+      "Kayaking in Bioluminescent Waters"
+    ],
+    "travelInfo": {
+      "airport": "Veer Savarkar Intl Airport Port Blair (IXZ) then high-speed catamaran ferry (90 mins)",
+      "railway": "None (Island)",
+      "road": "Island ferry network"
+    },
+    "reviews": [
+      {
+        "user": "Sophie M.",
+        "rating": 5,
+        "date": "Jan 2026",
+        "text": "The purest turquoise water I have ever seen. Swimming during sunset surrounded by gentle tropical waves is bliss."
+      }
+    ]
   },
   {
     "id": 30,
@@ -507,7 +1557,43 @@
       "./images/destinations/chandigarh-rock-garden/2.jpg",
       "./images/destinations/chandigarh-rock-garden/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 30.7525,
+    "lng": 76.8073,
+    "desc": "A visionary sculpture garden spanning 40 acres, crafted secretly by artist Nek Chand out of recycled industrial and home waste, porcelain, and discarded ceramic tiles.",
+    "bestTime": "October to March",
+    "budget": "₹1,500 - ₹3,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1 Day",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": false,
+    "attractions": [
+      "Nek Chand Rock Garden",
+      "Sukhna Lake Promenade",
+      "Capitol Complex (Le Corbusier UNESCO)",
+      "Zakir Hussain Rose Garden",
+      "Sector 17 Plaza"
+    ],
+    "popularActivities": [
+      "Navigating Stone Labyrinths & Waterfalls",
+      "Boating on Sukhna Lake at Dusk",
+      "Open-Air Sculptural Photography",
+      "Chandigarh Modernist Architecture Tour"
+    ],
+    "travelInfo": {
+      "airport": "Chandigarh Intl Airport (IXC) - 15 km",
+      "railway": "Chandigarh Junction - 8 km",
+      "road": "NH 44 & Himalayan Expressway"
+    },
+    "reviews": [
+      {
+        "user": "Harish V.",
+        "rating": 4.7,
+        "date": "Jan 2026",
+        "text": "Unbelievable creative genius. Millions of broken bangles and tiles turned into life-size warriors and dancers."
+      }
+    ]
   },
   {
     "id": 31,
@@ -524,7 +1610,43 @@
       "./images/destinations/daman-diu-diu-fort/2.jpg",
       "./images/destinations/daman-diu-diu-fort/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 20.7144,
+    "lng": 70.9874,
+    "desc": "An imposing 16th-century Portuguese fortress surrounded by the Arabian Sea on three sides, commanding panoramic ocean ramparts, bronze cannons, and historic stone lighthouses.",
+    "bestTime": "October to April",
+    "budget": "₹2,500 - ₹4,500 / day",
+    "budgetTier": "Budget",
+    "duration": "1-2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": false,
+    "attractions": [
+      "Diu Sea Fortress",
+      "Naida Caves Natural Caverns",
+      "Nagoa Horseshoe Beach",
+      "St. Paul’s Baroque Church",
+      "INS Khukri Memorial"
+    ],
+    "popularActivities": [
+      "Walking Ocean Fortress Ramparts",
+      "Exploring Sunlit Naida Cave Chambers",
+      "Water Sports at Nagoa Beach",
+      "Portuguese Seafood Dining"
+    ],
+    "travelInfo": {
+      "airport": "Diu Airport (DIU) - 7 km",
+      "railway": "Veraval Junction - 90 km",
+      "road": "NH 51 connecting Somnath and Bhavnagar"
+    },
+    "reviews": [
+      {
+        "user": "Bhavna K.",
+        "rating": 4.6,
+        "date": "Feb 2026",
+        "text": "Peaceful, unhurried coastal vibe. The views of crashing ocean waves from the bastion are breathtaking."
+      }
+    ]
   },
   {
     "id": 32,
@@ -541,7 +1663,43 @@
       "./images/destinations/delhi-red-fort/2.jpg",
       "./images/destinations/delhi-red-fort/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 28.6562,
+    "lng": 77.241,
+    "desc": "The historic red sandstone seat of the Mughal Empire in Old Delhi, where Emperor Shah Jahan established Shahjahanabad and India celebrates its national Independence Day.",
+    "bestTime": "October to March",
+    "budget": "₹2,500 - ₹5,000 / day",
+    "budgetTier": "Moderate",
+    "duration": "2 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Lahori Gate & Diwan-i-Aam",
+      "Diwan-i-Khas (Hall of Private Audience)",
+      "Chandni Chowk Market",
+      "Jama Masjid",
+      "Qutub Minar (South Delhi)"
+    ],
+    "popularActivities": [
+      "Historical Fort Walk with Audio Guide",
+      "Sound & Light Show in English/Hindi",
+      "Rickshaw Ride through Chandni Chowk",
+      "Paranthe Wali Gali Culinary Tour"
+    ],
+    "travelInfo": {
+      "airport": "Indira Gandhi Intl Airport (DEL) - 20 km",
+      "railway": "Old Delhi / New Delhi Station - 3 km",
+      "road": "Delhi Metro Lal Qila Station right outside"
+    },
+    "reviews": [
+      {
+        "user": "Kunal R.",
+        "rating": 4.7,
+        "date": "Jan 2026",
+        "text": "The sheer scale of the red sandstone ramparts is commanding. Beautiful museum galleries inside the restored barracks."
+      }
+    ]
   },
   {
     "id": 33,
@@ -552,13 +1710,49 @@
     "category": "Nature",
     "rating": "4.4",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/jammu-kashmir-dal-lake/1.jpg",
       "./images/destinations/jammu-kashmir-dal-lake/2.jpg",
       "./images/destinations/jammu-kashmir-dal-lake/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 34.0837,
+    "lng": 74.837,
+    "desc": "The \"Jewel in the crown of Kashmir\", Dal Lake is famous for intricately carved cedar-wood houseboats, colorful shikaras, and vibrant floating vegetable and lotus flower markets.",
+    "bestTime": "April to October (Pleasant) / Dec to Feb (Snow)",
+    "budget": "₹4,000 - ₹8,500 / day",
+    "budgetTier": "Luxury",
+    "duration": "3-4 Days",
+    "season": "Summer",
+    "travelStyle": "Nature",
+    "popular": true,
+    "attractions": [
+      "Dal Lake Shikara Ghats",
+      "Mughal Gardens (Shalimar & Nishat Bagh)",
+      "Chashme Shahi",
+      "Pari Mahal",
+      "Shankaracharya Hilltop Temple"
+    ],
+    "popularActivities": [
+      "Sunset Shikara Ride across Lotus Beds",
+      "Dawn Visit to Floating Flower Market",
+      "Stay on a Heritage Wood Houseboat",
+      "Kashmiri Wazwan & Kahwa Tasting"
+    ],
+    "travelInfo": {
+      "airport": "Sheikh ul-Alam Intl Airport Srinagar (SXR) - 15 km",
+      "railway": "Srinagar / Jammu Tawi (260 km)",
+      "road": "NH 44 via Chenani-Nashri Tunnel"
+    },
+    "reviews": [
+      {
+        "user": "Sameer & Divya",
+        "rating": 5,
+        "date": "May 2026",
+        "text": "Gliding on a shikara surrounded by the Zabarwan mountains while sipping saffron kahwa is pure paradise."
+      }
+    ]
   },
   {
     "id": 34,
@@ -575,7 +1769,43 @@
       "./images/destinations/ladakh-pangong-lake/2.jpg",
       "./images/destinations/ladakh-pangong-lake/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 33.7595,
+    "lng": 78.6674,
+    "desc": "A stunning endorheic high-altitude salt lake situated at 14,270 feet in Ladakh, spanning 134 km across India and Tibet, celebrated for changing colors from turquoise to deep cobalt.",
+    "bestTime": "May to September",
+    "budget": "₹4,500 - ₹9,000 / day",
+    "budgetTier": "Luxury",
+    "duration": "2-3 Days",
+    "season": "Summer",
+    "travelStyle": "Adventure",
+    "popular": true,
+    "attractions": [
+      "Pangong Tso Turquoise Shores",
+      "Chang La High Altitude Pass (17,590 ft)",
+      "Spangmik Village Camps",
+      "Thiksey Monastery (en route)",
+      "Hemis Monastery"
+    ],
+    "popularActivities": [
+      "Stargazing under Milky Way Skies",
+      "High-Altitude Landscape Photography",
+      "Spotting Himalayan Marmots",
+      "Lakeside Glamping in Geodesic Domes"
+    ],
+    "travelInfo": {
+      "airport": "Kushok Bakula Rimpochee Airport Leh (IXL) - 150 km",
+      "railway": "None (Flight to Leh)",
+      "road": "Adventurous mountain drive across Chang La pass"
+    },
+    "reviews": [
+      {
+        "user": "Gaurav B.",
+        "rating": 5,
+        "date": "Jul 2025",
+        "text": "The bluest water on earth against barren brown mountains! The night sky with the Milky Way visible to the naked eye is surreal."
+      }
+    ]
   },
   {
     "id": 35,
@@ -586,13 +1816,49 @@
     "category": "Beach",
     "rating": "4.4",
     "price": "Free",
-    "featured": false,
+    "featured": true,
     "images": [
       "./images/destinations/lakshadweep-agatti-island/1.jpg",
       "./images/destinations/lakshadweep-agatti-island/2.jpg",
       "./images/destinations/lakshadweep-agatti-island/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 10.8533,
+    "lng": 72.1942,
+    "desc": "A shimmering teardrop-shaped coral atoll surrounded by a shallow, crystal-clear turquoise lagoon, offering world-class pristine reefs, sea turtles, and secluded coral beaches.",
+    "bestTime": "October to May",
+    "budget": "₹6,000 - ₹13,000 / day",
+    "budgetTier": "Luxury",
+    "duration": "3-4 Days",
+    "season": "Winter",
+    "travelStyle": "Beach",
+    "popular": true,
+    "attractions": [
+      "Agatti Coral Lagoon",
+      "Bangaram Island Sandbank (boat trip)",
+      "Thinnakara Island",
+      "Deep Sea Coral Gardens",
+      "Shipwreck Snorkel Site"
+    ],
+    "popularActivities": [
+      "Scuba Diving with Sea Turtles & Manta Rays",
+      "Glass Bottom Lagoon Boating",
+      "Deep Sea Sport Fishing",
+      "Lagoon Kayaking & Paddleboarding"
+    ],
+    "travelInfo": {
+      "airport": "Agatti Airport (AGX) - direct flights from Kochi (COK)",
+      "railway": "None",
+      "road": "Island walks and electric carts"
+    },
+    "reviews": [
+      {
+        "user": "Vikrant S.",
+        "rating": 5,
+        "date": "Dec 2025",
+        "text": "Touching down on the narrow airstrip surrounded by turquoise water on both sides is thrilling. An untouched tropical wonder."
+      }
+    ]
   },
   {
     "id": 36,
@@ -609,6 +1875,42 @@
       "./images/destinations/puducherry-white-town/2.jpg",
       "./images/destinations/puducherry-white-town/3.jpg"
     ],
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "lat": 11.9338,
+    "lng": 79.8359,
+    "desc": "The picturesque French Quarter of Pondicherry with mustard-yellow colonial villas, bougainvillea-draped balconies, chic seaside cafes, and quiet cobblestone avenues.",
+    "bestTime": "October to March",
+    "budget": "₹3,000 - ₹6,500 / day",
+    "budgetTier": "Moderate",
+    "duration": "2-3 Days",
+    "season": "Winter",
+    "travelStyle": "Heritage",
+    "popular": true,
+    "attractions": [
+      "Promenade Beach & Rock Beach",
+      "Aurobindo Ashram",
+      "Auroville Matrimandir (12 km)",
+      "French War Memorial",
+      "Our Lady of Angels Church"
+    ],
+    "popularActivities": [
+      "Bicycle Tour of French Heritage Quarter",
+      "Seaside Cafe Croissant & Coffee Hopping",
+      "Meditation at Auroville Matrimandir",
+      "Surfing at Serenity Beach"
+    ],
+    "travelInfo": {
+      "airport": "Puducherry Airport (PNY) / Chennai Intl (150 km)",
+      "railway": "Puducherry Railway Station (PDY) - 1.5 km",
+      "road": "Scenic East Coast Road (ECR) from Chennai"
+    },
+    "reviews": [
+      {
+        "user": "Camille T.",
+        "rating": 4.8,
+        "date": "Jan 2026",
+        "text": "Fabulous blend of Franco-Tamil heritage. Walking along the Promenade at sunrise and eating in courtyard cafes is pure joy."
+      }
+    ]
   }
 ]
