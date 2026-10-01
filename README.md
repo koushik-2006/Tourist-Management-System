@@ -29,10 +29,13 @@ The platform is designed to operate **100% client-side for serverless environmen
 ## ✨ Key Modules & Enhanced Features
 
 ### 1. 🌟 Hero Experience & Destination Search
-- **Visual Design:** High-contrast luxury photography background, refined typography with DM Sans and Playfair Display, and animated backdrop accents.
+- **3D Interactive Experience:** Smooth CSS 3D perspective card tilt with dynamic glare highlights on desktop mousemove, floating animated travel badges, and layered parallax elements (`prefers-reduced-motion` and mobile touch responsive).
+- **Global Command Palette (`Ctrl + K` / `Cmd + K`):** Quick-launch search across destinations, hotels, transport routes, tour packages, and regional culinary dishes with live grouped results and instant keyboard navigation.
+- **Visual Design:** High-contrast luxury photography background, shimmering animated headline (*"Discover Incredible India"*), refined typography with DM Sans and Playfair Display, and animated backdrop accents.
 - **Dynamic Search Console:** Search across 28+ verified destinations by destination name, state/location, activity, or category.
-- **Hero CTAs:** Direct anchors to `#places` (Explore Destinations) and `#plan` (Plan Your Trip).
-- **Category Quick-Pills:** Instant 1-click filters for Beaches, Mountains, Heritage, Cultural, Adventure, and Nature.
+- **Hero CTAs:** Direct anchors to `#places` (Explore India) and `#plan` (Plan My Trip).
+- **Interactive Collections:** Dedicated "Where will you go next?" trending collection, 8-theme "Explore India" interactive catalog, and "Recommended for You" smart recommendation rail.
+- **Category Quick-Pills:** Instant 1-click filters for Heritage, Spiritual, Nature, Adventure, Beach, Wildlife, Food, and Culture.
 
 ### 2. 🏛️ Featured & Popular Destinations
 - **Featured Destinations:** Hand-selected marquee attractions (Amber Fort, Taj Mahal, Alleppey Backwaters, Dal Lake, Manali, Radhanagar Beach) with verified high-resolution photo galleries.
@@ -100,9 +103,10 @@ The platform is designed to operate **100% client-side for serverless environmen
   - *User Moderation:* View registered users, contact info, and toggle administrator privileges.
 
 ### 11. 🏨 Stays, Multi-Modal Transport & Regional Foods
-- **Hotel Reservations:** 28+ verified hotels across all Indian states with gallery views and booking modals.
-- **Transport Booking:** Inter-city express buses, high-speed Vande Bharat / Shatabdi trains, and private outstation cabs.
-- **Regional Culinary Catalog:** Traditional dishes from each state with an interactive shopping cart and checkout.
+- **Hotel Reservations & Side-by-Side Comparison:** 28+ verified hotels across all Indian states with gallery views, amenity filter chips, and interactive hotel comparison (compare up to 3 hotels side by side on price, rating, amenities, and room types).
+- **Transport Booking & Interactive Seat Selection:** Inter-city express buses, high-speed Vande Bharat trains, and private cabs with quick sorting (Cheapest, Fastest, Best Rated, Earliest) and an interactive 24-seat selection grid with driver, aisle, window, and booked seat states.
+- **Regional Culinary Catalog:** Traditional dishes from each state with state chips, veg/non-veg dietary toggle, interactive food details modal, and unified shopping cart checkout.
+- **Interactive Travel Timeline:** Visual vertical roadmap in the user dashboard displaying past, active, and upcoming journey milestones.
 
 ---
 
