@@ -3,6 +3,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 require('dotenv').config();
 
+const path = require('path');
 const searchPlace = require('./googlePlaces');
 
 const app = express();
@@ -12,6 +13,9 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+// Serve Static Frontend Assets & Pages
+app.use(express.static(path.join(__dirname, '../')));
 
 // Import Routes
 const apiRoutes = require('./routes/api');

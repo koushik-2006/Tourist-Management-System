@@ -1,138 +1,211 @@
-# 🌍 Wanderly — Tourist Management System
+# 🌍 Wanderly — Premier India Tourist Management System
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?logo=github)](https://koushik-2006.github.io/Tourist-Management-System/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Technology](https://img.shields.io/badge/Frontend-HTML5%20%7C%20CSS3%20%7C%20JS%20(ES6+)-orange)](#-technologies-used)
+[![Technology](https://img.shields.io/badge/Frontend-Vanilla%20HTML5%20%7C%20CSS3%20%7C%20ES6%2B-orange)](#-technologies-used)
+[![Maps](https://img.shields.io/badge/Maps-Leaflet%20%2B%20OpenStreetMap-green)](https://leafletjs.com/)
+[![Weather](https://img.shields.io/badge/Weather-Open--Meteo%20API-blue)](https://open-meteo.com/)
 
-> An all-in-one travel and tourism management platform designed to help travelers discover incredible destinations, book authentic heritage stays and luxury hotels, arrange travel transportation, order regional culinary delights, and manage itineraries.
+> A modern, comprehensive, luxury tourist management and trip planning platform designed to showcase Incredible India. Wanderly offers interactive destination discovery, live meteorological data, interactive geographic maps, curated tour packages, smart trip itinerary generation, a 6-step booking engine, user wishlists, and executive administrative analytics.
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Platform & Links
 
-- **GitHub Pages:** [https://koushik-2006.github.io/Tourist-Management-System/](https://koushik-2006.github.io/Tourist-Management-System/)
+- **Live Website (GitHub Pages):** [https://koushik-2006.github.io/Tourist-Management-System/](https://koushik-2006.github.io/Tourist-Management-System/)
+- **GitHub Repository:** [https://github.com/koushik-2006/Tourist-Management-System](https://github.com/koushik-2006/Tourist-Management-System)
+- **Local Dev Server:** `http://localhost:5000/frontend/` or `http://localhost:3000`
 
 ---
 
 ## 📌 Project Overview
 
-The **Tourist Management System (Wanderly)** is an interactive, web-based travel ecosystem. It offers a seamless, centralized platform for discovering tourist destinations across India, booking hotels and local transportation, exploring regional foods, and managing travel bookings.
+**Wanderly** is an end-to-end tourist management platform engineered with modern web standards. It transitions a standard academic project into an enterprise-grade tourism portal with zero third-party framework overhead.
 
-Designed with modern aesthetics and client-side resilience, Wanderly operates completely as a high-performance **static web application** (ideal for GitHub Pages hosting) while offering an optional **Node.js/Express + MySQL backend** for database synchronization.
-
----
-
-## ✨ Features
-
-### 👤 Tourist Experience
-- **🌍 Explore Destinations:** Browse iconic monuments, natural wonders, wildlife sanctuaries, and spiritual retreats categorized by theme with high-resolution image slideshows.
-- **🏨 Hotel Reservations:** Search and filter accommodations by destination or state, preview room galleries, and book stays with real-time rate calculations.
-- **🚆 Transport Booking:** Search buses, trains, and flights between cities with departure times, seat counts, and instant booking confirmation.
-- **🍱 Regional Cuisine & Food Ordering:** Discover traditional culinary specialties from all Indian states, add dishes to your cart, and order with real-time bill calculations (subtotal, tax, delivery).
-- **🛒 Shopping Cart System:** Interactive shopping cart modal with badge counters, quantity increments/decrements, and checkout.
-- **👤 Tourist Profile & Dashboard:** Track active reservations, view booking history across hotels, transport, and food orders, or cancel bookings in real time.
-- **🔐 User Authentication:** Switch between login and registration with automatic session persistence using `localStorage`.
-
-### 🛠️ Administration Portal
-- **📊 Business KPIs:** High-level overview of total tourist bookings, revenue metrics, available destinations, and registered accommodations.
-- **📍 Destination Management:** Admin view of registered attractions with real-time data inspection.
-- **🏨 Accommodation Management:** Monitor active hotel listings, capacities, and pricing.
-- **📋 Booking Management:** Centralized registry of all tourist bookings and statuses.
+The platform is designed to operate **100% client-side for serverless environments like GitHub Pages** with graceful fallback state persistence (`localStorage`), while maintaining full optional compatibility with a **Node.js/Express + MySQL** backend for centralized storage and Google Places integration.
 
 ---
 
-## 🏗️ Architecture & Workflow
+## ✨ Key Modules & Enhanced Features
+
+### 1. 🌟 Hero Experience & Destination Search
+- **Visual Design:** High-contrast luxury photography background, refined typography with DM Sans and Playfair Display, and animated backdrop accents.
+- **Dynamic Search Console:** Search across 28+ verified destinations by destination name, state/location, activity, or category.
+- **Hero CTAs:** Direct anchors to `#places` (Explore Destinations) and `#plan` (Plan Your Trip).
+- **Category Quick-Pills:** Instant 1-click filters for Beaches, Mountains, Heritage, Cultural, Adventure, and Nature.
+
+### 2. 🏛️ Featured & Popular Destinations
+- **Featured Destinations:** Hand-selected marquee attractions (Amber Fort, Taj Mahal, Alleppey Backwaters, Dal Lake, Manali, Radhanagar Beach) with verified high-resolution photo galleries.
+- **Popular Categories:** Filter by 🏖️ Beaches, 🏔️ Mountains, 🌿 Nature, 🏛️ Historical, 🛕 Cultural, 🏕️ Adventure, 👨‍👩‍👧 Family, and 💑 Honeymoon.
+- **Interactive Cards:** Hover elevation, interactive ❤️ Wishlist toggle button, price badge, rating badge, category tags, and "Explore Details" modal trigger.
+
+### 3. 🔍 Advanced Destination Search & Filtering
+- **Multi-Parameter Filter Toolbar:** Search input (debounced at 250ms), Category filter, State/Region selector, Maximum Budget slider, Minimum Rating filter, and Sort By selector.
+- **Sorting Modes:** Most Popular, Highest Rated, Lowest Price, Highest Price, and Alphabetical.
+- **Live Counter & Empty State:** Displays real-time matching count (`"X destinations found"`) and an illustrated empty state with a "Reset Filters" action when no destinations match.
+
+### 4. 🗺️ Destination Details Modal with Leaflet & Open-Meteo
+- **High-Resolution Photo Gallery:** Responsive thumbnail and featured image viewer.
+- **Live Weather Integration:** Real-time temperature, wind speed, relative humidity, and WMO weather condition fetched asynchronously via the free Open-Meteo API (zero private API keys exposed).
+- **Interactive Leaflet Map:** Custom terracotta map pin rendered with OpenStreetMap tiles centered on the destination's exact geographic coordinates.
+- **Practical Travel Information:** Best time to visit, nearby tourist attractions, recommended activities, and estimated budget breakdown.
+- **Action Triggers:** "Plan Trip for this Destination", "Book Now", and "Add to Wishlist".
+
+### 5. 🧭 Smart Trip Planner (Custom Itinerary Generator)
+- **Input Parameters:** Select destination, number of travel days (1 to 14), group size, budget tier (Budget, Moderate, Luxury), travel type (Solo, Couple, Family, Friends, Adventure), and primary interests (Nature, Food, Culture, History, Photography, etc.).
+- **Structured Day-by-Day Generation:** Morning, Afternoon, and Evening activities tailored to the selected destination and travel profile.
+- **Actions:** Save itinerary to User Dashboard (`localStorage`), Print / Save as PDF, or Book Full Tour immediately.
+
+### 6. 🎒 Curated Tour Packages
+- **8 Handcrafted Regional Journeys:**
+  1. *Golden Triangle Heritage Expedition* (Delhi, Agra, Jaipur — 5 Days)
+  2. *Kerala Backwaters & Spice Trails* (Kochi, Alleppey, Munnar — 6 Days)
+  3. *Royal Rajasthan Desert Odyssey* (Jaipur, Jodhpur, Udaipur — 7 Days)
+  4. *Himalayan Heights & Valleys* (Shimla, Manali, Solang — 5 Days)
+  5. *Goa Sun, Sand & Coastal Heritage* (North & South Goa — 4 Days)
+  6. *Spiritual Varanasi & Sacred Ghats* (Varanasi, Sarnath — 3 Days)
+  7. *Andaman Tropical Island Escapade* (Port Blair, Havelock — 5 Days)
+  8. *Rishikesh & Haridwar Himalayan Yoga & Rafting* (Rishikesh — 3 Days)
+- **Filters:** Filter packages by category, duration, budget, and rating.
+
+### 7. 💳 6-Step Multi-Step Booking Engine
+- **Step 1 — Tour & Package Selection:** Review package name, inclusions, and tier options (Standard, Deluxe, Luxury).
+- **Step 2 — Date Selection:** Datepicker with `min` set to tomorrow to prevent invalid historical dates.
+- **Step 3 — Travelers & Add-on Services:** Adult and child count steppers with instant price recalculation. Optional add-ons (Travel Insurance, Private Airport Transfer).
+- **Step 4 — Traveler Contact Details:** Name, email, phone number, and special dietary/accessibility requirements.
+- **Step 5 — Transparent Price Breakdown:** Base price × travelers, package tier multiplier, add-on fees, GST (18%), and Grand Total.
+- **Step 6 — Payment Confirmation & Voucher:** Select payment method (UPI, Credit/Debit Card, Net Banking, Pay at Hotel), instant unique booking reference generation (e.g. `#TRV-986680`), and printable confirmation voucher.
+
+### 8. 👤 User Dashboard & Profile Portal
+- **KPI Summary Cards:** Upcoming Trips, Completed Stays, Wishlist Destinations, and Total Active Bookings.
+- **Active & Past Bookings:** Filter bookings by All, Confirmed, Pending, and Cancelled with instant cancellation capability.
+- **Wishlist / Favorites:** View all saved destinations with 1-click removal or modal view.
+- **Saved Itineraries:** Access itineraries generated by the Smart Trip Planner with print capabilities.
+- **My Reviews:** Manage submitted reviews with edit and delete capabilities.
+- **Profile Management:** Edit profile name, email, phone number, travel preferences, and password.
+
+### 9. ⭐ Destination Reviews & Rating System
+- **Interactive Ratings:** 1 to 5 star rating picker with helpful category guidelines.
+- **Community Feedback:** Displays average rating, total verified reviews, and rating distribution progress bars.
+- **Authorization Guard:** Authenticated users can write, edit, and delete their own reviews; unauthorized modifications of other travelers' reviews are strictly prevented.
+
+### 10. 📊 Executive Admin Dashboard
+- **Business KPI Metrics:** Total Registered Users, Active Destinations, Available Tour Packages, Total Bookings, and Gross Revenue.
+- **Interactive SVG Analytics Charts:**
+  - *Booking Trends:* 6-month visual area chart of confirmed reservations.
+  - *Destination Popularity:* Horizontal bar chart comparing visitor volume.
+  - *Revenue & Category Distribution:* Donut breakdown of revenue streams across tours, hotels, and transport.
+- **Management Tables:**
+  - *Bookings Management:* Live table with status badges and status update controls (Confirmed, Completed, Cancelled).
+  - *User Moderation:* View registered users, contact info, and toggle administrator privileges.
+
+### 11. 🏨 Stays, Multi-Modal Transport & Regional Foods
+- **Hotel Reservations:** 28+ verified hotels across all Indian states with gallery views and booking modals.
+- **Transport Booking:** Inter-city express buses, high-speed Vande Bharat / Shatabdi trains, and private outstation cabs.
+- **Regional Culinary Catalog:** Traditional dishes from each state with an interactive shopping cart and checkout.
+
+---
+
+## 🏗️ Architecture & Technical Stack
 
 ```text
-                     Tourist Management System (Wanderly)
-                                      │
-              ┌───────────────────────┴───────────────────────┐
-              │                                               │
-          👤 Tourist                                      🛠️ Admin
-              │                                               │
-      ┌───────┴───────────────────┐                           ▼
-      ▼                           ▼                    Manage System
-  Destinations & Hotels       Transport & Food          - Oversee Bookings
-      │                           │                     - Monitor KPI Metrics
-      └─────────────┬─────────────┘                     - Manage Inventory
-                    ▼                                         │
-              Booking & Cart                                  │
-                    │                                         │
-                    ▼                                         ▼
-            Dashboard Review ◄────────────────────────────────┘
+                               Wanderly Architecture
+                                         │
+        ┌────────────────────────────────┴────────────────────────────────┐
+        ▼                                                                 ▼
+Frontend (Static / Client-Side)                               Backend (Optional Node/Express)
+- HTML5 (Semantic & Accessible)                               - Express 5.2 & Node.js
+- CSS3 (Custom Design System, Responsive)                     - MySQL 8.x Database
+- JavaScript ES6+ (Modules, Custom Elements)                  - Google Places API Client
+- Leaflet.js 1.9 + OpenStreetMap                              - RESTful APIs (/api/booking, etc.)
+- Open-Meteo REST API (Live Weather)                          - Static File Server Middleware
+- LocalStorage State Synchronization                                      │
+        │                                                                 │
+        └───────────────────────────────┬─────────────────────────────────┘
+                                        ▼
+                   Deployment: GitHub Pages (Automatic Workflow)
 ```
 
----
+### Frontend Technologies
+- **Markup:** Semantic HTML5 with ARIA labels, modal dialog accessibility, and responsive typography.
+- **Styling:** Vanilla CSS3 design system using HSL color variables (`--primary: #C4623A`, `--gold: #D4A84B`, `--navy: #0D1B2A`), CSS Grid, Flexbox, glassmorphic blur filters, and CSS animations.
+- **Logic:** Vanilla JavaScript (ES6+), Web Components (`image-slideshow`), hash routing (`#home`, `#places`, `#tours`, `#plan`, `#hotels`, `#transport`, `#food`, `#dashboard`, `#admin`, `#auth`, `#about`, `#contact`).
+- **Maps:** Leaflet.js with OpenStreetMap tiles (no API keys required).
+- **Weather:** Open-Meteo Free Weather API (no API keys required, SSL encrypted).
 
-## 🛠️ Technologies Used
-
-### Frontend (Static & Deployment Ready)
-- **HTML5:** Semantic layout with accessible modal dialogs and responsive image containers.
-- **CSS3 (Vanilla):** Custom design system featuring CSS variables, flexbox, CSS Grid layouts, glassmorphism, smooth slideshow animations, and `@media` queries for mobile responsiveness.
-- **JavaScript (ES6+):** Component-based client-side architecture, Web Components (`image-slideshow`), hash routing (`#places`, `#hotels`, `#transport`, `#food`, `#dashboard`, `#admin`), and asynchronous state management.
-- **Local Persistence:** Resilient `localStorage` architecture ensuring complete functionality on static web hosts like GitHub Pages.
-
-### Backend (Optional Full-Stack Integration)
-- **Runtime:** Node.js
-- **Framework:** Express.js
-- **Database:** MySQL (Relational database with schema for Users, Places, Hotels, Transport, and Bookings)
-- **Libraries:** `mysql2`, `dotenv`, `cors`, `axios`
+### Backend Technologies (Optional)
+- **Runtime:** Node.js v18+ / v20+ / v24+
+- **Server Framework:** Express.js 5.x
+- **Database:** MySQL (Relational schema for Users, Places, Hotels, Transport, Bookings)
+- **Dependencies:** `express`, `mysql2`, `dotenv`, `cors`, `axios`, `body-parser`
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Directory Structure
 
 ```text
 Tourist-Management-System/
-├── index.html                 # Root redirect & entry point for GitHub Pages
-├── 404.html                   # SPA routing fallback for GitHub Pages
-├── .nojekyll                  # Disables Jekyll processing on GitHub Pages
-├── .gitignore                 # Prevents committing secrets & dependencies
-├── README.md                  # Project documentation & portfolio guide
+├── index.html                 # Root redirect entry point for GitHub Pages
+├── 404.html                   # Intelligent SPA fallback routing for GitHub Pages
+├── .nojekyll                  # Disables Jekyll build engine on GitHub Pages
+├── .gitignore                 # Excludes node_modules, .env, and scratch artifacts
+├── README.md                  # Comprehensive platform documentation
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml         # GitHub Actions automated Pages deployment
+│       └── deploy.yml         # GitHub Actions automated Pages deployment workflow
 │
 ├── frontend/
-│   ├── index.html             # Primary SPA application (Home, Hotels, Transport, Food, Admin)
-│   ├── wanderly.html          # Alternative standalone template
-│   ├── css/
-│   │   └── style.css          # Core stylesheet
-│   ├── js/
-│   │   ├── app.js             # Client application helpers
-│   │   ├── indiaPlaces.js     # Destination dataset
-│   │   └── indiaHotels.js     # Hotel dataset
-│   ├── foods_generated.json   # Regional food catalog
-│   ├── hotels_generated_v4.json# Verified hotel catalog
-│   ├── places_generated.json  # Destination catalog
-│   └── images/                # Local asset repository
-│       ├── destinations/      # Destination photo galleries
-│       ├── hotels/            # Hotel room & exterior galleries
-│       └── foods/             # Regional food photos
+│   ├── index.html             # Enhanced Single Page Application (All modules & modals)
+│   ├── foods_generated.json   # Regional food catalog with local image paths
+│   ├── hotels_generated_v4.json# 28+ verified hotel listings
+│   ├── places_generated.json  # 28+ verified tourist destinations
+│   └── images/                # 597 verified local image assets
+│       ├── destinations/      # High-resolution destination photo folders
+│       ├── hotels/            # Hotel exterior and suite galleries
+│       └── foods/             # Regional cuisine imagery
 │
-└── backend/                   # Optional Node.js/Express backend
-    ├── server.js              # Express server setup
-    ├── database.sql           # Database schema & initial tables
-    ├── update_schema.js       # Database migration script
-    ├── .env.example           # Safe environment variable template
-    ├── package.json           # Backend dependencies
-    ├── config/                # Database pool connection
-    └── routes/                # API endpoints (/api/booking, /api/food-order, etc.)
+└── backend/                   # Optional Node.js/Express API service
+    ├── server.js              # Express API & static file serving on port 5000
+    ├── database.sql           # Complete MySQL relational schema & seed data
+    ├── googlePlaces.js        # Google Places API client with graceful fallbacks
+    ├── package.json           # Backend dependencies and scripts
+    ├── config/
+    │   └── db.js              # MySQL connection pool configuration
+    ├── controllers/           # API request controllers
+    └── routes/                # Express API route handlers
 ```
 
 ---
 
 ## 🚀 How to Run Locally
 
-### 1. Run the Frontend (Static)
-The frontend requires **no compilation, bundlers, or package managers**. You can launch it using any local static file server:
+### Option 1: Run with Built-in Express Backend (Recommended)
+This starts both the API server and serves the full frontend at `http://localhost:5000/frontend/`.
+
+```bash
+# 1. Open terminal in the project directory
+cd backend
+
+# 2. Install dependencies (if not already installed)
+npm install
+
+# 3. Start the server
+npm start
+```
+
+Visit **[http://localhost:5000/frontend/](http://localhost:5000/frontend/)** in your browser.
+
+---
+
+### Option 2: Run Frontend as Pure Static Site
+The frontend has **zero dependencies and requires no build step**. You can launch it using any static server:
 
 #### Using Python:
 ```bash
-# In the project root directory:
+# In the root directory:
 python -m http.server 3000
 ```
-Then open [http://localhost:3000](http://localhost:3000) or [http://localhost:3000/frontend/](http://localhost:3000/frontend/) in your browser.
+Open **[http://localhost:3000/frontend/](http://localhost:3000/frontend/)**.
 
 #### Using Node.js `npx`:
 ```bash
@@ -140,77 +213,54 @@ npx serve .
 ```
 
 #### Using VS Code:
-Right-click `frontend/index.html` or the root `index.html` and click **"Open with Live Server"**.
+Right-click `frontend/index.html` and click **"Open with Live Server"**.
 
 ---
 
-### 2. Optional: Run Backend (Node.js & MySQL)
-If you wish to run the optional MySQL backend:
+## 🔐 Demo Credentials
 
-1. Navigate to the backend directory:
-   ```bash
-   cd backend
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Create your `.env` file based on `.env.example`:
-   ```bash
-   cp .env.example .env
-   ```
-4. Configure your MySQL credentials in `.env`.
-5. Import `database.sql` into your MySQL instance:
-   ```bash
-   mysql -u root -p tourist_db < database.sql
-   ```
-6. Start the backend server:
-   ```bash
-   node server.js
-   ```
-   The backend API will run on `http://localhost:5000`.
+To test user and administrative features without registration, use the pre-configured credentials:
+
+| Role | Email | Password | Access Privileges |
+| :--- | :--- | :--- | :--- |
+| **Administrator** | `admin@wanderly.com` | `demo123` | Full Access: Executive Analytics, Bookings Management, User Moderation |
+| **Standard Traveler**| `aarav@example.com` | `user123` | Traveler Portal: Trip Planner, Bookings, Wishlist, Reviews, Profile |
+
+*Note: You can also register any new account on the Sign In / Register page.*
 
 ---
 
-## 📦 How to Build / Verify
+## 🌐 GitHub Pages Deployment
 
-Because Wanderly is built using modern vanilla web technologies:
-- There is no required compilation step (`npm run build` is not required for static HTML/JS/CSS).
-- Every asset path uses relative resolution (`./images/...`), ensuring that it works under any hosting subpath or domain root.
-- To verify the website locally, launch the static server and open the browser console (`F12`) to verify that all images, styles, and scripts load with `200 OK` status and zero errors.
+The repository is fully configured for automated GitHub Pages hosting:
 
----
-
-## 🚀 GitHub Pages Deployment Instructions
-
-This repository is pre-configured for instant deployment on GitHub Pages using either of the following two methods:
-
-### Method 1: GitHub Actions (Recommended)
 1. In your GitHub repository, navigate to **Settings** > **Pages**.
-2. Under **Build and deployment** > **Source**, select **GitHub Actions**.
-3. Push changes to the `main` branch. The pre-configured `.github/workflows/deploy.yml` workflow will automatically build and publish the site.
+2. Under **Build and deployment** > **Source**, choose **GitHub Actions** (uses `.github/workflows/deploy.yml`) or select **Deploy from a branch** (`main` branch, `/ (root)` folder).
+3. The root `index.html` and `404.html` automatically route incoming traffic to `/frontend/` with full SPA hash preservation.
+4. Access the live site at:
+   **`https://koushik-2006.github.io/Tourist-Management-System/`**
 
-### Method 2: Deploy from Branch
-1. Navigate to **Settings** > **Pages**.
-2. Under **Build and deployment** > **Source**, choose **Deploy from a branch**.
-3. Select branch: `main` and folder: `/ (root)`.
-4. Click **Save**.
-5. The root `index.html` and `.nojekyll` will immediately serve the site at:
-   `https://<username>.github.io/<repository-name>/`
+---
+
+## 🛡️ Security & Privacy Best Practices
+
+- **Zero Secret Exposure:** No private API keys or database passwords are hardcoded in frontend source files.
+- **Client-Side Protection:** Admin routes and dashboards enforce role checks; regular travelers cannot access administrative views.
+- **Safe Weather API:** Open-Meteo queries require no authentication keys and run over HTTPS.
+- **Local Persistence Guard:** All traveler inputs (reviews, bookings, profile updates) are sanitized before rendering into the DOM.
+- **Safe Environment Config:** Sensitive database settings reside in `backend/.env` which is tracked in `.gitignore`.
 
 ---
 
 ## 🔮 Future Enhancements
 
-- 🤖 **AI-Powered Travel Itineraries:** Personalized recommendations based on traveler preferences and budget.
-- 🗺️ **Interactive Leaflet/Mapbox Maps:** Live geographic routing with attractions plotted on an interactive map.
-- 🌦️ **Real-time Weather Forecasts:** Live meteorological widgets for destination check-in dates.
-- 💳 **Payment Gateway Integration:** Razorpay / Stripe sandbox checkout for real payments.
-- ⭐ **Community Reviews & UGC:** User reviews, rating submission, and traveler photos.
-- 🔔 **Push Notifications:** Instant booking reminders and SMS alerts.
+- 🤖 **Direct LLM AI Agent API:** Optional integration with Gemini 2.0 / OpenAI for conversational trip planning.
+- 💳 **Razorpay / Stripe Payment Sandbox:** Direct online card and UPI checkout integration.
+- 📱 **Progressive Web App (PWA):** Service worker offline caching and installable mobile app manifest.
+- 🌐 **Multi-Language Support:** Hindi, Bengali, Tamil, Telugu, and international language localization.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License. Open source and free for educational and commercial adaptation.

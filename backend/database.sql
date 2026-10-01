@@ -87,7 +87,7 @@ CREATE TABLE IF NOT EXISTS search_history (
   results_count INT,
   timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
   user_id INT,
-  FOREIGN KEY (user_id) REFERENCES users(user_id)
+  FOREIGN KEY (user_id) REFERENCES Users(user_id)
 );
 
 -- Add destinations table
@@ -112,6 +112,6 @@ CREATE TABLE IF NOT EXISTS user_favorites (
   user_id INT NOT NULL,
   destination_id INT NOT NULL,
   added_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-  FOREIGN KEY (user_id) REFERENCES users(user_id),
+  FOREIGN KEY (user_id) REFERENCES Users(user_id),
   FOREIGN KEY (destination_id) REFERENCES destinations(id)
 );
